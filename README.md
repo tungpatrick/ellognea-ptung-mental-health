@@ -2,6 +2,8 @@
 
 ### Section 1
 
+The productivity loss and absences from work due to mental health might negatively impact a business and cost employers a significant amount of money.  We would like to build a data visualization app that will allow employers to explore factors leading to employees seeking help  for a mental health condition. The app will show the distribution of treatment sought (Yes/No) per gender, age, family history, work location (remote or not), benefits provided, observed consequences, available resources. Employers will be able to filter the data on their specific countries. 
+We hope that our app will help employers to effectively design their mental health awareness programs, thus creating a safe work place where employees are not afraid to discuss their mental health issues and seek treatment. 
 
 ### Section 2
 

@@ -1,4 +1,4 @@
-# Mental Health in the work place.
+# Mental Health In The Work Place.
 
 ### Section 1
 

@@ -30,7 +30,7 @@ The application will have a landing page with an interactive world map which wil
 
 ## Landing page
 
-![](img/LandingPage.png)
+![](img/LandingPage.PNG)
 
 ## Second page
-![](img/SecondPage.png)
+![](img/SecondPage.PNG)

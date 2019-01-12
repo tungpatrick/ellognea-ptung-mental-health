@@ -27,8 +27,12 @@ The visualization application will have a landing page that consists of the worl
 
 
 ## App Sketch
-### This is what we envision it to be. Final product may vary.
+Note: This is what we envision it to be. Final product may vary.
+
+### Landing Page
 
 ![](img/sketch1.png)
+
+### Second Page
 
 ![](img/sketch2.png)

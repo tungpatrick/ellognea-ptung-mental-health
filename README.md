@@ -18,7 +18,7 @@ The human resources team of tech company, ABC, has been tasked with organizing a
 2. Employees working remotely are more likely to treat their mental health condition than office-based employees
 3. Younger employees appear to be less likely to seek help than older employees
 
-From their discoveries, they conclude that the focus groups split will be based on age, gender and work location. In addition, they will adjust the content of their presentation accordingly, to make it as relevant as possible for each group.
+From their discoveries, they conclude that the focus groups split will be based on age, gender and work location. In addition, they will adjust the content of their presentation accordingly, in order to make it as relevant as possible for each group within the focus groups.
 
 
 ## Section 4 - Description of Application
@@ -27,7 +27,7 @@ The visualization application will have a landing page that consists of the worl
 
 
 ## App Sketch
-Note: This is what we envision it to be. Final product may vary.
+Note: This is what we envision the app to be similar to. However, the final product may vary.
 
 ### Landing Page
 

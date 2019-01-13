@@ -1,6 +1,6 @@
 # Mental Health In The Work Place App : Proposal
 
-# Authors: Patrick Tung, Orphelia Ellogne
+Authors: Patrick Tung, Orphelia Ellogne
 
 ## Section 1 - Overview
 

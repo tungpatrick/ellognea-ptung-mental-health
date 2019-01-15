@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # read raw data
-data <- read.csv("data/raw/data_raw.csv")
+data <- read.csv("../data/raw/data_raw.csv")
 
 # filter data
 clean_data <- data %>%
@@ -18,8 +18,25 @@ clean_data <- clean_data %>% mutate(Gender = ifelse(Gender %in% c("Female", "fem
 # age group
 clean_data$age_group <- cut(clean_data$Age, breaks=c(18, 30, 40, 50, 60, 70, 80), right = FALSE, labels = c("18-30","31-40","41-50","51-60","61-70","71-80"))
 
+
+# treatment ratio
+treatment_data <- clean_data %>% 
+  mutate(treatment_no = ifelse(treatment=="Yes", 1.0, 0.0)) %>%
+  group_by(Country) %>%
+  summarize(sum = sum(treatment_no,na.rm=TRUE), total = n()) %>%
+  mutate(treatment_ratio = sum/total*100) %>%
+  arrange(desc(treatment_ratio)) 
+
+map <- joinCountryData2Map(treatment_data, joinCode="NAME", nameJoinColumn="Country")
+
+mapCountryData(map, nameColumnToPlot="treatment_ratio", 
+               mapTitle="Worldwide Mental Treatment Consideration Distribution", 
+               catMethod="fixedWidth", colourPalette = "heat")
+
 # export csv
-write.csv(clean_data, file = "data/clean/data_clean.csv")
+write.csv(clean_data, file = "../data/clean/data_clean.csv")
+write.csv(treatment_data, file = "../data/clean/treatment_data.csv")
+
 
 
 # # family history

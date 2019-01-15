@@ -1,990 +1,990 @@
 "","Age","Gender","Country","family_history","work_interfere","treatment","remote_work","benefits","seek_help","obs_consequence","age_group"
-"1",37,"Female","United States","No","Often","Yes","No","Yes","Yes","No",2
-"2",44,"Male","United States","No","Rarely","No","No","Don't know","Don't know","No",3
-"3",32,"Male","Canada","No","Rarely","No","No","No","No","No",2
-"4",31,"Male","United Kingdom","Yes","Often","Yes","No","No","No","Yes",2
-"5",31,"Male","United States","No","Never","No","Yes","Yes","Don't know","No",2
-"6",33,"Male","United States","Yes","Sometimes","No","No","Yes","Don't know","No",2
-"7",35,"Female","United States","Yes","Sometimes","Yes","Yes","No","No","No",2
-"8",39,"Male","Canada","No","Never","No","Yes","No","No","No",2
-"9",42,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No",3
-"10",23,"Male","Canada","No","Never","No","No","Don't know","Don't know","No",1
-"11",31,"Male","United States","No","Sometimes","Yes","Yes","Don't know","No","No",2
-"12",29,"Male","Bulgaria","No","Never","No","Yes","Don't know","No","No",1
-"13",42,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","Yes",3
-"14",36,"Male","United States","Yes","Never","No","No","Don't know","Don't know","No",2
-"15",27,"Male","Canada","No","Never","No","No","Don't know","Don't know","No",1
-"16",29,"Female","United States","Yes","Rarely","Yes","No","Yes","No","No",1
-"17",23,"Male","United Kingdom","No","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"18",32,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No",2
-"19",46,"Male","United States","Yes","Sometimes","No","Yes","Yes","Don't know","Yes",3
-"20",29,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",1
-"21",31,"Male","United States","No","Never","No","Yes","No","No","No",2
-"22",46,"Male","United States","No","Often","Yes","Yes","Yes","No","No",3
-"23",41,"Male","United States","No","Never","Yes","No","Don't know","Don't know","No",3
-"24",33,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No",2
-"25",35,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",2
-"26",35,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No",2
-"27",34,"Male","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No",2
-"28",37,"Male","United Kingdom","No","Sometimes","No","No","No","No","No",2
-"29",32,"Male","United Kingdom","No","Never","No","Yes","No","No","No",2
-"30",31,"Male","United States","Yes","Rarely","No","Yes","No","No","Yes",2
-"31",30,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","Don't know","No","No",2
-"32",42,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","No",3
-"33",40,"Female","United States","No","Sometimes","Yes","No","Yes","No","No",3
-"34",27,"Male","United States","No","Rarely","Yes","No","No","No","No",1
-"35",29,"Male","Canada","No","Rarely","No","No","No","No","No",1
-"36",35,"Male","United States","No","Rarely","Yes","Yes","Yes","Yes","No",2
-"37",24,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","Yes",1
-"38",27,"Male","Canada","Yes","Sometimes","Yes","No","No","No","No",1
-"39",18,"Male","Netherlands","No","Often","No","No","No","No","No",1
-"40",30,"Male","United States","No","Sometimes","Yes","No","Don't know","No","No",2
-"41",38,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",2
-"42",26,"Male","Canada","No","Sometimes","No","No","No","No","No",1
-"43",30,"Male","United States","Yes","Rarely","Yes","No","Yes","Don't know","No",2
-"44",22,"Male","United States","Yes","Often","Yes","No","No","No","No",1
-"45",32,"Male","United States","No","Never","No","Yes","Don't know","No","No",2
-"46",27,"Other","United States","Yes","Rarely","Yes","No","Yes","No","No",1
-"47",24,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","No","No",1
-"48",33,"Male","Canada","Yes","Often","Yes","Yes","Don't know","No","No",2
-"49",44,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","Yes",3
-"50",26,"Female","Poland","No","Sometimes","Yes","Yes","Don't know","Yes","No",1
-"51",27,"Male","United Kingdom","No","Never","No","No","Yes","Yes","No",1
-"52",35,"Male","Canada","No","Sometimes","No","No","Don't know","No","No",2
-"53",40,"Male","United States","Yes","Sometimes","No","Yes","Yes","Yes","Yes",3
-"54",23,"Female","Australia","Yes","Often","Yes","Yes","No","No","No",1
-"55",36,"Male","United States","No","Sometimes","No","Yes","Yes","Yes","No",2
-"56",34,"Male","United States","No","Rarely","No","Yes","No","No","No",2
-"57",28,"Male","France","No","Never","No","No","No","No","No",1
-"58",34,"Male","Canada","No","Never","No","No","Don't know","Don't know","No",2
-"59",23,"Other","United States","No","Rarely","No","No","Yes","No","No",1
-"60",33,"Male","United States","No","Never","No","No","Don't know","Don't know","No",2
-"61",31,"Male","United States","Yes","Sometimes","No","Yes","No","No","No",2
-"62",32,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No",2
-"63",28,"Male","Germany","No","Never","No","Yes","Don't know","Don't know","No",1
-"64",38,"Male","United States","Yes","Sometimes","No","Yes","Yes","Yes","No",2
-"65",23,"Male","United Kingdom","No","Never","No","No","Yes","Don't know","No",1
-"66",30,"Male","Canada","No","Never","No","No","No","No","No",2
-"67",27,"Other","United States","No","Often","Yes","Yes","Yes","Yes","No",1
-"68",33,"Male","United States","Yes","Never","No","No","No","No","No",2
-"69",39,"Male","United Kingdom","No","Often","Yes","No","No","No","Yes",2
-"70",34,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No",2
-"71",29,"Female","United States","No","Sometimes","Yes","No","Yes","No","Yes",1
-"72",31,"Male","United States","No","Never","No","No","Yes","Yes","No",2
-"73",40,"Male","United States","No","Sometimes","Yes","No","No","No","No",3
-"74",25,"Female","Canada","No","Sometimes","Yes","No","Yes","Don't know","No",1
-"75",29,"Male","United States","No","Never","No","No","Don't know","Don't know","No",1
-"76",24,"Male","United States","Yes","Rarely","No","No","Don't know","Don't know","No",1
-"77",31,"Male","Mexico","Yes","Sometimes","Yes","No","Don't know","No","No",2
-"78",33,"Other","United States","No","Sometimes","Yes","No","No","No","No",2
-"79",30,"Male","United States","No","Often","Yes","No","No","No","No",2
-"80",26,"Female","Canada","Yes","Sometimes","Yes","No","No","No","Yes",1
-"81",44,"Female","United States","No","Never","No","No","Yes","Don't know","No",3
-"82",33,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","No",2
-"83",29,"Male","United States","No","Never","No","No","Yes","Don't know","No",1
-"84",35,"Male","United States","Yes","Rarely","No","No","Yes","No","No",2
-"85",35,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","No","No",2
-"86",28,"Male","Brazil","Yes","Rarely","Yes","No","No","No","Yes",1
-"87",34,"Male","United States","Yes","Never","No","Yes","Yes","No","No",2
-"88",32,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No",2
-"89",22,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No",1
-"90",28,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No",1
-"91",45,"Male","United States","Yes","Rarely","Yes","Yes","Yes","Yes","No",3
-"92",32,"Male","United States","No","Never","No","No","Yes","Don't know","No",2
-"93",26,"Male","United Kingdom","No","Never","No","No","Don't know","Don't know","Yes",1
-"94",21,"Male","United Kingdom","No","Often","No","Yes","No","No","No",1
-"95",27,"Male","Canada","No","Rarely","No","No","Yes","Yes","No",1
-"96",18,"Male","United States","No","Rarely","Yes","Yes","No","No","No",1
-"97",29,"Male","United States","No","Never","No","No","Yes","Yes","No",1
-"98",33,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",2
-"99",36,"Male","United States","No","Often","No","No","Yes","No","No",2
-"100",27,"Male","Canada","No","Never","Yes","No","Yes","No","Yes",1
-"101",27,"Male","United States","Yes","Never","No","No","Yes","Yes","No",1
-"102",32,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No",2
-"103",31,"Male","United Kingdom","Yes","Sometimes","No","No","No","No","No",2
-"104",19,"Male","Slovenia","No","Sometimes","Yes","No","Don't know","No","No",1
-"105",33,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",2
-"106",32,"Male","United States","No","Rarely","No","Yes","No","No","No",2
-"107",27,"Male","United States","No","Never","No","No","Don't know","Don't know","No",1
-"108",24,"Male","Canada","No","Never","Yes","No","Don't know","No","No",1
-"109",39,"Male","United Kingdom","No","Never","No","No","No","No","No",2
-"110",28,"Male","United Kingdom","No","Never","No","No","Don't know","No","No",1
-"111",39,"Male","United States","No","Often","Yes","No","Yes","No","No",2
-"112",38,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No",2
-"113",37,"Male","United Kingdom","No","Sometimes","Yes","No","No","Yes","No",2
-"114",35,"Male","United States","No","Never","No","Yes","Don't know","Don't know","No",2
-"115",37,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No",2
-"116",24,"Male","United Kingdom","No","Never","No","No","No","No","No",1
-"117",23,"Male","United States","No","Sometimes","No","No","No","No","No",1
-"118",30,"Male","Ireland","No","Rarely","Yes","No","No","Yes","Yes",2
-"119",32,"Male","United States","Yes","Never","No","No","Don't know","No","No",2
-"120",28,"Male","Poland","No","Rarely","No","Yes","No","No","No",1
-"121",36,"Male","United States","No","Never","No","No","Don't know","Don't know","No",2
-"122",37,"Male","United Kingdom","Yes","Rarely","Yes","No","Yes","Yes","Yes",2
-"123",25,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No",1
-"124",27,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No",1
-"125",26,"Male","United States","No","Often","No","No","Don't know","No","No",1
-"126",27,"Male","United States","No","Rarely","Yes","Yes","No","No","Yes",1
-"127",25,"Male","United States","Yes","Sometimes","Yes","No","Don't know","No","Yes",1
-"128",36,"Male","United Kingdom","No","Sometimes","Yes","No","Yes","Yes","Yes",2
-"129",25,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No",1
-"130",31,"Male","United States","No","Never","No","No","Yes","Yes","No",2
-"131",26,"Male","United States","Yes","Rarely","No","No","Don't know","No","No",1
-"132",33,"Female","United States","Yes","Sometimes","Yes","No","No","Yes","No",2
-"133",34,"Male","United States","No","Never","No","No","No","No","No",2
-"134",23,"Male","Ireland","Yes","Sometimes","No","No","No","No","No",1
-"135",24,"Male","United Kingdom","No","Rarely","No","No","Don't know","Don't know","No",1
-"136",26,"Male","United Kingdom","No","Sometimes","Yes","No","Yes","Don't know","No",1
-"137",31,"Male","United Kingdom","No","Often","Yes","No","Don't know","No","No",2
-"138",22,"Male","India","No","Never","Yes","No","Don't know","No","No",1
-"139",34,"Female","Canada","Yes","Sometimes","Yes","No","Yes","No","No",2
-"140",31,"Male","United States","No","Never","No","No","Don't know","Don't know","No",2
-"141",32,"Female","United States","No","Often","Yes","Yes","Yes","Don't know","Yes",2
-"142",45,"Female","United States","No","Sometimes","Yes","No","Yes","No","No",3
-"143",29,"Male","Mexico","No","Never","No","Yes","No","No","No",1
-"144",26,"Female","India","No","Sometimes","No","No","No","No","No",1
-"145",28,"Female","United Kingdom","No","Never","No","No","Don't know","Don't know","No",1
-"146",45,"Male","United States","No","Sometimes","Yes","No","Don't know","Don't know","No",3
-"147",43,"Male","United States","Yes","Often","Yes","Yes","Yes","Don't know","No",3
-"148",24,"Male","United Kingdom","No","Sometimes","No","No","Don't know","Don't know","No",1
-"149",35,"Female","United States","Yes","Never","Yes","No","Yes","No","No",2
-"150",38,"Female","South Africa","Yes","Often","Yes","Yes","No","No","Yes",2
-"151",28,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",1
-"152",28,"Male","Russia","No","Sometimes","No","No","No","No","No",1
-"153",35,"Male","United States","No","Rarely","Yes","No","No","No","No",2
-"154",32,"Female","Germany","No","Sometimes","No","No","No","No","Yes",2
-"155",31,"Male","Italy","Yes","Never","No","No","No","No","No",2
-"156",35,"Female","United States","No","Never","No","Yes","Don't know","No","No",2
-"157",26,"Male","United States","No","Rarely","No","No","Yes","No","No",1
-"158",28,"Male","United Kingdom","Yes","Sometimes","Yes","No","Don't know","No","No",1
-"159",27,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No",1
-"160",34,"Female","United States","No","Sometimes","Yes","No","Yes","Yes","No",2
-"161",41,"Male","United States","No","Often","Yes","Yes","No","No","No",3
-"162",37,"Male","Ireland","No","Sometimes","No","No","No","No","No",2
-"163",32,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","Don't know","No","Yes",2
-"164",21,"Male","Canada","No","Sometimes","Yes","Yes","No","No","No",1
-"165",30,"Male","United States","No","Often","Yes","No","No","No","No",2
-"166",24,"Male","United States","No","Never","No","No","Don't know","Don't know","No",1
-"167",37,"Male","United Kingdom","Yes","Sometimes","No","No","No","No","No",2
-"168",26,"Male","United Kingdom","No","Often","Yes","Yes","No","No","No",1
-"169",32,"Female","United States","Yes","Sometimes","Yes","No","Don't know","No","Yes",2
-"170",32,"Female","United States","No","Sometimes","Yes","No","Yes","Don't know","No",2
-"171",27,"Female","United States","Yes","Sometimes","Yes","Yes","No","Don't know","No",1
-"172",30,"Male","Germany","No","Often","Yes","Yes","Yes","No","No",2
-"173",29,"Female","United States","No","Never","Yes","No","Yes","Don't know","No",1
-"174",28,"Male","United States","No","Rarely","No","No","Don't know","No","No",1
-"175",28,"Male","United States","No","Sometimes","Yes","No","No","No","No",1
-"176",23,"Male","United States","No","Never","No","No","Don't know","Don't know","No",1
-"177",32,"Male","United States","No","Rarely","No","Yes","No","No","No",2
-"178",34,"Male","Australia","No","Sometimes","No","Yes","Don't know","Yes","No",2
-"179",24,"Male","United States","No","Never","No","No","Yes","Don't know","No",1
-"180",26,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No",1
-"181",36,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","Yes",2
-"182",41,"Male","United States","No","Rarely","Yes","Yes","Yes","Don't know","No",3
-"183",38,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","Don't know","No",2
-"184",38,"Male","United States","No","Sometimes","No","Yes","Don't know","Don't know","No",2
-"185",25,"Male","United Kingdom","No","Never","No","No","No","No","No",1
-"186",37,"Male","Canada","Yes","Often","Yes","No","Yes","Don't know","No",2
-"187",37,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",2
-"188",28,"Female","Canada","Yes","Sometimes","Yes","No","Yes","Yes","Yes",1
-"189",34,"Male","United States","Yes","Sometimes","Yes","No","No","No","Yes",2
-"190",33,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",2
-"191",27,"Male","United States","No","Never","No","Yes","Yes","Don't know","No",1
-"192",40,"Male","United States","No","Sometimes","Yes","Yes","Yes","Yes","Yes",3
-"193",21,"Male","United States","No","Often","Yes","No","Don't know","Don't know","No",1
-"194",32,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No",2
-"195",29,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No",1
-"196",23,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"197",31,"Male","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No",2
-"198",24,"Male","United States","No","Sometimes","No","No","Don't know","Don't know","No",1
-"199",29,"Male","Canada","No","Often","No","No","No","No","No",1
-"200",23,"Female","United Kingdom","No","Sometimes","Yes","No","Don't know","Don't know","No",1
-"201",42,"Male","United States","No","Never","No","Yes","No","Yes","No",3
-"202",25,"Male","Australia","Yes","Often","Yes","No","No","No","Yes",1
-"203",27,"Female","United States","No","Rarely","Yes","No","Yes","No","No",1
-"204",27,"Male","Canada","No","Sometimes","No","Yes","No","No","No",1
-"205",30,"Male","United States","No","Sometimes","Yes","Yes","Yes","Yes","No",2
-"206",29,"Male","Poland","Yes","Rarely","Yes","No","No","No","No",1
-"207",41,"Male","United States","No","Sometimes","Yes","Yes","Yes","No","No",3
-"208",32,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","Don't know","Don't know","Yes",2
-"209",37,"Female","United States","Yes","Often","Yes","No","Yes","No","No",2
-"210",32,"Male","United States","No","Never","No","Yes","No","No","No",2
-"211",30,"Male","Ireland","No","Sometimes","No","Yes","No","No","No",2
-"212",23,"Female","United States","Yes","Never","Yes","No","Yes","Don't know","No",1
-"213",34,"Male","United Kingdom","No","Sometimes","No","No","No","No","No",2
-"214",38,"Male","United States","No","Rarely","Yes","Yes","Yes","No","No",2
-"215",28,"Male","Colombia","No","Sometimes","No","No","No","No","No",1
-"216",28,"Male","United States","No","Rarely","Yes","No","Yes","Don't know","No",1
-"217",23,"Male","United States","Yes","Sometimes","No","No","Don't know","Don't know","No",1
-"218",22,"Male","Australia","Yes","Sometimes","Yes","Yes","Don't know","Yes","Yes",1
-"219",27,"Male","Portugal","No","Never","No","No","No","No","No",1
-"220",18,"Male","United States","No","Sometimes","Yes","No","Don't know","Don't know","No",1
-"221",35,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",2
-"222",27,"Male","United Kingdom","Yes","Sometimes","Yes","No","No","No","No",1
-"223",26,"Female","United States","Yes","Rarely","Yes","No","Yes","Don't know","No",1
-"224",18,"Male","United States","No","Never","No","No","Don't know","Don't know","No",1
-"225",38,"Female","United States","No","Sometimes","Yes","No","No","No","Yes",2
-"226",26,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No",1
-"227",30,"Male","Switzerland","No","Never","No","No","No","No","No",2
-"228",35,"Male","United States","No","Never","No","No","Don't know","Don't know","No",2
-"229",45,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",3
-"230",32,"Male","United States","No","Never","No","No","Yes","Don't know","No",2
-"231",56,"Male","United States","No","Never","Yes","No","Yes","Don't know","No",4
-"232",30,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",2
-"233",33,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",2
-"234",37,"Male","United States","No","Never","No","No","Yes","Yes","No",2
-"235",23,"Female","United States","No","Sometimes","Yes","No","Yes","Yes","No",1
-"236",31,"Female","United States","No","Sometimes","Yes","No","Yes","Don't know","No",2
-"237",26,"Male","United States","No","Rarely","No","No","Yes","Don't know","No",1
-"238",28,"Female","United States","Yes","Often","Yes","Yes","Yes","Yes","No",1
-"239",37,"Female","United States","No","Rarely","Yes","No","Yes","Yes","No",2
-"240",26,"Male","Canada","Yes","Often","Yes","No","Yes","Don't know","No",1
-"241",30,"Other","United States","Yes","Rarely","Yes","No","Yes","No","No",2
-"242",27,"Male","United States","No","Sometimes","No","No","Yes","Yes","No",1
-"243",25,"Male","Canada","No","Often","Yes","Yes","Don't know","Don't know","No",1
-"244",35,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No",2
-"245",36,"Male","United States","No","Never","Yes","No","No","No","No",2
-"246",26,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",1
-"247",25,"Male","United States","No","Never","No","No","Yes","Yes","No",1
-"248",22,"Female","United States","Yes","Often","Yes","No","Yes","Yes","Yes",1
-"249",41,"Male","United States","Yes","Rarely","Yes","Yes","Yes","Yes","No",3
-"250",29,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No",1
-"251",32,"Male","United States","No","Never","No","No","Yes","Yes","No",2
-"252",24,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",1
-"253",25,"Male","United States","No","Rarely","Yes","No","Yes","No","No",1
-"254",30,"Female","United States","No","Never","No","No","Yes","Yes","No",2
-"255",25,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Yes","No",1
-"256",30,"Male","United States","No","Never","No","Yes","No","No","No",2
-"257",33,"Male","Germany","Yes","Rarely","Yes","No","No","No","Yes",2
-"258",25,"Male","Canada","Yes","Sometimes","Yes","No","Yes","Don't know","No",1
-"259",45,"Male","Ireland","No","Often","Yes","No","No","No","No",3
-"260",46,"Male","United States","No","Never","No","No","Yes","Don't know","No",3
-"261",30,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","Don't know","No",2
-"262",29,"Female","United States","No","Sometimes","No","No","Yes","No","No",1
-"263",33,"Female","United States","Yes","Sometimes","No","Yes","No","No","No",2
-"264",27,"Male","United States","No","Sometimes","No","No","Don't know","Don't know","No",1
-"265",33,"Male","United Kingdom","No","Rarely","No","Yes","Don't know","No","No",2
-"266",25,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No",1
-"267",23,"Male","United States","Yes","Sometimes","Yes","No","Don't know","No","No",1
-"268",54,"Male","United States","Yes","Never","Yes","No","Don't know","Yes","No",4
-"269",22,"Male","United States","No","Sometimes","No","No","Don't know","Don't know","No",1
-"270",25,"Other","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",1
-"271",29,"Male","Belgium","No","Often","No","No","Don't know","No","No",1
-"272",27,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No",1
-"273",30,"Male","United Kingdom","No","Never","No","No","No","Don't know","No",2
-"274",26,"Male","United States","Yes","Often","Yes","No","Yes","Yes","No",1
-"275",25,"Female","Sweden","Yes","Sometimes","No","No","Yes","No","No",1
-"276",31,"Male","United States","No","Sometimes","Yes","No","No","Don't know","No",2
-"277",33,"Male","United States","Yes","Sometimes","Yes","No","Don't know","No","No",2
-"278",34,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",2
-"279",34,"Male","United States","No","Sometimes","Yes","Yes","No","No","No",2
-"280",34,"Male","Germany","Yes","Rarely","Yes","Yes","No","Don't know","No",2
-"281",26,"Male","United States","Yes","Rarely","Yes","Yes","No","Don't know","No",1
-"282",32,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No",2
-"283",28,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No",1
-"284",36,"Male","United States","Yes","Often","Yes","No","No","No","No",2
-"285",21,"Male","United States","Yes","Rarely","Yes","No","Yes","Don't know","No",1
-"286",21,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","No","No",1
-"287",41,"Male","United States","Yes","Often","Yes","No","Yes","Yes","Yes",3
-"288",55,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No",4
-"289",32,"Female","United States","No","Sometimes","Yes","No","Yes","Yes","No",2
-"290",21,"Female","United States","Yes","Rarely","Yes","No","Don't know","No","No",1
-"291",45,"Male","United States","No","Never","Yes","Yes","Yes","Don't know","No",3
-"292",27,"Female","United States","No","Rarely","Yes","No","Yes","No","No",1
-"293",25,"Female","United States","Yes","Sometimes","Yes","Yes","Don't know","No","No",1
-"294",34,"Other","United States","Yes","Rarely","Yes","No","Yes","Yes","No",2
-"295",26,"Female","United States","Yes","Never","Yes","No","Yes","Yes","No",1
-"296",41,"Male","Canada","No","Never","Yes","No","Yes","Don't know","No",3
-"297",27,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No",1
-"298",31,"Other","United States","Yes","Sometimes","Yes","Yes","Yes","No","No",2
-"299",25,"Male","Germany","Yes","Often","Yes","Yes","No","No","No",1
-"300",26,"Male","United States","No","Sometimes","Yes","No","Don't know","No","No",1
-"301",27,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No",1
-"302",42,"Male","New Zealand","No","Never","No","No","Don't know","No","No",3
-"303",29,"Other","United States","Yes","Sometimes","Yes","Yes","Yes","No","No",1
-"304",25,"Female","United States","No","Sometimes","Yes","No","Don't know","No","No",1
-"305",33,"Female","Sweden","Yes","Rarely","Yes","No","Yes","Yes","No",2
-"306",40,"Female","United States","Yes","Rarely","Yes","No","Yes","Don't know","No",3
-"307",31,"Male","United States","No","Never","No","No","Don't know","Don't know","No",2
-"308",26,"Male","Canada","Yes","Often","Yes","Yes","Don't know","Don't know","No",1
-"309",29,"Male","United States","No","Never","No","No","Yes","Don't know","No",1
-"310",35,"Male","United Kingdom","No","Sometimes","No","No","No","No","Yes",2
-"311",32,"Female","United States","No","Never","No","No","Don't know","No","No",2
-"312",29,"Male","Canada","No","Sometimes","Yes","No","Don't know","Don't know","No",1
-"313",26,"Male","United States","Yes","Often","Yes","No","Yes","No","No",1
-"314",28,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",1
-"315",35,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","Yes",2
-"316",29,"Male","Germany","Yes","Sometimes","Yes","No","Don't know","No","No",1
-"317",33,"Male","United States","Yes","Never","Yes","Yes","Yes","Yes","No",2
-"318",22,"Male","Brazil","No","Never","No","Yes","Don't know","No","No",1
-"319",33,"Male","United States","Yes","Often","Yes","Yes","Yes","No","No",2
-"320",31,"Female","United States","Yes","Rarely","Yes","No","Don't know","Don't know","No",2
-"321",21,"Male","United States","Yes","Never","No","No","Don't know","Don't know","Yes",1
-"322",31,"Other","United Kingdom","Yes","Sometimes","Yes","No","Don't know","No","No",2
-"323",26,"Female","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"324",30,"Male","United States","Yes","Often","No","No","Don't know","Don't know","No",2
-"325",30,"Other","Germany","Yes","Sometimes","Yes","No","Don't know","No","No",2
-"326",34,"Male","Finland","No","Never","No","No","No","No","No",2
-"327",55,"Male","United States","Yes","Sometimes","Yes","Yes","No","Don't know","Yes",4
-"328",28,"Male","Germany","Yes","Rarely","Yes","Yes","Yes","No","No",1
-"329",28,"Male","New Zealand","Yes","Sometimes","Yes","Yes","Yes","No","No",1
-"330",32,"Male","United Kingdom","Yes","Sometimes","Yes","No","No","Don't know","No",2
-"331",28,"Female","United States","No","Rarely","Yes","No","Yes","Don't know","No",1
-"332",21,"Male","United States","No","Sometimes","No","No","Don't know","Yes","No",1
-"333",24,"Male","United States","Yes","Sometimes","Yes","No","No","No","Yes",1
-"334",28,"Male","Canada","No","Never","No","Yes","Don't know","No","No",1
-"335",24,"Female","United States","Yes","Rarely","Yes","No","No","No","No",1
-"336",33,"Male","United States","No","Often","Yes","Yes","No","No","No",2
-"337",34,"Male","United States","No","Sometimes","No","No","Don't know","No","No",2
-"338",27,"Female","United States","No","Sometimes","Yes","No","Don't know","No","No",1
-"339",28,"Male","United States","No","Never","No","No","Don't know","Don't know","No",1
-"340",23,"Female","United States","No","Sometimes","Yes","No","Yes","Don't know","No",1
-"341",29,"Male","United States","Yes","Rarely","Yes","Yes","Yes","Yes","No",1
-"342",26,"Male","United Kingdom","Yes","Sometimes","No","No","No","No","No",1
-"343",36,"Male","United States","No","Rarely","No","Yes","Yes","Don't know","No",2
-"344",41,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","Yes",3
-"345",23,"Male","Canada","Yes","Sometimes","Yes","No","Yes","No","No",1
-"346",39,"Male","United States","Yes","Often","No","No","Yes","Don't know","Yes",2
-"347",26,"Female","United States","No","Sometimes","Yes","No","Yes","No","Yes",1
-"348",24,"Male","United States","No","Rarely","Yes","No","Yes","No","No",1
-"349",37,"Male","Canada","Yes","Rarely","Yes","No","Yes","Yes","No",2
-"350",43,"Male","United States","Yes","Often","Yes","Yes","Yes","No","No",3
-"351",40,"Other","United States","Yes","Never","No","No","Yes","Don't know","No",3
-"352",30,"Male","United States","Yes","Often","Yes","No","Yes","No","Yes",2
-"353",34,"Male","United States","No","Sometimes","Yes","No","Don't know","No","No",2
-"354",27,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No",1
-"355",36,"Male","United States","No","Sometimes","No","No","Don't know","No","No",2
-"356",27,"Male","Brazil","No","Rarely","No","No","No","No","No",1
-"357",35,"Male","Netherlands","Yes","Never","No","No","Yes","No","No",2
-"358",32,"Male","United Kingdom","No","Never","No","No","No","No","No",2
-"359",33,"Other","United States","No","Never","No","No","Yes","Yes","No",2
-"360",28,"Other","United States","No","Sometimes","No","Yes","No","No","No",1
-"361",26,"Female","United States","Yes","Never","No","No","Don't know","No","No",1
-"362",27,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"363",38,"Male","United Kingdom","No","Sometimes","Yes","Yes","No","No","No",2
-"364",57,"Male","United States","Yes","Rarely","Yes","No","Yes","No","No",4
-"365",28,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No",1
-"366",26,"Male","France","No","Never","No","No","No","No","No",1
-"367",42,"Female","Netherlands","No","Rarely","Yes","Yes","Yes","No","No",3
-"368",31,"Male","United States","No","Sometimes","Yes","Yes","Yes","Yes","No",2
-"369",58,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No",4
-"370",29,"Male","United States","No","Sometimes","No","No","Don't know","No","No",1
-"371",39,"Female","United Kingdom","No","Sometimes","Yes","No","Yes","Yes","Yes",2
-"372",34,"Male","United States","No","Sometimes","No","Yes","Don't know","No","No",2
-"373",57,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No",4
-"374",27,"Male","Germany","Yes","Sometimes","Yes","No","No","No","Yes",1
-"375",23,"Male","Germany","Yes","Often","Yes","Yes","Don't know","Don't know","No",1
-"376",23,"Male","United States","No","Never","No","No","Don't know","Don't know","No",1
-"377",43,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No",3
-"378",18,"Female","United Kingdom","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"379",29,"Male","United States","No","Rarely","Yes","No","Yes","No","No",1
-"380",48,"Male","United States","No","Never","No","No","Don't know","Don't know","No",3
-"381",43,"Male","Germany","No","Sometimes","Yes","No","No","No","Yes",3
-"382",28,"Female","United States","Yes","Sometimes","Yes","No","Don't know","No","No",1
-"383",30,"Male","United States","Yes","Often","Yes","Yes","No","No","No",2
-"384",26,"Male","Israel","No","Sometimes","No","No","No","No","No",1
-"385",33,"Male","Italy","No","Never","No","No","No","No","No",2
-"386",30,"Male","United States","No","Rarely","No","No","Don't know","No","No",2
-"387",24,"Female","United States","Yes","Sometimes","Yes","Yes","No","Don't know","Yes",1
-"388",23,"Female","United States","Yes","Often","Yes","No","Yes","No","Yes",1
-"389",36,"Male","United States","No","Sometimes","Yes","No","Yes","No","Yes",2
-"390",25,"Female","United States","Yes","Often","Yes","Yes","Don't know","No","Yes",1
-"391",54,"Male","United Kingdom","No","Sometimes","Yes","Yes","No","Yes","No",4
-"392",34,"Male","Netherlands","No","Rarely","No","No","Don't know","Don't know","No",2
-"393",25,"Male","Germany","No","Never","No","No","Don't know","Yes","No",1
-"394",35,"Female","United States","No","Sometimes","Yes","No","No","No","No",2
-"395",46,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No",3
-"396",42,"Male","United States","No","Never","No","No","Yes","No","No",3
-"397",32,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","Yes","No","No",2
-"398",47,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",3
-"399",33,"Female","United States","No","Sometimes","Yes","Yes","Yes","Yes","No",2
-"400",25,"Female","United States","No","Sometimes","No","No","No","No","No",1
-"401",39,"Male","United States","No","Never","No","No","Yes","Yes","No",2
-"402",38,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",2
-"403",46,"Male","United States","No","Rarely","Yes","Yes","Yes","Yes","No",3
-"404",38,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes",2
-"405",33,"Male","Germany","No","Sometimes","Yes","No","Yes","No","No",2
-"406",34,"Male","United Kingdom","Yes","Often","Yes","No","No","No","No",2
-"407",62,"Male","United States","No","Never","No","No","Yes","Yes","No",5
-"408",25,"Male","Bosnia and Herzegovina","Yes","Rarely","No","Yes","Don't know","Don't know","Yes",1
-"409",36,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","No","No",2
-"410",41,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Yes","No",3
-"411",24,"Male","Austria","No","Sometimes","No","No","Yes","Don't know","No",1
-"412",51,"Male","New Zealand","No","Sometimes","Yes","Yes","No","No","Yes",4
-"413",29,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No",1
-"414",31,"Female","Canada","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",2
-"415",31,"Male","Australia","No","Rarely","Yes","No","Yes","Yes","No",2
-"416",27,"Female","Hungary","Yes","Sometimes","No","Yes","No","No","No",1
-"417",23,"Male","Sweden","No","Rarely","No","No","Don't know","Don't know","No",1
-"418",21,"Male","Canada","No","Never","No","No","Don't know","No","No",1
-"419",27,"Female","Australia","Yes","Sometimes","Yes","No","No","No","No",1
-"420",39,"Male","United States","Yes","Often","Yes","Yes","Yes","Yes","No",2
-"421",26,"Male","United States","Yes","Never","Yes","No","Don't know","Don't know","No",1
-"422",27,"Male","United Kingdom","No","Never","No","No","Don't know","No","No",1
-"423",22,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","Yes",1
-"424",26,"Female","United States","Yes","Often","Yes","No","Don't know","No","No",1
-"425",31,"Female","United States","Yes","Rarely","Yes","No","Yes","No","No",2
-"426",32,"Male","United Kingdom","No","Never","No","No","Don't know","No","No",2
-"427",28,"Female","United States","Yes","Often","Yes","Yes","Yes","Don't know","Yes",1
-"428",28,"Other","United Kingdom","Yes","Rarely","Yes","No","No","No","Yes",1
-"429",30,"Male","United Kingdom","No","Never","No","Yes","Don't know","Don't know","No",2
-"430",36,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",2
-"431",30,"Male","Germany","No","Often","No","No","No","No","No",2
-"432",32,"Male","New Zealand","No","Sometimes","Yes","No","No","No","No",2
-"433",29,"Female","Canada","No","Sometimes","Yes","No","No","No","No",1
-"434",21,"Other","United Kingdom","No","Sometimes","Yes","No","No","No","No",1
-"435",27,"Female","New Zealand","Yes","Rarely","Yes","Yes","No","No","No",1
-"436",32,"Female","Canada","No","Often","Yes","No","Don't know","Don't know","No",2
-"437",34,"Male","Australia","No","Sometimes","No","No","Yes","Yes","No",2
-"438",22,"Male","Netherlands","Yes","Sometimes","Yes","Yes","No","Don't know","No",1
-"439",27,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"440",33,"Male","Australia","No","Never","No","No","Don't know","Don't know","No",2
-"441",36,"Male","United States","No","Rarely","Yes","No","Don't know","Don't know","No",2
-"442",40,"Male","Canada","No","Never","No","No","No","No","No",3
-"443",28,"Male","United States","No","Sometimes","Yes","No","Yes","No","No",1
-"444",39,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No",2
-"445",32,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No",2
-"446",31,"Male","United States","Yes","Sometimes","No","No","Yes","Don't know","No",2
-"447",38,"Other","United States","Yes","Sometimes","Yes","No","Don't know","No","No",2
-"448",23,"Male","United States","Yes","Rarely","Yes","No","No","No","No",1
-"449",42,"Other","United States","No","Often","Yes","No","Yes","Yes","No",3
-"450",27,"Female","United States","No","Sometimes","No","No","Don't know","Yes","No",1
-"451",26,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","Yes",1
-"452",50,"Male","United States","No","Never","No","Yes","No","No","No",4
-"453",37,"Male","United States","Yes","Never","No","No","Don't know","Don't know","No",2
-"454",33,"Male","United States","Yes","Sometimes","No","Yes","Don't know","No","No",2
-"455",29,"Male","Canada","No","Never","No","Yes","Yes","No","No",1
-"456",34,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","No","No",2
-"457",41,"Male","United States","Yes","Often","Yes","No","Yes","No","Yes",3
-"458",29,"Male","Canada","No","Never","Yes","No","Yes","Yes","Yes",1
-"459",35,"Male","United States","No","Never","No","No","No","No","No",2
-"460",27,"Male","Singapore","No","Sometimes","No","Yes","No","No","No",1
-"461",40,"Female","United States","No","Never","No","No","Don't know","No","No",3
-"462",27,"Male","Australia","No","Often","Yes","Yes","No","No","Yes",1
-"463",29,"Female","United States","No","Never","No","No","Yes","No","Yes",1
-"464",31,"Male","United States","Yes","Sometimes","Yes","No","No","No","No",2
-"465",43,"Male","United States","No","Sometimes","Yes","No","No","No","No",3
-"466",34,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","No","Yes",2
-"467",29,"Male","United States","Yes","Sometimes","Yes","No","Don't know","No","No",1
-"468",19,"Male","Canada","Yes","Sometimes","Yes","No","No","No","No",1
-"469",41,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",3
-"470",29,"Male","United States","Yes","Never","No","No","Yes","Yes","No",1
-"471",23,"Male","United States","No","Rarely","No","No","Yes","Don't know","No",1
-"472",24,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","Yes",1
-"473",31,"Male","United States","Yes","Rarely","Yes","No","No","Don't know","Yes",2
-"474",29,"Male","United States","Yes","Often","No","No","Yes","Yes","No",1
-"475",33,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",2
-"476",30,"Other","United States","Yes","Often","Yes","Yes","No","Yes","No",2
-"477",32,"Male","United States","No","Sometimes","No","No","No","No","No",2
-"478",50,"Male","United States","No","Sometimes","No","Yes","Don't know","Don't know","No",4
-"479",24,"Male","United States","No","Never","No","No","Don't know","No","No",1
-"480",27,"Male","Australia","No","Never","No","Yes","No","No","No",1
-"481",32,"Male","United States","No","Sometimes","Yes","No","No","No","No",2
-"482",42,"Male","United States","No","Rarely","No","Yes","No","No","No",3
-"483",37,"Male","United States","No","Often","No","No","Don't know","No","No",2
-"484",30,"Male","Singapore","No","Sometimes","No","No","Don't know","No","Yes",2
-"485",29,"Male","United States","No","Rarely","No","No","Yes","No","No",1
-"486",30,"Male","United States","No","Often","Yes","Yes","No","Yes","No",2
-"487",35,"Male","United States","No","Never","No","No","Yes","Don't know","No",2
-"488",35,"Male","United States","Yes","Rarely","Yes","Yes","Yes","No","No",2
-"489",38,"Male","Netherlands","Yes","Often","No","Yes","No","Don't know","No",2
-"490",22,"Male","United Kingdom","Yes","Sometimes","Yes","No","Yes","No","No",1
-"491",24,"Male","Germany","Yes","Sometimes","No","No","Don't know","No","No",1
-"492",22,"Male","Netherlands","No","Never","No","No","Don't know","No","Yes",1
-"493",31,"Female","United States","No","Often","Yes","Yes","Yes","No","No",2
-"494",23,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",1
-"495",31,"Female","United States","Yes","Sometimes","Yes","No","Don't know","No","No",2
-"496",28,"Female","United States","Yes","Rarely","Yes","No","Yes","Yes","No",1
-"497",37,"Other","Canada","Yes","Sometimes","Yes","No","Yes","No","No",2
-"498",34,"Male","United States","Yes","Sometimes","Yes","No","No","No","No",2
-"499",32,"Other","Canada","No","Sometimes","No","Yes","No","No","Yes",2
-"500",28,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Don't know","Yes",1
-"501",24,"Female","United Kingdom","No","Sometimes","Yes","No","No","No","No",1
-"502",56,"Other","United States","Yes","Rarely","Yes","No","Yes","No","No",4
-"503",31,"Male","Germany","No","Sometimes","No","Yes","No","No","No",2
-"504",34,"Female","United States","No","Sometimes","Yes","Yes","Yes","Don't know","No",2
-"505",35,"Male","Germany","No","Rarely","Yes","No","Don't know","Don't know","No",2
-"506",28,"Male","Germany","No","Never","No","No","No","No","No",1
-"507",36,"Male","Poland","Yes","Often","Yes","No","No","No","Yes",2
-"508",30,"Male","United Kingdom","No","Often","Yes","No","No","No","No",2
-"509",49,"Male","Japan","Yes","Sometimes","Yes","Yes","No","No","Yes",3
-"510",29,"Female","Australia","Yes","Sometimes","Yes","No","Yes","Yes","Yes",1
-"511",57,"Male","United States","No","Never","No","No","Yes","Yes","Yes",4
-"512",31,"Female","Belgium","Yes","Rarely","Yes","No","Yes","No","Yes",2
-"513",37,"Male","Ireland","No","Never","No","No","No","No","No",2
-"514",25,"Male","Ireland","Yes","Sometimes","Yes","No","No","No","No",1
-"515",30,"Male","Australia","No","Sometimes","No","No","No","No","No",2
-"516",26,"Female","Australia","Yes","Sometimes","No","No","No","Yes","No",1
-"517",22,"Female","Netherlands","No","Often","No","No","No","No","No",1
-"518",39,"Male","United States","No","Rarely","No","Yes","Don't know","Yes","No",2
-"519",29,"Male","United Kingdom","Yes","Never","Yes","No","Don't know","Don't know","No",1
-"520",54,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","Don't know","No","Yes",4
-"521",34,"Female","Australia","Yes","Never","No","No","Don't know","Yes","Yes",2
-"522",32,"Male","United States","No","Never","Yes","No","Yes","Yes","No",2
-"523",29,"Male","Poland","No","Rarely","No","No","No","No","No",1
-"524",32,"Male","Germany","No","Never","No","Yes","No","No","No",2
-"525",30,"Male","United Kingdom","Yes","Sometimes","Yes","No","Yes","Don't know","No",2
-"526",20,"Female","Switzerland","No","Rarely","No","No","Yes","Yes","No",1
-"527",27,"Male","United Kingdom","No","Never","No","No","Don't know","Don't know","No",1
-"528",32,"Male","United States","No","Never","No","No","Don't know","Don't know","No",2
-"529",26,"Male","Ireland","No","Never","No","Yes","No","No","No",1
-"530",30,"Male","Italy","No","Sometimes","No","No","Don't know","No","No",2
-"531",30,"Male","Ireland","No","Sometimes","Yes","Yes","No","No","No",2
-"532",26,"Male","Netherlands","No","Never","No","No","No","No","No",1
-"533",26,"Male","Russia","No","Never","No","No","No","Don't know","No",1
-"534",23,"Male","United States","Yes","Sometimes","No","No","Don't know","Don't know","No",1
-"535",26,"Female","Israel","Yes","Never","No","No","Don't know","Don't know","No",1
-"536",35,"Male","Canada","Yes","Sometimes","No","No","Don't know","No","No",2
-"537",28,"Male","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"538",29,"Female","United States","Yes","Rarely","Yes","No","Don't know","No","No",1
-"539",45,"Male","United States","No","Often","Yes","Yes","Yes","Yes","No",3
-"540",33,"Male","Bulgaria","No","Rarely","Yes","Yes","No","No","Yes",2
-"541",38,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No",2
-"542",19,"Other","United States","Yes","Often","Yes","No","Don't know","No","No",1
-"543",29,"Female","Canada","No","Rarely","Yes","Yes","Yes","Don't know","No",1
-"544",23,"Female","India","Yes","Sometimes","Yes","No","Don't know","Don't know","No",1
-"545",33,"Female","United States","Yes","Rarely","Yes","No","Yes","Yes","No",2
-"546",49,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",3
-"547",27,"Female","United Kingdom","No","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"548",23,"Male","Canada","No","Sometimes","Yes","No","Yes","No","No",1
-"549",29,"Male","Netherlands","No","Never","No","Yes","No","No","No",1
-"550",32,"Male","United Kingdom","No","Sometimes","Yes","No","Yes","No","No",2
-"551",33,"Male","United States","Yes","Rarely","Yes","Yes","No","Yes","Yes",2
-"552",37,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",2
-"553",23,"Male","United States","No","Often","Yes","No","Yes","No","No",1
-"554",43,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",3
-"555",32,"Male","United Kingdom","No","Rarely","Yes","No","Don't know","No","Yes",2
-"556",26,"Male","United States","No","Never","No","No","Don't know","No","No",1
-"557",32,"Male","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No",2
-"558",29,"Male","United States","No","Often","Yes","No","Yes","No","No",1
-"559",30,"Male","United States","Yes","Never","No","No","Don't know","Don't know","No",2
-"560",29,"Male","United States","No","Never","No","No","Yes","Yes","No",1
-"561",32,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Don't know","No",2
-"562",30,"Male","Canada","Yes","Sometimes","Yes","No","Don't know","No","Yes",2
-"563",25,"Male","United States","Yes","Never","Yes","Yes","Don't know","Don't know","No",1
-"564",33,"Male","United States","Yes","Sometimes","Yes","No","No","No","No",2
-"565",31,"Male","South Africa","No","Never","No","Yes","No","No","No",2
-"566",21,"Male","Germany","No","Rarely","No","Yes","Don't know","No","No",1
-"567",30,"Male","Switzerland","Yes","Sometimes","Yes","No","Don't know","No","No",2
-"568",43,"Male","Croatia","No","Sometimes","Yes","Yes","No","No","Yes",3
-"569",37,"Male","United Kingdom","No","Often","Yes","No","No","No","No",2
-"570",33,"Male","United Kingdom","No","Never","No","No","No","No","No",2
-"571",33,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","No","No",2
-"572",36,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",2
-"573",37,"Male","Australia","Yes","Sometimes","Yes","No","No","No","Yes",2
-"574",39,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No",2
-"575",31,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",2
-"576",36,"Male","United States","No","Sometimes","Yes","Yes","Yes","No","No",2
-"577",30,"Male","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No",2
-"578",35,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No",2
-"579",19,"Male","Canada","No","Sometimes","Yes","No","Don't know","No","No",1
-"580",37,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No",2
-"581",40,"Male","Thailand","No","Never","No","No","No","No","No",3
-"582",36,"Male","United States","No","Never","No","No","Yes","Yes","No",2
-"583",29,"Female","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"584",38,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",2
-"585",26,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",1
-"586",34,"Male","Germany","No","Rarely","No","No","No","No","No",2
-"587",21,"Male","United States","No","Often","Yes","No","No","No","Yes",1
-"588",31,"Male","Canada","Yes","Sometimes","No","Yes","No","No","No",2
-"589",37,"Female","United States","Yes","Rarely","Yes","No","Yes","Yes","No",2
-"590",37,"Male","Ireland","Yes","Sometimes","Yes","No","No","No","No",2
-"591",38,"Male","Ireland","Yes","Sometimes","Yes","No","No","No","No",2
-"592",27,"Female","United States","No","Sometimes","Yes","No","Don't know","Don't know","No",1
-"593",33,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",2
-"594",27,"Male","United Kingdom","No","Never","No","No","Don't know","Don't know","No",1
-"595",36,"Female","United States","No","Never","Yes","Yes","Yes","No","No",2
-"596",28,"Male","United Kingdom","No","Never","No","No","Don't know","No","No",1
-"597",39,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","No","No",2
-"598",33,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No",2
-"599",37,"Male","United Kingdom","Yes","Rarely","Yes","No","No","No","Yes",2
-"600",39,"Male","Canada","No","Sometimes","Yes","No","Yes","Yes","Yes",2
-"601",43,"Other","United States","No","Sometimes","No","Yes","Don't know","Don't know","No",3
-"602",32,"Other","United Kingdom","No","Sometimes","Yes","No","Don't know","Yes","Yes",2
-"603",43,"Male","United Kingdom","No","Never","Yes","No","Don't know","Don't know","No",3
-"604",33,"Male","United States","No","Sometimes","Yes","Yes","No","No","No",2
-"605",34,"Male","United Kingdom","Yes","Sometimes","Yes","No","Don't know","Don't know","No",2
-"606",25,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes",1
-"607",25,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",1
-"608",39,"Male","Switzerland","No","Never","Yes","No","Yes","Yes","No",2
-"609",29,"Male","United Kingdom","No","Rarely","No","No","Don't know","No","Yes",1
-"610",33,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No",2
-"611",37,"Female","United States","No","Often","Yes","Yes","Don't know","No","Yes",2
-"612",35,"Female","United States","No","Sometimes","Yes","No","Yes","No","Yes",2
-"613",22,"Female","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","Yes",1
-"614",38,"Male","United States","No","Never","No","No","Yes","No","Yes",2
-"615",32,"Female","United States","Yes","Often","Yes","No","Yes","Don't know","No",2
-"616",35,"Female","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No",2
-"617",29,"Male","United States","No","Never","No","No","Yes","No","No",1
-"618",23,"Male","United States","Yes","Sometimes","Yes","No","No","No","No",1
-"619",28,"Other","United States","No","Sometimes","Yes","No","No","No","Yes",1
-"620",40,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes",3
-"621",41,"Male","United States","Yes","Sometimes","No","No","Yes","Yes","No",3
-"622",29,"Male","United Kingdom","No","Never","No","No","Don't know","No","No",1
-"623",29,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No",1
-"624",35,"Male","United States","No","Often","Yes","No","No","No","Yes",2
-"625",28,"Male","United States","No","Never","Yes","Yes","No","No","No",1
-"626",36,"Female","United Kingdom","No","Sometimes","No","Yes","Don't know","Don't know","No",2
-"627",39,"Female","United States","No","Sometimes","No","No","Don't know","Don't know","No",2
-"628",39,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",2
-"629",44,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No",3
-"630",26,"Other","Germany","No","Sometimes","Yes","Yes","No","Yes","No",1
-"631",35,"Male","Denmark","Yes","Often","Yes","No","No","No","No",2
-"632",40,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",3
-"633",35,"Male","Denmark","Yes","Often","Yes","No","No","No","No",2
-"634",38,"Male","United States","No","Never","No","Yes","No","No","No",2
-"635",48,"Other","United States","Yes","Often","No","No","Don't know","No","Yes",3
-"636",20,"Male","United States","No","Never","No","No","Don't know","Don't know","No",1
-"637",40,"Male","United States","No","Sometimes","No","Yes","Don't know","No","No",3
-"638",29,"Female","United Kingdom","No","Rarely","Yes","No","Don't know","No","No",1
-"639",35,"Male","United States","Yes","Sometimes","Yes","No","No","No","No",2
-"640",29,"Male","United States","Yes","Sometimes","No","Yes","Yes","Yes","No",1
-"641",40,"Male","United States","No","Never","No","No","Yes","Don't know","No",3
-"642",29,"Male","Sweden","No","Rarely","Yes","No","No","No","No",1
-"643",29,"Female","United States","Yes","Rarely","Yes","No","Yes","No","No",1
-"644",34,"Male","United States","No","Sometimes","Yes","No","No","No","No",2
-"645",44,"Male","United Kingdom","Yes","Sometimes","Yes","No","Don't know","No","Yes",3
-"646",24,"Female","United States","Yes","Often","Yes","No","Yes","No","Yes",1
-"647",36,"Male","United States","No","Rarely","No","No","Yes","Yes","No",2
-"648",43,"Male","United States","No","Sometimes","Yes","No","Don't know","Don't know","No",3
-"649",36,"Male","United Kingdom","No","Sometimes","No","Yes","No","No","Yes",2
-"650",31,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No",2
-"651",35,"Male","United States","No","Sometimes","No","No","Don't know","Don't know","No",2
-"652",37,"Male","Italy","No","Sometimes","No","No","Don't know","Don't know","No",2
-"653",34,"Male","United States","No","Sometimes","Yes","No","Don't know","Don't know","No",2
-"654",36,"Male","Netherlands","No","Sometimes","Yes","No","No","No","No",2
-"655",40,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No",3
-"656",40,"Male","United States","No","Rarely","No","No","Yes","Yes","No",3
-"657",42,"Male","United States","No","Sometimes","Yes","Yes","No","No","No",3
-"658",21,"Male","United Kingdom","Yes","Never","No","No","No","No","No",1
-"659",26,"Male","Canada","No","Sometimes","No","Yes","No","No","No",1
-"660",51,"Male","United States","No","Never","No","Yes","Yes","Yes","No",4
-"661",32,"Male","United Kingdom","Yes","Rarely","Yes","No","No","No","No",2
-"662",32,"Male","United Kingdom","Yes","Rarely","Yes","No","No","No","No",2
-"663",26,"Male","United Kingdom","No","Rarely","Yes","Yes","No","Don't know","No",1
-"664",23,"Male","United States","No","Never","No","No","Don't know","Don't know","No",1
-"665",33,"Male","United States","Yes","Often","Yes","Yes","No","No","No",2
-"666",46,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No",3
-"667",35,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",2
-"668",32,"Male","Germany","No","Sometimes","No","Yes","No","No","No",2
-"669",56,"Male","United States","No","Rarely","Yes","Yes","Yes","Yes","No",4
-"670",32,"Female","United Kingdom","Yes","Sometimes","Yes","No","Don't know","No","Yes",2
-"671",30,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",2
-"672",23,"Female","United Kingdom","Yes","Never","No","No","No","Yes","No",1
-"673",31,"Male","United States","No","Never","Yes","No","Yes","Don't know","No",2
-"674",29,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No",1
-"675",30,"Male","United States","No","Never","No","Yes","Yes","Don't know","No",2
-"676",37,"Male","United States","No","Never","No","Yes","Yes","Don't know","Yes",2
-"677",36,"Male","United States","No","Never","No","No","Yes","Don't know","No",2
-"678",35,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Don't know","No",2
-"679",41,"Male","United States","Yes","Never","No","Yes","Don't know","No","No",3
-"680",31,"Male","United Kingdom","No","Rarely","Yes","No","Don't know","No","No",2
-"681",39,"Male","United States","Yes","Sometimes","No","No","Yes","Yes","Yes",2
-"682",42,"Male","United States","Yes","Sometimes","No","Yes","Yes","Yes","No",3
-"683",32,"Male","United States","Yes","Rarely","Yes","Yes","No","No","No",2
-"684",30,"Male","United States","Yes","Never","No","No","Yes","Yes","No",2
-"685",40,"Male","United States","Yes","Often","Yes","Yes","Don't know","Don't know","No",3
-"686",33,"Male","United States","No","Never","No","No","Yes","Yes","No",2
-"687",34,"Male","Germany","No","Sometimes","Yes","Yes","No","No","No",2
-"688",50,"Male","United States","No","Never","No","Yes","No","No","No",4
-"689",24,"Male","United States","No","Sometimes","No","Yes","Don't know","Don't know","No",1
-"690",25,"Male","United States","Yes","Rarely","Yes","No","No","No","No",1
-"691",43,"Male","United Kingdom","Yes","Rarely","Yes","No","No","No","Yes",3
-"692",25,"Female","United States","No","Often","Yes","No","Yes","Yes","Yes",1
-"693",51,"Male","United States","No","Never","No","No","No","No","No",4
-"694",49,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes",3
-"695",25,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No",1
-"696",36,"Male","United States","No","Rarely","Yes","Yes","Yes","Don't know","No",2
-"697",48,"Male","United States","No","Never","Yes","No","Yes","Yes","Yes",3
-"698",48,"Male","Australia","No","Sometimes","Yes","No","No","No","Yes",3
-"699",53,"Male","United States","No","Rarely","Yes","Yes","Yes","Yes","No",4
-"700",24,"Female","United Kingdom","Yes","Often","Yes","Yes","No","No","No",1
-"701",33,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Yes","No",2
-"702",25,"Female","Canada","Yes","Sometimes","Yes","No","Yes","No","No",1
-"703",30,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No",2
-"704",30,"Male","United States","No","Never","No","Yes","No","No","No",2
-"705",34,"Male","United Kingdom","No","Sometimes","Yes","Yes","No","No","No",2
-"706",22,"Female","United States","Yes","Often","Yes","No","Don't know","Don't know","No",1
-"707",28,"Male","United States","Yes","Sometimes","No","No","Don't know","Don't know","No",1
-"708",35,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No",2
-"709",28,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",1
-"710",42,"Male","New Zealand","No","Sometimes","Yes","No","No","No","Yes",3
-"711",29,"Male","United States","No","Sometimes","No","No","Yes","No","No",1
-"712",43,"Male","United States","Yes","Sometimes","No","No","Yes","Don't know","No",3
-"713",31,"Male","United States","Yes","Never","No","No","Don't know","Don't know","No",2
-"714",35,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",2
-"715",34,"Male","United States","No","Often","No","No","Don't know","Yes","No",2
-"716",43,"Other","United States","No","Sometimes","Yes","Yes","Yes","Yes","Yes",3
-"717",38,"Male","United States","Yes","Sometimes","Yes","No","No","No","No",2
-"718",26,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Yes","Yes",1
-"719",38,"Male","United Kingdom","Yes","Rarely","Yes","Yes","No","No","No",2
-"720",42,"Male","United States","No","Often","Yes","No","Don't know","Don't know","No",3
-"721",32,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No",2
-"722",44,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","No",3
-"723",28,"Male","United States","Yes","Rarely","Yes","No","Yes","Don't know","No",1
-"724",40,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","Yes",3
-"725",31,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",2
-"726",32,"Male","United States","Yes","Sometimes","No","No","Yes","Yes","No",2
-"727",28,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No",1
-"728",39,"Male","United States","Yes","Often","Yes","No","Yes","No","No",2
-"729",43,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No",3
-"730",35,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No",2
-"731",40,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",3
-"732",34,"Male","Netherlands","No","Rarely","Yes","No","No","No","No",2
-"733",24,"Male","United Kingdom","Yes","Often","Yes","No","Don't know","No","Yes",1
-"734",61,"Male","South Africa","No","Sometimes","Yes","Yes","No","No","Yes",5
-"735",36,"Other","United States","Yes","Rarely","Yes","No","Don't know","Don't know","No",2
-"736",33,"Male","Germany","Yes","Often","Yes","No","Don't know","No","No",2
-"737",30,"Male","United States","Yes","Never","No","No","Don't know","Don't know","No",2
-"738",34,"Male","Netherlands","Yes","Rarely","Yes","Yes","Yes","Yes","No",2
-"739",26,"Male","United States","No","Rarely","Yes","No","Yes","Don't know","No",1
-"740",25,"Male","Germany","No","Sometimes","No","Yes","No","No","No",1
-"741",35,"Male","Germany","No","Sometimes","Yes","Yes","Don't know","No","No",2
-"742",24,"Male","United Kingdom","Yes","Often","No","Yes","Don't know","No","No",1
-"743",55,"Male","United Kingdom","No","Often","Yes","No","Yes","Yes","Yes",4
-"744",33,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","No","No","Yes",2
-"745",26,"Female","United Kingdom","Yes","Sometimes","Yes","Yes","No","No","No",1
-"746",25,"Male","United Kingdom","No","Never","No","Yes","Don't know","Don't know","No",1
-"747",45,"Male","United Kingdom","Yes","Rarely","No","No","Don't know","No","No",3
-"748",33,"Female","United Kingdom","No","Sometimes","Yes","Yes","No","Yes","No",2
-"749",43,"Male","United States","No","Sometimes","No","Yes","No","No","Yes",3
-"750",30,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","Yes",2
-"751",40,"Male","United States","Yes","Rarely","Yes","No","Don't know","Don't know","No",3
-"752",49,"Male","United States","Yes","Never","No","No","Yes","Yes","No",3
-"753",38,"Other","United States","No","Never","No","No","Yes","Yes","Yes",2
-"754",26,"Male","Belgium","No","Never","No","No","Yes","No","No",1
-"755",28,"Male","United Kingdom","Yes","Often","Yes","No","No","No","No",1
-"756",40,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No",3
-"757",37,"Female","Canada","Yes","Rarely","Yes","Yes","No","No","Yes",2
-"758",34,"Female","United Kingdom","Yes","Often","Yes","Yes","Yes","Yes","No",2
-"759",28,"Male","United States","Yes","Often","Yes","No","Don't know","Don't know","No",1
-"760",27,"Male","Canada","No","Never","No","No","Yes","No","No",1
-"761",29,"Male","United Kingdom","No","Sometimes","Yes","Yes","No","No","No",1
-"762",39,"Female","United Kingdom","Yes","Rarely","No","Yes","Don't know","No","Yes",2
-"763",28,"Male","United Kingdom","No","Often","No","No","No","No","No",1
-"764",23,"Male","United States","Yes","Sometimes","No","No","Yes","Yes","No",1
-"765",30,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",2
-"766",20,"Male","India","No","Sometimes","Yes","No","Don't know","No","No",1
-"767",35,"Male","United Kingdom","No","Sometimes","No","No","Don't know","Don't know","No",2
-"768",39,"Male","United States","No","Rarely","Yes","Yes","Yes","No","No",2
-"769",31,"Female","United States","Yes","Never","No","No","Yes","Don't know","No",2
-"770",32,"Male","United Kingdom","No","Rarely","No","No","No","No","No",2
-"771",25,"Male","United States","Yes","Often","Yes","Yes","Yes","Don't know","No",1
-"772",42,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",3
-"773",34,"Male","United States","Yes","Often","Yes","No","Yes","No","No",2
-"774",26,"Female","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","Yes",1
-"775",35,"Male","United Kingdom","Yes","Sometimes","Yes","No","No","No","Yes",2
-"776",34,"Male","United Kingdom","No","Never","No","No","Don't know","Don't know","No",2
-"777",38,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","No",2
-"778",34,"Male","United States","No","Sometimes","No","No","Don't know","No","No",2
-"779",39,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No",2
-"780",33,"Female","United States","No","Never","No","Yes","No","Don't know","No",2
-"781",24,"Female","United States","Yes","Sometimes","No","No","Yes","Don't know","Yes",1
-"782",38,"Female","United States","Yes","Sometimes","No","Yes","Don't know","Don't know","No",2
-"783",31,"Male","United States","No","Sometimes","No","No","Yes","Yes","No",2
-"784",46,"Other","United States","No","Often","Yes","No","Yes","Yes","Yes",3
-"785",30,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","No","No",2
-"786",25,"Male","United States","No","Rarely","No","Yes","Don't know","No","Yes",1
-"787",19,"Male","Canada","No","Never","No","Yes","Don't know","No","No",1
-"788",30,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes",2
-"789",32,"Male","United States","No","Never","No","No","Yes","Yes","No",2
-"790",37,"Male","United States","Yes","Sometimes","No","Yes","Don't know","No","No",2
-"791",42,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",3
-"792",25,"Female","United States","No","Never","No","No","Yes","Yes","No",1
-"793",19,"Male","United States","No","Sometimes","No","No","Don't know","No","No",1
-"794",40,"Female","United States","Yes","Never","No","Yes","Yes","No","No",3
-"795",31,"Male","United States","Yes","Rarely","Yes","No","Don't know","Don't know","No",2
-"796",40,"Male","United States","Yes","Sometimes","No","Yes","Yes","Don't know","No",3
-"797",31,"Female","United States","Yes","Often","Yes","No","No","No","Yes",2
-"798",36,"Male","United States","No","Never","No","No","Don't know","Don't know","Yes",2
-"799",35,"Male","Canada","Yes","Sometimes","No","Yes","No","No","No",2
-"800",26,"Male","Australia","Yes","Sometimes","Yes","Yes","No","No","No",1
-"801",34,"Female","United States","No","Sometimes","No","No","No","No","No",2
-"802",28,"Female","United States","Yes","Sometimes","Yes","Yes","Don't know","No","No",1
-"803",40,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","No",3
-"804",26,"Male","United States","No","Sometimes","Yes","No","Yes","No","No",1
-"805",29,"Female","United Kingdom","No","Often","Yes","No","Yes","No","Yes",1
-"806",26,"Female","Canada","Yes","Sometimes","Yes","No","Yes","No","No",1
-"807",33,"Other","Italy","Yes","Sometimes","Yes","No","No","No","No",2
-"808",28,"Male","Brazil","Yes","Sometimes","No","No","No","No","Yes",1
-"809",41,"Male","United States","No","Often","Yes","Yes","No","Yes","Yes",3
-"810",39,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","No","Yes","Yes",2
-"811",26,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","Yes",1
-"812",23,"Female","United States","Yes","Sometimes","No","No","No","No","No",1
-"813",35,"Male","Switzerland","Yes","Often","Yes","No","Don't know","No","No",2
-"814",36,"Male","United States","No","Never","No","Yes","Don't know","Don't know","No",2
-"815",42,"Male","United States","No","Rarely","No","No","Don't know","Don't know","No",3
-"816",39,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",2
-"817",27,"Male","United States","No","Never","No","No","Don't know","Don't know","No",1
-"818",33,"Male","United States","No","Never","No","Yes","Don't know","No","No",2
-"819",31,"Other","Canada","Yes","Often","Yes","No","Yes","Don't know","No",2
-"820",28,"Female","United States","No","Rarely","Yes","No","Yes","Yes","No",1
-"821",29,"Female","United States","No","Often","Yes","Yes","Yes","No","No",1
-"822",27,"Male","United States","No","Sometimes","Yes","No","Don't know","No","No",1
-"823",44,"Male","United States","No","Never","No","Yes","Don't know","No","No",3
-"824",25,"Male","United States","No","Often","Yes","Yes","Don't know","No","No",1
-"825",24,"Male","Germany","Yes","Sometimes","Yes","No","No","No","No",1
-"826",25,"Male","South Africa","Yes","Often","Yes","No","Don't know","No","Yes",1
-"827",34,"Male","United States","No","Never","No","Yes","Yes","Don't know","No",2
-"828",26,"Male","United States","No","Never","No","No","Yes","Don't know","No",1
-"829",48,"Male","United States","No","Never","No","No","Yes","Yes","No",3
-"830",39,"Female","United States","No","Sometimes","Yes","Yes","No","No","No",2
-"831",43,"Male","United States","No","Sometimes","No","Yes","Yes","Yes","No",3
-"832",41,"Male","United States","No","Rarely","No","No","Yes","Yes","Yes",3
-"833",25,"Male","United States","No","Never","No","No","Don't know","No","No",1
-"834",31,"Male","United States","No","Sometimes","Yes","No","Yes","No","No",2
-"835",40,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes",3
-"836",43,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Don't know","No",3
-"837",27,"Female","United States","Yes","Often","Yes","No","Yes","Yes","Yes",1
-"838",37,"Female","United States","Yes","Sometimes","Yes","Yes","Yes","Don't know","No",2
-"839",32,"Male","Netherlands","No","Sometimes","Yes","No","No","No","No",2
-"840",25,"Male","United States","Yes","Often","Yes","No","No","No","No",1
-"841",29,"Male","Netherlands","Yes","Often","Yes","No","Don't know","Yes","No",1
-"842",30,"Female","United States","Yes","Often","Yes","No","Yes","No","No",2
-"843",34,"Female","Canada","Yes","Often","Yes","No","Don't know","Don't know","No",2
-"844",32,"Male","United Kingdom","Yes","Sometimes","Yes","No","Yes","Yes","No",2
-"845",41,"Male","Germany","No","Sometimes","Yes","No","Don't know","No","No",3
-"846",38,"Male","United States","Yes","Never","No","No","Yes","Yes","No",2
-"847",32,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No",2
-"848",28,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",1
-"849",43,"Male","United States","Yes","Never","No","No","Yes","Don't know","No",3
-"850",32,"Male","United States","Yes","Often","Yes","No","No","No","No",2
-"851",25,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No",1
-"852",37,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No",2
-"853",36,"Male","United States","No","Sometimes","Yes","No","No","No","Yes",2
-"854",24,"Male","United States","Yes","Rarely","Yes","Yes","Don't know","No","No",1
-"855",40,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","Yes",3
-"856",43,"Male","United States","No","Never","No","No","Don't know","Don't know","No",3
-"857",26,"Male","United States","Yes","Sometimes","No","No","Don't know","No","No",1
-"858",33,"Female","Canada","Yes","Often","Yes","Yes","No","No","Yes",2
-"859",35,"Female","United States","Yes","Sometimes","No","Yes","Don't know","No","No",2
-"860",45,"Male","United States","No","Never","No","Yes","Yes","No","No",3
-"861",25,"Male","United States","No","Rarely","Yes","Yes","No","Don't know","No",1
-"862",50,"Male","France","No","Sometimes","Yes","Yes","No","No","No",4
-"863",26,"Male","Australia","Yes","Rarely","Yes","No","No","Don't know","No",1
-"864",33,"Female","United States","No","Often","Yes","No","Yes","Don't know","No",2
-"865",30,"Male","India","No","Often","No","No","No","No","No",2
-"866",33,"Male","Croatia","Yes","Sometimes","Yes","Yes","Yes","Don't know","No",2
-"867",29,"Male","France","No","Often","Yes","No","Yes","No","No",1
-"868",25,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"869",24,"Male","Canada","No","Sometimes","No","No","Yes","No","Yes",1
-"870",40,"Male","United Kingdom","No","Never","Yes","No","Don't know","Don't know","No",3
-"871",46,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No",3
-"872",38,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No",2
-"873",34,"Male","United States","No","Never","No","Yes","No","No","No",2
-"874",32,"Male","United Kingdom","No","Rarely","Yes","No","No","Yes","Yes",2
-"875",44,"Male","United Kingdom","No","Sometimes","Yes","No","No","Yes","No",3
-"876",33,"Female","United Kingdom","No","Never","Yes","No","Don't know","Don't know","No",2
-"877",45,"Female","United States","No","Rarely","Yes","No","Don't know","Don't know","No",3
-"878",26,"Male","Germany","Yes","Often","Yes","No","No","No","Yes",1
-"879",20,"Female","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"880",37,"Male","Netherlands","Yes","Sometimes","No","No","No","No","No",2
-"881",42,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No",3
-"882",36,"Female","United States","Yes","Rarely","Yes","Yes","Yes","No","No",2
-"883",27,"Male","New Zealand","No","Rarely","No","No","No","Yes","Yes",1
-"884",27,"Male","New Zealand","No","Rarely","No","No","No","Yes","Yes",1
-"885",27,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No",1
-"886",25,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","No","No","No",1
-"887",23,"Male","Germany","Yes","Sometimes","Yes","No","Don't know","No","No",1
-"888",21,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","Don't know","No",1
-"889",26,"Male","Moldova","No","Often","Yes","No","No","No","No",1
-"890",29,"Male","Sweden","No","Rarely","No","No","Don't know","Don't know","Yes",1
-"891",28,"Male","Belgium","No","Sometimes","No","No","No","No","Yes",1
-"892",23,"Male","Israel","No","Never","No","No","No","Yes","No",1
-"893",26,"Female","United States","Yes","Sometimes","No","Yes","Don't know","No","No",1
-"894",38,"Male","United Kingdom","Yes","Sometimes","Yes","No","No","Don't know","No",2
-"895",39,"Male","United Kingdom","Yes","Sometimes","Yes","No","No","No","No",2
-"896",35,"Male","United States","Yes","Often","Yes","No","Yes","Yes","No",2
-"897",32,"Male","United States","No","Rarely","No","No","Yes","Don't know","No",2
-"898",32,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","Yes",2
-"899",26,"Male","United Kingdom","No","Never","No","No","No","No","No",1
-"900",38,"Male","Canada","Yes","Rarely","Yes","No","Don't know","Don't know","No",2
-"901",34,"Female","United Kingdom","Yes","Rarely","No","No","Yes","Yes","No",2
-"902",39,"Male","United States","Yes","Often","Yes","No","Don't know","No","No",2
-"903",32,"Male","Canada","No","Never","No","Yes","Don't know","No","No",2
-"904",37,"Male","Netherlands","No","Never","No","Yes","Don't know","Don't know","No",2
-"905",31,"Male","United Kingdom","Yes","Never","Yes","No","Don't know","Don't know","No",2
-"906",30,"Male","United States","Yes","Rarely","Yes","No","No","No","No",2
-"907",51,"Male","Singapore","No","Never","No","Yes","Don't know","Don't know","No",4
-"908",29,"Male","United States","No","Sometimes","Yes","No","Yes","No","No",1
-"909",31,"Male","United Kingdom","No","Never","No","No","Yes","Yes","No",2
-"910",26,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",1
-"911",46,"Female","United States","No","Often","Yes","Yes","Yes","No","No",3
-"912",32,"Male","United States","Yes","Sometimes","No","No","Yes","Don't know","No",2
-"913",29,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",1
-"914",34,"Male","Poland","No","Never","No","Yes","Don't know","No","No",2
-"915",26,"Male","Colombia","No","Often","No","No","No","No","No",1
-"916",32,"Female","United States","No","Sometimes","Yes","No","Yes","Don't know","No",2
-"917",40,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes",3
-"918",23,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","Yes",1
-"919",20,"Male","Georgia","No","Rarely","No","No","No","No","No",1
-"920",26,"Female","United States","Yes","Rarely","Yes","No","Yes","No","No",1
-"921",29,"Male","United States","No","Never","No","No","No","Don't know","Yes",1
-"922",40,"Male","China","No","Sometimes","No","Yes","No","No","No",3
-"923",25,"Female","Bulgaria","No","Sometimes","Yes","Yes","No","No","No",1
-"924",32,"Other","United States","No","Sometimes","Yes","No","Yes","No","No",2
-"925",38,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes",2
-"926",72,"Female","United States","Yes","Never","Yes","Yes","Yes","Yes","Yes",6
-"927",35,"Female","United States","Yes","Sometimes","Yes","Yes","No","No","No",2
-"928",28,"Female","United States","No","Often","Yes","No","No","No","No",1
-"929",27,"Other","United States","No","Never","No","No","Don't know","Don't know","No",1
-"930",56,"Female","United States","No","Rarely","No","Yes","Don't know","Don't know","No",4
-"931",38,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","No","No",2
-"932",40,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",3
-"933",44,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No",3
-"934",34,"Male","Canada","Yes","Sometimes","No","No","Yes","Yes","No",2
-"935",37,"Male","United Kingdom","No","Never","No","Yes","Don't know","No","No",2
-"936",38,"Male","Italy","No","Never","No","No","Don't know","Don't know","No",2
-"937",34,"Female","Ireland","No","Sometimes","Yes","No","Yes","No","No",2
-"938",35,"Female","Ireland","No","Rarely","No","No","Don't know","No","No",2
-"939",34,"Male","Ireland","No","Often","Yes","No","No","No","No",2
-"940",32,"Male","United States","No","Often","Yes","Yes","Yes","Don't know","No",2
-"941",28,"Male","Australia","No","Often","Yes","Yes","No","No","No",1
-"942",28,"Female","United States","No","Rarely","Yes","No","Yes","No","Yes",1
-"943",34,"Male","Ireland","Yes","Never","Yes","Yes","No","No","No",2
-"944",32,"Male","Ireland","No","Sometimes","Yes","No","No","No","No",2
-"945",34,"Male","United Kingdom","Yes","Often","No","Yes","Don't know","No","No",2
-"946",23,"Male","United States","No","Sometimes","Yes","No","No","No","No",1
-"947",33,"Male","Czech Republic","Yes","Often","No","No","No","No","Yes",2
-"948",29,"Male","Singapore","Yes","Sometimes","Yes","No","Don't know","No","No",1
-"949",45,"Male","Ireland","No","Never","No","Yes","Don't know","No","Yes",3
-"950",34,"Female","United Kingdom","No","Sometimes","Yes","No","No","Yes","Yes",2
-"951",31,"Male","Philippines","No","Sometimes","No","No","Don't know","No","Yes",2
-"952",33,"Male","United States","No","Often","Yes","Yes","Yes","No","No",2
-"953",27,"Male","United Kingdom","No","Rarely","No","Yes","Don't know","Yes","No",1
-"954",42,"Male","Ireland","No","Never","No","No","No","No","No",3
-"955",38,"Male","United States","No","Sometimes","Yes","Yes","Yes","Yes","No",2
-"956",46,"Male","United States","Yes","Often","Yes","No","Don't know","No","No",3
-"957",46,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No",3
-"958",41,"Female","Netherlands","No","Rarely","Yes","Yes","Don't know","Yes","No",3
-"959",23,"Other","United Kingdom","No","Never","No","No","Don't know","No","Yes",1
-"960",24,"Male","Ireland","Yes","Sometimes","Yes","No","Yes","Yes","Yes",1
-"961",23,"Female","Ireland","No","Rarely","Yes","No","No","No","No",1
-"962",32,"Female","Ireland","Yes","Never","No","No","Yes","Yes","No",2
-"963",25,"Male","United States","Yes","Sometimes","Yes","No","Don't know","No","No",1
-"964",23,"Female","United Kingdom","Yes","Sometimes","Yes","No","No","Yes","No",1
-"965",24,"Other","United Kingdom","No","Sometimes","Yes","Yes","No","No","Yes",1
-"966",25,"Male","United Kingdom","Yes","Sometimes","Yes","No","Yes","Yes","No",1
-"967",23,"Male","United Kingdom","No","Rarely","Yes","No","No","No","No",1
-"968",24,"Other","United Kingdom","No","Sometimes","Yes","No","Don't know","Don't know","No",1
-"969",23,"Male","Canada","No","Often","Yes","No","Yes","Don't know","No",1
-"970",60,"Male","United States","No","Often","Yes","Yes","Don't know","Don't know","No",5
-"971",28,"Male","Ireland","No","Sometimes","No","No","No","No","Yes",1
-"972",28,"Male","United States","Yes","Often","Yes","No","Yes","Yes","Yes",1
-"973",30,"Male","Netherlands","No","Sometimes","No","No","Don't know","No","No",2
-"974",31,"Male","Germany","Yes","Sometimes","Yes","No","Don't know","No","No",2
-"975",31,"Male","Poland","No","Often","Yes","Yes","No","No","No",2
-"976",28,"Male","Ireland","No","Rarely","Yes","No","Don't know","Don't know","No",1
-"977",43,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Yes","No",3
-"978",22,"Male","Australia","Yes","Often","Yes","No","Yes","Yes","Yes",1
-"979",32,"Male","United States","No","Never","No","No","Yes","Yes","No",2
-"980",36,"Male","Finland","No","Often","Yes","No","No","No","Yes",2
-"981",41,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No",3
-"982",30,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",2
-"983",30,"Male","United States","Yes","Often","Yes","No","Yes","Yes","No",2
-"984",36,"Male","South Africa","Yes","Often","Yes","No","No","No","No",2
-"985",29,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","No","No",1
-"986",36,"Male","United States","Yes","Rarely","No","No","Don't know","Yes","No",2
-"987",32,"Male","United States","Yes","Often","Yes","Yes","Yes","No","No",2
-"988",34,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",2
-"989",25,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No",1
+"1",37,"Female","United States","No","Often","Yes","No","Yes","Yes","No","31-40"
+"2",44,"Male","United States","No","Rarely","No","No","Don't know","Don't know","No","41-50"
+"3",32,"Male","Canada","No","Rarely","No","No","No","No","No","31-40"
+"4",31,"Male","United Kingdom","Yes","Often","Yes","No","No","No","Yes","31-40"
+"5",31,"Male","United States","No","Never","No","Yes","Yes","Don't know","No","31-40"
+"6",33,"Male","United States","Yes","Sometimes","No","No","Yes","Don't know","No","31-40"
+"7",35,"Female","United States","Yes","Sometimes","Yes","Yes","No","No","No","31-40"
+"8",39,"Male","Canada","No","Never","No","Yes","No","No","No","31-40"
+"9",42,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No","41-50"
+"10",23,"Male","Canada","No","Never","No","No","Don't know","Don't know","No","18-30"
+"11",31,"Male","United States","No","Sometimes","Yes","Yes","Don't know","No","No","31-40"
+"12",29,"Male","Bulgaria","No","Never","No","Yes","Don't know","No","No","18-30"
+"13",42,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","Yes","41-50"
+"14",36,"Male","United States","Yes","Never","No","No","Don't know","Don't know","No","31-40"
+"15",27,"Male","Canada","No","Never","No","No","Don't know","Don't know","No","18-30"
+"16",29,"Female","United States","Yes","Rarely","Yes","No","Yes","No","No","18-30"
+"17",23,"Male","United Kingdom","No","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"18",32,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"19",46,"Male","United States","Yes","Sometimes","No","Yes","Yes","Don't know","Yes","41-50"
+"20",29,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"21",31,"Male","United States","No","Never","No","Yes","No","No","No","31-40"
+"22",46,"Male","United States","No","Often","Yes","Yes","Yes","No","No","41-50"
+"23",41,"Male","United States","No","Never","Yes","No","Don't know","Don't know","No","41-50"
+"24",33,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No","31-40"
+"25",35,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"26",35,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No","31-40"
+"27",34,"Male","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No","31-40"
+"28",37,"Male","United Kingdom","No","Sometimes","No","No","No","No","No","31-40"
+"29",32,"Male","United Kingdom","No","Never","No","Yes","No","No","No","31-40"
+"30",31,"Male","United States","Yes","Rarely","No","Yes","No","No","Yes","31-40"
+"31",30,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","Don't know","No","No","31-40"
+"32",42,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","No","41-50"
+"33",40,"Female","United States","No","Sometimes","Yes","No","Yes","No","No","41-50"
+"34",27,"Male","United States","No","Rarely","Yes","No","No","No","No","18-30"
+"35",29,"Male","Canada","No","Rarely","No","No","No","No","No","18-30"
+"36",35,"Male","United States","No","Rarely","Yes","Yes","Yes","Yes","No","31-40"
+"37",24,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","Yes","18-30"
+"38",27,"Male","Canada","Yes","Sometimes","Yes","No","No","No","No","18-30"
+"39",18,"Male","Netherlands","No","Often","No","No","No","No","No","18-30"
+"40",30,"Male","United States","No","Sometimes","Yes","No","Don't know","No","No","31-40"
+"41",38,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"42",26,"Male","Canada","No","Sometimes","No","No","No","No","No","18-30"
+"43",30,"Male","United States","Yes","Rarely","Yes","No","Yes","Don't know","No","31-40"
+"44",22,"Male","United States","Yes","Often","Yes","No","No","No","No","18-30"
+"45",32,"Male","United States","No","Never","No","Yes","Don't know","No","No","31-40"
+"46",27,"Other","United States","Yes","Rarely","Yes","No","Yes","No","No","18-30"
+"47",24,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","No","No","18-30"
+"48",33,"Male","Canada","Yes","Often","Yes","Yes","Don't know","No","No","31-40"
+"49",44,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","Yes","41-50"
+"50",26,"Female","Poland","No","Sometimes","Yes","Yes","Don't know","Yes","No","18-30"
+"51",27,"Male","United Kingdom","No","Never","No","No","Yes","Yes","No","18-30"
+"52",35,"Male","Canada","No","Sometimes","No","No","Don't know","No","No","31-40"
+"53",40,"Male","United States","Yes","Sometimes","No","Yes","Yes","Yes","Yes","41-50"
+"54",23,"Female","Australia","Yes","Often","Yes","Yes","No","No","No","18-30"
+"55",36,"Male","United States","No","Sometimes","No","Yes","Yes","Yes","No","31-40"
+"56",34,"Male","United States","No","Rarely","No","Yes","No","No","No","31-40"
+"57",28,"Male","France","No","Never","No","No","No","No","No","18-30"
+"58",34,"Male","Canada","No","Never","No","No","Don't know","Don't know","No","31-40"
+"59",23,"Other","United States","No","Rarely","No","No","Yes","No","No","18-30"
+"60",33,"Male","United States","No","Never","No","No","Don't know","Don't know","No","31-40"
+"61",31,"Male","United States","Yes","Sometimes","No","Yes","No","No","No","31-40"
+"62",32,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No","31-40"
+"63",28,"Male","Germany","No","Never","No","Yes","Don't know","Don't know","No","18-30"
+"64",38,"Male","United States","Yes","Sometimes","No","Yes","Yes","Yes","No","31-40"
+"65",23,"Male","United Kingdom","No","Never","No","No","Yes","Don't know","No","18-30"
+"66",30,"Male","Canada","No","Never","No","No","No","No","No","31-40"
+"67",27,"Other","United States","No","Often","Yes","Yes","Yes","Yes","No","18-30"
+"68",33,"Male","United States","Yes","Never","No","No","No","No","No","31-40"
+"69",39,"Male","United Kingdom","No","Often","Yes","No","No","No","Yes","31-40"
+"70",34,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No","31-40"
+"71",29,"Female","United States","No","Sometimes","Yes","No","Yes","No","Yes","18-30"
+"72",31,"Male","United States","No","Never","No","No","Yes","Yes","No","31-40"
+"73",40,"Male","United States","No","Sometimes","Yes","No","No","No","No","41-50"
+"74",25,"Female","Canada","No","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"75",29,"Male","United States","No","Never","No","No","Don't know","Don't know","No","18-30"
+"76",24,"Male","United States","Yes","Rarely","No","No","Don't know","Don't know","No","18-30"
+"77",31,"Male","Mexico","Yes","Sometimes","Yes","No","Don't know","No","No","31-40"
+"78",33,"Other","United States","No","Sometimes","Yes","No","No","No","No","31-40"
+"79",30,"Male","United States","No","Often","Yes","No","No","No","No","31-40"
+"80",26,"Female","Canada","Yes","Sometimes","Yes","No","No","No","Yes","18-30"
+"81",44,"Female","United States","No","Never","No","No","Yes","Don't know","No","41-50"
+"82",33,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","No","31-40"
+"83",29,"Male","United States","No","Never","No","No","Yes","Don't know","No","18-30"
+"84",35,"Male","United States","Yes","Rarely","No","No","Yes","No","No","31-40"
+"85",35,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","No","No","31-40"
+"86",28,"Male","Brazil","Yes","Rarely","Yes","No","No","No","Yes","18-30"
+"87",34,"Male","United States","Yes","Never","No","Yes","Yes","No","No","31-40"
+"88",32,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"89",22,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"90",28,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No","18-30"
+"91",45,"Male","United States","Yes","Rarely","Yes","Yes","Yes","Yes","No","41-50"
+"92",32,"Male","United States","No","Never","No","No","Yes","Don't know","No","31-40"
+"93",26,"Male","United Kingdom","No","Never","No","No","Don't know","Don't know","Yes","18-30"
+"94",21,"Male","United Kingdom","No","Often","No","Yes","No","No","No","18-30"
+"95",27,"Male","Canada","No","Rarely","No","No","Yes","Yes","No","18-30"
+"96",18,"Male","United States","No","Rarely","Yes","Yes","No","No","No","18-30"
+"97",29,"Male","United States","No","Never","No","No","Yes","Yes","No","18-30"
+"98",33,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","31-40"
+"99",36,"Male","United States","No","Often","No","No","Yes","No","No","31-40"
+"100",27,"Male","Canada","No","Never","Yes","No","Yes","No","Yes","18-30"
+"101",27,"Male","United States","Yes","Never","No","No","Yes","Yes","No","18-30"
+"102",32,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No","31-40"
+"103",31,"Male","United Kingdom","Yes","Sometimes","No","No","No","No","No","31-40"
+"104",19,"Male","Slovenia","No","Sometimes","Yes","No","Don't know","No","No","18-30"
+"105",33,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","31-40"
+"106",32,"Male","United States","No","Rarely","No","Yes","No","No","No","31-40"
+"107",27,"Male","United States","No","Never","No","No","Don't know","Don't know","No","18-30"
+"108",24,"Male","Canada","No","Never","Yes","No","Don't know","No","No","18-30"
+"109",39,"Male","United Kingdom","No","Never","No","No","No","No","No","31-40"
+"110",28,"Male","United Kingdom","No","Never","No","No","Don't know","No","No","18-30"
+"111",39,"Male","United States","No","Often","Yes","No","Yes","No","No","31-40"
+"112",38,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No","31-40"
+"113",37,"Male","United Kingdom","No","Sometimes","Yes","No","No","Yes","No","31-40"
+"114",35,"Male","United States","No","Never","No","Yes","Don't know","Don't know","No","31-40"
+"115",37,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No","31-40"
+"116",24,"Male","United Kingdom","No","Never","No","No","No","No","No","18-30"
+"117",23,"Male","United States","No","Sometimes","No","No","No","No","No","18-30"
+"118",30,"Male","Ireland","No","Rarely","Yes","No","No","Yes","Yes","31-40"
+"119",32,"Male","United States","Yes","Never","No","No","Don't know","No","No","31-40"
+"120",28,"Male","Poland","No","Rarely","No","Yes","No","No","No","18-30"
+"121",36,"Male","United States","No","Never","No","No","Don't know","Don't know","No","31-40"
+"122",37,"Male","United Kingdom","Yes","Rarely","Yes","No","Yes","Yes","Yes","31-40"
+"123",25,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"124",27,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"125",26,"Male","United States","No","Often","No","No","Don't know","No","No","18-30"
+"126",27,"Male","United States","No","Rarely","Yes","Yes","No","No","Yes","18-30"
+"127",25,"Male","United States","Yes","Sometimes","Yes","No","Don't know","No","Yes","18-30"
+"128",36,"Male","United Kingdom","No","Sometimes","Yes","No","Yes","Yes","Yes","31-40"
+"129",25,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"130",31,"Male","United States","No","Never","No","No","Yes","Yes","No","31-40"
+"131",26,"Male","United States","Yes","Rarely","No","No","Don't know","No","No","18-30"
+"132",33,"Female","United States","Yes","Sometimes","Yes","No","No","Yes","No","31-40"
+"133",34,"Male","United States","No","Never","No","No","No","No","No","31-40"
+"134",23,"Male","Ireland","Yes","Sometimes","No","No","No","No","No","18-30"
+"135",24,"Male","United Kingdom","No","Rarely","No","No","Don't know","Don't know","No","18-30"
+"136",26,"Male","United Kingdom","No","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"137",31,"Male","United Kingdom","No","Often","Yes","No","Don't know","No","No","31-40"
+"138",22,"Male","India","No","Never","Yes","No","Don't know","No","No","18-30"
+"139",34,"Female","Canada","Yes","Sometimes","Yes","No","Yes","No","No","31-40"
+"140",31,"Male","United States","No","Never","No","No","Don't know","Don't know","No","31-40"
+"141",32,"Female","United States","No","Often","Yes","Yes","Yes","Don't know","Yes","31-40"
+"142",45,"Female","United States","No","Sometimes","Yes","No","Yes","No","No","41-50"
+"143",29,"Male","Mexico","No","Never","No","Yes","No","No","No","18-30"
+"144",26,"Female","India","No","Sometimes","No","No","No","No","No","18-30"
+"145",28,"Female","United Kingdom","No","Never","No","No","Don't know","Don't know","No","18-30"
+"146",45,"Male","United States","No","Sometimes","Yes","No","Don't know","Don't know","No","41-50"
+"147",43,"Male","United States","Yes","Often","Yes","Yes","Yes","Don't know","No","41-50"
+"148",24,"Male","United Kingdom","No","Sometimes","No","No","Don't know","Don't know","No","18-30"
+"149",35,"Female","United States","Yes","Never","Yes","No","Yes","No","No","31-40"
+"150",38,"Female","South Africa","Yes","Often","Yes","Yes","No","No","Yes","31-40"
+"151",28,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"152",28,"Male","Russia","No","Sometimes","No","No","No","No","No","18-30"
+"153",35,"Male","United States","No","Rarely","Yes","No","No","No","No","31-40"
+"154",32,"Female","Germany","No","Sometimes","No","No","No","No","Yes","31-40"
+"155",31,"Male","Italy","Yes","Never","No","No","No","No","No","31-40"
+"156",35,"Female","United States","No","Never","No","Yes","Don't know","No","No","31-40"
+"157",26,"Male","United States","No","Rarely","No","No","Yes","No","No","18-30"
+"158",28,"Male","United Kingdom","Yes","Sometimes","Yes","No","Don't know","No","No","18-30"
+"159",27,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"160",34,"Female","United States","No","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"161",41,"Male","United States","No","Often","Yes","Yes","No","No","No","41-50"
+"162",37,"Male","Ireland","No","Sometimes","No","No","No","No","No","31-40"
+"163",32,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","Don't know","No","Yes","31-40"
+"164",21,"Male","Canada","No","Sometimes","Yes","Yes","No","No","No","18-30"
+"165",30,"Male","United States","No","Often","Yes","No","No","No","No","31-40"
+"166",24,"Male","United States","No","Never","No","No","Don't know","Don't know","No","18-30"
+"167",37,"Male","United Kingdom","Yes","Sometimes","No","No","No","No","No","31-40"
+"168",26,"Male","United Kingdom","No","Often","Yes","Yes","No","No","No","18-30"
+"169",32,"Female","United States","Yes","Sometimes","Yes","No","Don't know","No","Yes","31-40"
+"170",32,"Female","United States","No","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"171",27,"Female","United States","Yes","Sometimes","Yes","Yes","No","Don't know","No","18-30"
+"172",30,"Male","Germany","No","Often","Yes","Yes","Yes","No","No","31-40"
+"173",29,"Female","United States","No","Never","Yes","No","Yes","Don't know","No","18-30"
+"174",28,"Male","United States","No","Rarely","No","No","Don't know","No","No","18-30"
+"175",28,"Male","United States","No","Sometimes","Yes","No","No","No","No","18-30"
+"176",23,"Male","United States","No","Never","No","No","Don't know","Don't know","No","18-30"
+"177",32,"Male","United States","No","Rarely","No","Yes","No","No","No","31-40"
+"178",34,"Male","Australia","No","Sometimes","No","Yes","Don't know","Yes","No","31-40"
+"179",24,"Male","United States","No","Never","No","No","Yes","Don't know","No","18-30"
+"180",26,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No","18-30"
+"181",36,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","Yes","31-40"
+"182",41,"Male","United States","No","Rarely","Yes","Yes","Yes","Don't know","No","41-50"
+"183",38,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","Don't know","No","31-40"
+"184",38,"Male","United States","No","Sometimes","No","Yes","Don't know","Don't know","No","31-40"
+"185",25,"Male","United Kingdom","No","Never","No","No","No","No","No","18-30"
+"186",37,"Male","Canada","Yes","Often","Yes","No","Yes","Don't know","No","31-40"
+"187",37,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"188",28,"Female","Canada","Yes","Sometimes","Yes","No","Yes","Yes","Yes","18-30"
+"189",34,"Male","United States","Yes","Sometimes","Yes","No","No","No","Yes","31-40"
+"190",33,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"191",27,"Male","United States","No","Never","No","Yes","Yes","Don't know","No","18-30"
+"192",40,"Male","United States","No","Sometimes","Yes","Yes","Yes","Yes","Yes","41-50"
+"193",21,"Male","United States","No","Often","Yes","No","Don't know","Don't know","No","18-30"
+"194",32,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No","31-40"
+"195",29,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No","18-30"
+"196",23,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"197",31,"Male","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No","31-40"
+"198",24,"Male","United States","No","Sometimes","No","No","Don't know","Don't know","No","18-30"
+"199",29,"Male","Canada","No","Often","No","No","No","No","No","18-30"
+"200",23,"Female","United Kingdom","No","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"201",42,"Male","United States","No","Never","No","Yes","No","Yes","No","41-50"
+"202",25,"Male","Australia","Yes","Often","Yes","No","No","No","Yes","18-30"
+"203",27,"Female","United States","No","Rarely","Yes","No","Yes","No","No","18-30"
+"204",27,"Male","Canada","No","Sometimes","No","Yes","No","No","No","18-30"
+"205",30,"Male","United States","No","Sometimes","Yes","Yes","Yes","Yes","No","31-40"
+"206",29,"Male","Poland","Yes","Rarely","Yes","No","No","No","No","18-30"
+"207",41,"Male","United States","No","Sometimes","Yes","Yes","Yes","No","No","41-50"
+"208",32,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","Don't know","Don't know","Yes","31-40"
+"209",37,"Female","United States","Yes","Often","Yes","No","Yes","No","No","31-40"
+"210",32,"Male","United States","No","Never","No","Yes","No","No","No","31-40"
+"211",30,"Male","Ireland","No","Sometimes","No","Yes","No","No","No","31-40"
+"212",23,"Female","United States","Yes","Never","Yes","No","Yes","Don't know","No","18-30"
+"213",34,"Male","United Kingdom","No","Sometimes","No","No","No","No","No","31-40"
+"214",38,"Male","United States","No","Rarely","Yes","Yes","Yes","No","No","31-40"
+"215",28,"Male","Colombia","No","Sometimes","No","No","No","No","No","18-30"
+"216",28,"Male","United States","No","Rarely","Yes","No","Yes","Don't know","No","18-30"
+"217",23,"Male","United States","Yes","Sometimes","No","No","Don't know","Don't know","No","18-30"
+"218",22,"Male","Australia","Yes","Sometimes","Yes","Yes","Don't know","Yes","Yes","18-30"
+"219",27,"Male","Portugal","No","Never","No","No","No","No","No","18-30"
+"220",18,"Male","United States","No","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"221",35,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","31-40"
+"222",27,"Male","United Kingdom","Yes","Sometimes","Yes","No","No","No","No","18-30"
+"223",26,"Female","United States","Yes","Rarely","Yes","No","Yes","Don't know","No","18-30"
+"224",18,"Male","United States","No","Never","No","No","Don't know","Don't know","No","18-30"
+"225",38,"Female","United States","No","Sometimes","Yes","No","No","No","Yes","31-40"
+"226",26,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No","18-30"
+"227",30,"Male","Switzerland","No","Never","No","No","No","No","No","31-40"
+"228",35,"Male","United States","No","Never","No","No","Don't know","Don't know","No","31-40"
+"229",45,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","41-50"
+"230",32,"Male","United States","No","Never","No","No","Yes","Don't know","No","31-40"
+"231",56,"Male","United States","No","Never","Yes","No","Yes","Don't know","No","51-60"
+"232",30,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"233",33,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"234",37,"Male","United States","No","Never","No","No","Yes","Yes","No","31-40"
+"235",23,"Female","United States","No","Sometimes","Yes","No","Yes","Yes","No","18-30"
+"236",31,"Female","United States","No","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"237",26,"Male","United States","No","Rarely","No","No","Yes","Don't know","No","18-30"
+"238",28,"Female","United States","Yes","Often","Yes","Yes","Yes","Yes","No","18-30"
+"239",37,"Female","United States","No","Rarely","Yes","No","Yes","Yes","No","31-40"
+"240",26,"Male","Canada","Yes","Often","Yes","No","Yes","Don't know","No","18-30"
+"241",30,"Other","United States","Yes","Rarely","Yes","No","Yes","No","No","31-40"
+"242",27,"Male","United States","No","Sometimes","No","No","Yes","Yes","No","18-30"
+"243",25,"Male","Canada","No","Often","Yes","Yes","Don't know","Don't know","No","18-30"
+"244",35,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No","31-40"
+"245",36,"Male","United States","No","Never","Yes","No","No","No","No","31-40"
+"246",26,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"247",25,"Male","United States","No","Never","No","No","Yes","Yes","No","18-30"
+"248",22,"Female","United States","Yes","Often","Yes","No","Yes","Yes","Yes","18-30"
+"249",41,"Male","United States","Yes","Rarely","Yes","Yes","Yes","Yes","No","41-50"
+"250",29,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"251",32,"Male","United States","No","Never","No","No","Yes","Yes","No","31-40"
+"252",24,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","18-30"
+"253",25,"Male","United States","No","Rarely","Yes","No","Yes","No","No","18-30"
+"254",30,"Female","United States","No","Never","No","No","Yes","Yes","No","31-40"
+"255",25,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Yes","No","18-30"
+"256",30,"Male","United States","No","Never","No","Yes","No","No","No","31-40"
+"257",33,"Male","Germany","Yes","Rarely","Yes","No","No","No","Yes","31-40"
+"258",25,"Male","Canada","Yes","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"259",45,"Male","Ireland","No","Often","Yes","No","No","No","No","41-50"
+"260",46,"Male","United States","No","Never","No","No","Yes","Don't know","No","41-50"
+"261",30,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","Don't know","No","31-40"
+"262",29,"Female","United States","No","Sometimes","No","No","Yes","No","No","18-30"
+"263",33,"Female","United States","Yes","Sometimes","No","Yes","No","No","No","31-40"
+"264",27,"Male","United States","No","Sometimes","No","No","Don't know","Don't know","No","18-30"
+"265",33,"Male","United Kingdom","No","Rarely","No","Yes","Don't know","No","No","31-40"
+"266",25,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"267",23,"Male","United States","Yes","Sometimes","Yes","No","Don't know","No","No","18-30"
+"268",54,"Male","United States","Yes","Never","Yes","No","Don't know","Yes","No","51-60"
+"269",22,"Male","United States","No","Sometimes","No","No","Don't know","Don't know","No","18-30"
+"270",25,"Other","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"271",29,"Male","Belgium","No","Often","No","No","Don't know","No","No","18-30"
+"272",27,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No","18-30"
+"273",30,"Male","United Kingdom","No","Never","No","No","No","Don't know","No","31-40"
+"274",26,"Male","United States","Yes","Often","Yes","No","Yes","Yes","No","18-30"
+"275",25,"Female","Sweden","Yes","Sometimes","No","No","Yes","No","No","18-30"
+"276",31,"Male","United States","No","Sometimes","Yes","No","No","Don't know","No","31-40"
+"277",33,"Male","United States","Yes","Sometimes","Yes","No","Don't know","No","No","31-40"
+"278",34,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"279",34,"Male","United States","No","Sometimes","Yes","Yes","No","No","No","31-40"
+"280",34,"Male","Germany","Yes","Rarely","Yes","Yes","No","Don't know","No","31-40"
+"281",26,"Male","United States","Yes","Rarely","Yes","Yes","No","Don't know","No","18-30"
+"282",32,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No","31-40"
+"283",28,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"284",36,"Male","United States","Yes","Often","Yes","No","No","No","No","31-40"
+"285",21,"Male","United States","Yes","Rarely","Yes","No","Yes","Don't know","No","18-30"
+"286",21,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","No","No","18-30"
+"287",41,"Male","United States","Yes","Often","Yes","No","Yes","Yes","Yes","41-50"
+"288",55,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No","51-60"
+"289",32,"Female","United States","No","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"290",21,"Female","United States","Yes","Rarely","Yes","No","Don't know","No","No","18-30"
+"291",45,"Male","United States","No","Never","Yes","Yes","Yes","Don't know","No","41-50"
+"292",27,"Female","United States","No","Rarely","Yes","No","Yes","No","No","18-30"
+"293",25,"Female","United States","Yes","Sometimes","Yes","Yes","Don't know","No","No","18-30"
+"294",34,"Other","United States","Yes","Rarely","Yes","No","Yes","Yes","No","31-40"
+"295",26,"Female","United States","Yes","Never","Yes","No","Yes","Yes","No","18-30"
+"296",41,"Male","Canada","No","Never","Yes","No","Yes","Don't know","No","41-50"
+"297",27,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No","18-30"
+"298",31,"Other","United States","Yes","Sometimes","Yes","Yes","Yes","No","No","31-40"
+"299",25,"Male","Germany","Yes","Often","Yes","Yes","No","No","No","18-30"
+"300",26,"Male","United States","No","Sometimes","Yes","No","Don't know","No","No","18-30"
+"301",27,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Don't know","No","18-30"
+"302",42,"Male","New Zealand","No","Never","No","No","Don't know","No","No","41-50"
+"303",29,"Other","United States","Yes","Sometimes","Yes","Yes","Yes","No","No","18-30"
+"304",25,"Female","United States","No","Sometimes","Yes","No","Don't know","No","No","18-30"
+"305",33,"Female","Sweden","Yes","Rarely","Yes","No","Yes","Yes","No","31-40"
+"306",40,"Female","United States","Yes","Rarely","Yes","No","Yes","Don't know","No","41-50"
+"307",31,"Male","United States","No","Never","No","No","Don't know","Don't know","No","31-40"
+"308",26,"Male","Canada","Yes","Often","Yes","Yes","Don't know","Don't know","No","18-30"
+"309",29,"Male","United States","No","Never","No","No","Yes","Don't know","No","18-30"
+"310",35,"Male","United Kingdom","No","Sometimes","No","No","No","No","Yes","31-40"
+"311",32,"Female","United States","No","Never","No","No","Don't know","No","No","31-40"
+"312",29,"Male","Canada","No","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"313",26,"Male","United States","Yes","Often","Yes","No","Yes","No","No","18-30"
+"314",28,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"315",35,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","Yes","31-40"
+"316",29,"Male","Germany","Yes","Sometimes","Yes","No","Don't know","No","No","18-30"
+"317",33,"Male","United States","Yes","Never","Yes","Yes","Yes","Yes","No","31-40"
+"318",22,"Male","Brazil","No","Never","No","Yes","Don't know","No","No","18-30"
+"319",33,"Male","United States","Yes","Often","Yes","Yes","Yes","No","No","31-40"
+"320",31,"Female","United States","Yes","Rarely","Yes","No","Don't know","Don't know","No","31-40"
+"321",21,"Male","United States","Yes","Never","No","No","Don't know","Don't know","Yes","18-30"
+"322",31,"Other","United Kingdom","Yes","Sometimes","Yes","No","Don't know","No","No","31-40"
+"323",26,"Female","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"324",30,"Male","United States","Yes","Often","No","No","Don't know","Don't know","No","31-40"
+"325",30,"Other","Germany","Yes","Sometimes","Yes","No","Don't know","No","No","31-40"
+"326",34,"Male","Finland","No","Never","No","No","No","No","No","31-40"
+"327",55,"Male","United States","Yes","Sometimes","Yes","Yes","No","Don't know","Yes","51-60"
+"328",28,"Male","Germany","Yes","Rarely","Yes","Yes","Yes","No","No","18-30"
+"329",28,"Male","New Zealand","Yes","Sometimes","Yes","Yes","Yes","No","No","18-30"
+"330",32,"Male","United Kingdom","Yes","Sometimes","Yes","No","No","Don't know","No","31-40"
+"331",28,"Female","United States","No","Rarely","Yes","No","Yes","Don't know","No","18-30"
+"332",21,"Male","United States","No","Sometimes","No","No","Don't know","Yes","No","18-30"
+"333",24,"Male","United States","Yes","Sometimes","Yes","No","No","No","Yes","18-30"
+"334",28,"Male","Canada","No","Never","No","Yes","Don't know","No","No","18-30"
+"335",24,"Female","United States","Yes","Rarely","Yes","No","No","No","No","18-30"
+"336",33,"Male","United States","No","Often","Yes","Yes","No","No","No","31-40"
+"337",34,"Male","United States","No","Sometimes","No","No","Don't know","No","No","31-40"
+"338",27,"Female","United States","No","Sometimes","Yes","No","Don't know","No","No","18-30"
+"339",28,"Male","United States","No","Never","No","No","Don't know","Don't know","No","18-30"
+"340",23,"Female","United States","No","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"341",29,"Male","United States","Yes","Rarely","Yes","Yes","Yes","Yes","No","18-30"
+"342",26,"Male","United Kingdom","Yes","Sometimes","No","No","No","No","No","18-30"
+"343",36,"Male","United States","No","Rarely","No","Yes","Yes","Don't know","No","31-40"
+"344",41,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","Yes","41-50"
+"345",23,"Male","Canada","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"346",39,"Male","United States","Yes","Often","No","No","Yes","Don't know","Yes","31-40"
+"347",26,"Female","United States","No","Sometimes","Yes","No","Yes","No","Yes","18-30"
+"348",24,"Male","United States","No","Rarely","Yes","No","Yes","No","No","18-30"
+"349",37,"Male","Canada","Yes","Rarely","Yes","No","Yes","Yes","No","31-40"
+"350",43,"Male","United States","Yes","Often","Yes","Yes","Yes","No","No","41-50"
+"351",40,"Other","United States","Yes","Never","No","No","Yes","Don't know","No","41-50"
+"352",30,"Male","United States","Yes","Often","Yes","No","Yes","No","Yes","31-40"
+"353",34,"Male","United States","No","Sometimes","Yes","No","Don't know","No","No","31-40"
+"354",27,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"355",36,"Male","United States","No","Sometimes","No","No","Don't know","No","No","31-40"
+"356",27,"Male","Brazil","No","Rarely","No","No","No","No","No","18-30"
+"357",35,"Male","Netherlands","Yes","Never","No","No","Yes","No","No","31-40"
+"358",32,"Male","United Kingdom","No","Never","No","No","No","No","No","31-40"
+"359",33,"Other","United States","No","Never","No","No","Yes","Yes","No","31-40"
+"360",28,"Other","United States","No","Sometimes","No","Yes","No","No","No","18-30"
+"361",26,"Female","United States","Yes","Never","No","No","Don't know","No","No","18-30"
+"362",27,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"363",38,"Male","United Kingdom","No","Sometimes","Yes","Yes","No","No","No","31-40"
+"364",57,"Male","United States","Yes","Rarely","Yes","No","Yes","No","No","51-60"
+"365",28,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No","18-30"
+"366",26,"Male","France","No","Never","No","No","No","No","No","18-30"
+"367",42,"Female","Netherlands","No","Rarely","Yes","Yes","Yes","No","No","41-50"
+"368",31,"Male","United States","No","Sometimes","Yes","Yes","Yes","Yes","No","31-40"
+"369",58,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No","51-60"
+"370",29,"Male","United States","No","Sometimes","No","No","Don't know","No","No","18-30"
+"371",39,"Female","United Kingdom","No","Sometimes","Yes","No","Yes","Yes","Yes","31-40"
+"372",34,"Male","United States","No","Sometimes","No","Yes","Don't know","No","No","31-40"
+"373",57,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No","51-60"
+"374",27,"Male","Germany","Yes","Sometimes","Yes","No","No","No","Yes","18-30"
+"375",23,"Male","Germany","Yes","Often","Yes","Yes","Don't know","Don't know","No","18-30"
+"376",23,"Male","United States","No","Never","No","No","Don't know","Don't know","No","18-30"
+"377",43,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No","41-50"
+"378",18,"Female","United Kingdom","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"379",29,"Male","United States","No","Rarely","Yes","No","Yes","No","No","18-30"
+"380",48,"Male","United States","No","Never","No","No","Don't know","Don't know","No","41-50"
+"381",43,"Male","Germany","No","Sometimes","Yes","No","No","No","Yes","41-50"
+"382",28,"Female","United States","Yes","Sometimes","Yes","No","Don't know","No","No","18-30"
+"383",30,"Male","United States","Yes","Often","Yes","Yes","No","No","No","31-40"
+"384",26,"Male","Israel","No","Sometimes","No","No","No","No","No","18-30"
+"385",33,"Male","Italy","No","Never","No","No","No","No","No","31-40"
+"386",30,"Male","United States","No","Rarely","No","No","Don't know","No","No","31-40"
+"387",24,"Female","United States","Yes","Sometimes","Yes","Yes","No","Don't know","Yes","18-30"
+"388",23,"Female","United States","Yes","Often","Yes","No","Yes","No","Yes","18-30"
+"389",36,"Male","United States","No","Sometimes","Yes","No","Yes","No","Yes","31-40"
+"390",25,"Female","United States","Yes","Often","Yes","Yes","Don't know","No","Yes","18-30"
+"391",54,"Male","United Kingdom","No","Sometimes","Yes","Yes","No","Yes","No","51-60"
+"392",34,"Male","Netherlands","No","Rarely","No","No","Don't know","Don't know","No","31-40"
+"393",25,"Male","Germany","No","Never","No","No","Don't know","Yes","No","18-30"
+"394",35,"Female","United States","No","Sometimes","Yes","No","No","No","No","31-40"
+"395",46,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No","41-50"
+"396",42,"Male","United States","No","Never","No","No","Yes","No","No","41-50"
+"397",32,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","Yes","No","No","31-40"
+"398",47,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","41-50"
+"399",33,"Female","United States","No","Sometimes","Yes","Yes","Yes","Yes","No","31-40"
+"400",25,"Female","United States","No","Sometimes","No","No","No","No","No","18-30"
+"401",39,"Male","United States","No","Never","No","No","Yes","Yes","No","31-40"
+"402",38,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"403",46,"Male","United States","No","Rarely","Yes","Yes","Yes","Yes","No","41-50"
+"404",38,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes","31-40"
+"405",33,"Male","Germany","No","Sometimes","Yes","No","Yes","No","No","31-40"
+"406",34,"Male","United Kingdom","Yes","Often","Yes","No","No","No","No","31-40"
+"407",62,"Male","United States","No","Never","No","No","Yes","Yes","No","61-70"
+"408",25,"Male","Bosnia and Herzegovina","Yes","Rarely","No","Yes","Don't know","Don't know","Yes","18-30"
+"409",36,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","No","No","31-40"
+"410",41,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Yes","No","41-50"
+"411",24,"Male","Austria","No","Sometimes","No","No","Yes","Don't know","No","18-30"
+"412",51,"Male","New Zealand","No","Sometimes","Yes","Yes","No","No","Yes","51-60"
+"413",29,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No","18-30"
+"414",31,"Female","Canada","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","31-40"
+"415",31,"Male","Australia","No","Rarely","Yes","No","Yes","Yes","No","31-40"
+"416",27,"Female","Hungary","Yes","Sometimes","No","Yes","No","No","No","18-30"
+"417",23,"Male","Sweden","No","Rarely","No","No","Don't know","Don't know","No","18-30"
+"418",21,"Male","Canada","No","Never","No","No","Don't know","No","No","18-30"
+"419",27,"Female","Australia","Yes","Sometimes","Yes","No","No","No","No","18-30"
+"420",39,"Male","United States","Yes","Often","Yes","Yes","Yes","Yes","No","31-40"
+"421",26,"Male","United States","Yes","Never","Yes","No","Don't know","Don't know","No","18-30"
+"422",27,"Male","United Kingdom","No","Never","No","No","Don't know","No","No","18-30"
+"423",22,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","Yes","18-30"
+"424",26,"Female","United States","Yes","Often","Yes","No","Don't know","No","No","18-30"
+"425",31,"Female","United States","Yes","Rarely","Yes","No","Yes","No","No","31-40"
+"426",32,"Male","United Kingdom","No","Never","No","No","Don't know","No","No","31-40"
+"427",28,"Female","United States","Yes","Often","Yes","Yes","Yes","Don't know","Yes","18-30"
+"428",28,"Other","United Kingdom","Yes","Rarely","Yes","No","No","No","Yes","18-30"
+"429",30,"Male","United Kingdom","No","Never","No","Yes","Don't know","Don't know","No","31-40"
+"430",36,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"431",30,"Male","Germany","No","Often","No","No","No","No","No","31-40"
+"432",32,"Male","New Zealand","No","Sometimes","Yes","No","No","No","No","31-40"
+"433",29,"Female","Canada","No","Sometimes","Yes","No","No","No","No","18-30"
+"434",21,"Other","United Kingdom","No","Sometimes","Yes","No","No","No","No","18-30"
+"435",27,"Female","New Zealand","Yes","Rarely","Yes","Yes","No","No","No","18-30"
+"436",32,"Female","Canada","No","Often","Yes","No","Don't know","Don't know","No","31-40"
+"437",34,"Male","Australia","No","Sometimes","No","No","Yes","Yes","No","31-40"
+"438",22,"Male","Netherlands","Yes","Sometimes","Yes","Yes","No","Don't know","No","18-30"
+"439",27,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"440",33,"Male","Australia","No","Never","No","No","Don't know","Don't know","No","31-40"
+"441",36,"Male","United States","No","Rarely","Yes","No","Don't know","Don't know","No","31-40"
+"442",40,"Male","Canada","No","Never","No","No","No","No","No","41-50"
+"443",28,"Male","United States","No","Sometimes","Yes","No","Yes","No","No","18-30"
+"444",39,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"445",32,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"446",31,"Male","United States","Yes","Sometimes","No","No","Yes","Don't know","No","31-40"
+"447",38,"Other","United States","Yes","Sometimes","Yes","No","Don't know","No","No","31-40"
+"448",23,"Male","United States","Yes","Rarely","Yes","No","No","No","No","18-30"
+"449",42,"Other","United States","No","Often","Yes","No","Yes","Yes","No","41-50"
+"450",27,"Female","United States","No","Sometimes","No","No","Don't know","Yes","No","18-30"
+"451",26,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","Yes","18-30"
+"452",50,"Male","United States","No","Never","No","Yes","No","No","No","51-60"
+"453",37,"Male","United States","Yes","Never","No","No","Don't know","Don't know","No","31-40"
+"454",33,"Male","United States","Yes","Sometimes","No","Yes","Don't know","No","No","31-40"
+"455",29,"Male","Canada","No","Never","No","Yes","Yes","No","No","18-30"
+"456",34,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","No","No","31-40"
+"457",41,"Male","United States","Yes","Often","Yes","No","Yes","No","Yes","41-50"
+"458",29,"Male","Canada","No","Never","Yes","No","Yes","Yes","Yes","18-30"
+"459",35,"Male","United States","No","Never","No","No","No","No","No","31-40"
+"460",27,"Male","Singapore","No","Sometimes","No","Yes","No","No","No","18-30"
+"461",40,"Female","United States","No","Never","No","No","Don't know","No","No","41-50"
+"462",27,"Male","Australia","No","Often","Yes","Yes","No","No","Yes","18-30"
+"463",29,"Female","United States","No","Never","No","No","Yes","No","Yes","18-30"
+"464",31,"Male","United States","Yes","Sometimes","Yes","No","No","No","No","31-40"
+"465",43,"Male","United States","No","Sometimes","Yes","No","No","No","No","41-50"
+"466",34,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","No","Yes","31-40"
+"467",29,"Male","United States","Yes","Sometimes","Yes","No","Don't know","No","No","18-30"
+"468",19,"Male","Canada","Yes","Sometimes","Yes","No","No","No","No","18-30"
+"469",41,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","41-50"
+"470",29,"Male","United States","Yes","Never","No","No","Yes","Yes","No","18-30"
+"471",23,"Male","United States","No","Rarely","No","No","Yes","Don't know","No","18-30"
+"472",24,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","Yes","18-30"
+"473",31,"Male","United States","Yes","Rarely","Yes","No","No","Don't know","Yes","31-40"
+"474",29,"Male","United States","Yes","Often","No","No","Yes","Yes","No","18-30"
+"475",33,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","31-40"
+"476",30,"Other","United States","Yes","Often","Yes","Yes","No","Yes","No","31-40"
+"477",32,"Male","United States","No","Sometimes","No","No","No","No","No","31-40"
+"478",50,"Male","United States","No","Sometimes","No","Yes","Don't know","Don't know","No","51-60"
+"479",24,"Male","United States","No","Never","No","No","Don't know","No","No","18-30"
+"480",27,"Male","Australia","No","Never","No","Yes","No","No","No","18-30"
+"481",32,"Male","United States","No","Sometimes","Yes","No","No","No","No","31-40"
+"482",42,"Male","United States","No","Rarely","No","Yes","No","No","No","41-50"
+"483",37,"Male","United States","No","Often","No","No","Don't know","No","No","31-40"
+"484",30,"Male","Singapore","No","Sometimes","No","No","Don't know","No","Yes","31-40"
+"485",29,"Male","United States","No","Rarely","No","No","Yes","No","No","18-30"
+"486",30,"Male","United States","No","Often","Yes","Yes","No","Yes","No","31-40"
+"487",35,"Male","United States","No","Never","No","No","Yes","Don't know","No","31-40"
+"488",35,"Male","United States","Yes","Rarely","Yes","Yes","Yes","No","No","31-40"
+"489",38,"Male","Netherlands","Yes","Often","No","Yes","No","Don't know","No","31-40"
+"490",22,"Male","United Kingdom","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"491",24,"Male","Germany","Yes","Sometimes","No","No","Don't know","No","No","18-30"
+"492",22,"Male","Netherlands","No","Never","No","No","Don't know","No","Yes","18-30"
+"493",31,"Female","United States","No","Often","Yes","Yes","Yes","No","No","31-40"
+"494",23,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","18-30"
+"495",31,"Female","United States","Yes","Sometimes","Yes","No","Don't know","No","No","31-40"
+"496",28,"Female","United States","Yes","Rarely","Yes","No","Yes","Yes","No","18-30"
+"497",37,"Other","Canada","Yes","Sometimes","Yes","No","Yes","No","No","31-40"
+"498",34,"Male","United States","Yes","Sometimes","Yes","No","No","No","No","31-40"
+"499",32,"Other","Canada","No","Sometimes","No","Yes","No","No","Yes","31-40"
+"500",28,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Don't know","Yes","18-30"
+"501",24,"Female","United Kingdom","No","Sometimes","Yes","No","No","No","No","18-30"
+"502",56,"Other","United States","Yes","Rarely","Yes","No","Yes","No","No","51-60"
+"503",31,"Male","Germany","No","Sometimes","No","Yes","No","No","No","31-40"
+"504",34,"Female","United States","No","Sometimes","Yes","Yes","Yes","Don't know","No","31-40"
+"505",35,"Male","Germany","No","Rarely","Yes","No","Don't know","Don't know","No","31-40"
+"506",28,"Male","Germany","No","Never","No","No","No","No","No","18-30"
+"507",36,"Male","Poland","Yes","Often","Yes","No","No","No","Yes","31-40"
+"508",30,"Male","United Kingdom","No","Often","Yes","No","No","No","No","31-40"
+"509",49,"Male","Japan","Yes","Sometimes","Yes","Yes","No","No","Yes","41-50"
+"510",29,"Female","Australia","Yes","Sometimes","Yes","No","Yes","Yes","Yes","18-30"
+"511",57,"Male","United States","No","Never","No","No","Yes","Yes","Yes","51-60"
+"512",31,"Female","Belgium","Yes","Rarely","Yes","No","Yes","No","Yes","31-40"
+"513",37,"Male","Ireland","No","Never","No","No","No","No","No","31-40"
+"514",25,"Male","Ireland","Yes","Sometimes","Yes","No","No","No","No","18-30"
+"515",30,"Male","Australia","No","Sometimes","No","No","No","No","No","31-40"
+"516",26,"Female","Australia","Yes","Sometimes","No","No","No","Yes","No","18-30"
+"517",22,"Female","Netherlands","No","Often","No","No","No","No","No","18-30"
+"518",39,"Male","United States","No","Rarely","No","Yes","Don't know","Yes","No","31-40"
+"519",29,"Male","United Kingdom","Yes","Never","Yes","No","Don't know","Don't know","No","18-30"
+"520",54,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","Don't know","No","Yes","51-60"
+"521",34,"Female","Australia","Yes","Never","No","No","Don't know","Yes","Yes","31-40"
+"522",32,"Male","United States","No","Never","Yes","No","Yes","Yes","No","31-40"
+"523",29,"Male","Poland","No","Rarely","No","No","No","No","No","18-30"
+"524",32,"Male","Germany","No","Never","No","Yes","No","No","No","31-40"
+"525",30,"Male","United Kingdom","Yes","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"526",20,"Female","Switzerland","No","Rarely","No","No","Yes","Yes","No","18-30"
+"527",27,"Male","United Kingdom","No","Never","No","No","Don't know","Don't know","No","18-30"
+"528",32,"Male","United States","No","Never","No","No","Don't know","Don't know","No","31-40"
+"529",26,"Male","Ireland","No","Never","No","Yes","No","No","No","18-30"
+"530",30,"Male","Italy","No","Sometimes","No","No","Don't know","No","No","31-40"
+"531",30,"Male","Ireland","No","Sometimes","Yes","Yes","No","No","No","31-40"
+"532",26,"Male","Netherlands","No","Never","No","No","No","No","No","18-30"
+"533",26,"Male","Russia","No","Never","No","No","No","Don't know","No","18-30"
+"534",23,"Male","United States","Yes","Sometimes","No","No","Don't know","Don't know","No","18-30"
+"535",26,"Female","Israel","Yes","Never","No","No","Don't know","Don't know","No","18-30"
+"536",35,"Male","Canada","Yes","Sometimes","No","No","Don't know","No","No","31-40"
+"537",28,"Male","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"538",29,"Female","United States","Yes","Rarely","Yes","No","Don't know","No","No","18-30"
+"539",45,"Male","United States","No","Often","Yes","Yes","Yes","Yes","No","41-50"
+"540",33,"Male","Bulgaria","No","Rarely","Yes","Yes","No","No","Yes","31-40"
+"541",38,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"542",19,"Other","United States","Yes","Often","Yes","No","Don't know","No","No","18-30"
+"543",29,"Female","Canada","No","Rarely","Yes","Yes","Yes","Don't know","No","18-30"
+"544",23,"Female","India","Yes","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"545",33,"Female","United States","Yes","Rarely","Yes","No","Yes","Yes","No","31-40"
+"546",49,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","41-50"
+"547",27,"Female","United Kingdom","No","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"548",23,"Male","Canada","No","Sometimes","Yes","No","Yes","No","No","18-30"
+"549",29,"Male","Netherlands","No","Never","No","Yes","No","No","No","18-30"
+"550",32,"Male","United Kingdom","No","Sometimes","Yes","No","Yes","No","No","31-40"
+"551",33,"Male","United States","Yes","Rarely","Yes","Yes","No","Yes","Yes","31-40"
+"552",37,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"553",23,"Male","United States","No","Often","Yes","No","Yes","No","No","18-30"
+"554",43,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","41-50"
+"555",32,"Male","United Kingdom","No","Rarely","Yes","No","Don't know","No","Yes","31-40"
+"556",26,"Male","United States","No","Never","No","No","Don't know","No","No","18-30"
+"557",32,"Male","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No","31-40"
+"558",29,"Male","United States","No","Often","Yes","No","Yes","No","No","18-30"
+"559",30,"Male","United States","Yes","Never","No","No","Don't know","Don't know","No","31-40"
+"560",29,"Male","United States","No","Never","No","No","Yes","Yes","No","18-30"
+"561",32,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Don't know","No","31-40"
+"562",30,"Male","Canada","Yes","Sometimes","Yes","No","Don't know","No","Yes","31-40"
+"563",25,"Male","United States","Yes","Never","Yes","Yes","Don't know","Don't know","No","18-30"
+"564",33,"Male","United States","Yes","Sometimes","Yes","No","No","No","No","31-40"
+"565",31,"Male","South Africa","No","Never","No","Yes","No","No","No","31-40"
+"566",21,"Male","Germany","No","Rarely","No","Yes","Don't know","No","No","18-30"
+"567",30,"Male","Switzerland","Yes","Sometimes","Yes","No","Don't know","No","No","31-40"
+"568",43,"Male","Croatia","No","Sometimes","Yes","Yes","No","No","Yes","41-50"
+"569",37,"Male","United Kingdom","No","Often","Yes","No","No","No","No","31-40"
+"570",33,"Male","United Kingdom","No","Never","No","No","No","No","No","31-40"
+"571",33,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","No","No","31-40"
+"572",36,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","31-40"
+"573",37,"Male","Australia","Yes","Sometimes","Yes","No","No","No","Yes","31-40"
+"574",39,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No","31-40"
+"575",31,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"576",36,"Male","United States","No","Sometimes","Yes","Yes","Yes","No","No","31-40"
+"577",30,"Male","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No","31-40"
+"578",35,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No","31-40"
+"579",19,"Male","Canada","No","Sometimes","Yes","No","Don't know","No","No","18-30"
+"580",37,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No","31-40"
+"581",40,"Male","Thailand","No","Never","No","No","No","No","No","41-50"
+"582",36,"Male","United States","No","Never","No","No","Yes","Yes","No","31-40"
+"583",29,"Female","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"584",38,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"585",26,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"586",34,"Male","Germany","No","Rarely","No","No","No","No","No","31-40"
+"587",21,"Male","United States","No","Often","Yes","No","No","No","Yes","18-30"
+"588",31,"Male","Canada","Yes","Sometimes","No","Yes","No","No","No","31-40"
+"589",37,"Female","United States","Yes","Rarely","Yes","No","Yes","Yes","No","31-40"
+"590",37,"Male","Ireland","Yes","Sometimes","Yes","No","No","No","No","31-40"
+"591",38,"Male","Ireland","Yes","Sometimes","Yes","No","No","No","No","31-40"
+"592",27,"Female","United States","No","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"593",33,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"594",27,"Male","United Kingdom","No","Never","No","No","Don't know","Don't know","No","18-30"
+"595",36,"Female","United States","No","Never","Yes","Yes","Yes","No","No","31-40"
+"596",28,"Male","United Kingdom","No","Never","No","No","Don't know","No","No","18-30"
+"597",39,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","No","No","31-40"
+"598",33,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No","31-40"
+"599",37,"Male","United Kingdom","Yes","Rarely","Yes","No","No","No","Yes","31-40"
+"600",39,"Male","Canada","No","Sometimes","Yes","No","Yes","Yes","Yes","31-40"
+"601",43,"Other","United States","No","Sometimes","No","Yes","Don't know","Don't know","No","41-50"
+"602",32,"Other","United Kingdom","No","Sometimes","Yes","No","Don't know","Yes","Yes","31-40"
+"603",43,"Male","United Kingdom","No","Never","Yes","No","Don't know","Don't know","No","41-50"
+"604",33,"Male","United States","No","Sometimes","Yes","Yes","No","No","No","31-40"
+"605",34,"Male","United Kingdom","Yes","Sometimes","Yes","No","Don't know","Don't know","No","31-40"
+"606",25,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes","18-30"
+"607",25,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"608",39,"Male","Switzerland","No","Never","Yes","No","Yes","Yes","No","31-40"
+"609",29,"Male","United Kingdom","No","Rarely","No","No","Don't know","No","Yes","18-30"
+"610",33,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"611",37,"Female","United States","No","Often","Yes","Yes","Don't know","No","Yes","31-40"
+"612",35,"Female","United States","No","Sometimes","Yes","No","Yes","No","Yes","31-40"
+"613",22,"Female","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","Yes","18-30"
+"614",38,"Male","United States","No","Never","No","No","Yes","No","Yes","31-40"
+"615",32,"Female","United States","Yes","Often","Yes","No","Yes","Don't know","No","31-40"
+"616",35,"Female","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No","31-40"
+"617",29,"Male","United States","No","Never","No","No","Yes","No","No","18-30"
+"618",23,"Male","United States","Yes","Sometimes","Yes","No","No","No","No","18-30"
+"619",28,"Other","United States","No","Sometimes","Yes","No","No","No","Yes","18-30"
+"620",40,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes","41-50"
+"621",41,"Male","United States","Yes","Sometimes","No","No","Yes","Yes","No","41-50"
+"622",29,"Male","United Kingdom","No","Never","No","No","Don't know","No","No","18-30"
+"623",29,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No","18-30"
+"624",35,"Male","United States","No","Often","Yes","No","No","No","Yes","31-40"
+"625",28,"Male","United States","No","Never","Yes","Yes","No","No","No","18-30"
+"626",36,"Female","United Kingdom","No","Sometimes","No","Yes","Don't know","Don't know","No","31-40"
+"627",39,"Female","United States","No","Sometimes","No","No","Don't know","Don't know","No","31-40"
+"628",39,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"629",44,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No","41-50"
+"630",26,"Other","Germany","No","Sometimes","Yes","Yes","No","Yes","No","18-30"
+"631",35,"Male","Denmark","Yes","Often","Yes","No","No","No","No","31-40"
+"632",40,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","41-50"
+"633",35,"Male","Denmark","Yes","Often","Yes","No","No","No","No","31-40"
+"634",38,"Male","United States","No","Never","No","Yes","No","No","No","31-40"
+"635",48,"Other","United States","Yes","Often","No","No","Don't know","No","Yes","41-50"
+"636",20,"Male","United States","No","Never","No","No","Don't know","Don't know","No","18-30"
+"637",40,"Male","United States","No","Sometimes","No","Yes","Don't know","No","No","41-50"
+"638",29,"Female","United Kingdom","No","Rarely","Yes","No","Don't know","No","No","18-30"
+"639",35,"Male","United States","Yes","Sometimes","Yes","No","No","No","No","31-40"
+"640",29,"Male","United States","Yes","Sometimes","No","Yes","Yes","Yes","No","18-30"
+"641",40,"Male","United States","No","Never","No","No","Yes","Don't know","No","41-50"
+"642",29,"Male","Sweden","No","Rarely","Yes","No","No","No","No","18-30"
+"643",29,"Female","United States","Yes","Rarely","Yes","No","Yes","No","No","18-30"
+"644",34,"Male","United States","No","Sometimes","Yes","No","No","No","No","31-40"
+"645",44,"Male","United Kingdom","Yes","Sometimes","Yes","No","Don't know","No","Yes","41-50"
+"646",24,"Female","United States","Yes","Often","Yes","No","Yes","No","Yes","18-30"
+"647",36,"Male","United States","No","Rarely","No","No","Yes","Yes","No","31-40"
+"648",43,"Male","United States","No","Sometimes","Yes","No","Don't know","Don't know","No","41-50"
+"649",36,"Male","United Kingdom","No","Sometimes","No","Yes","No","No","Yes","31-40"
+"650",31,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No","31-40"
+"651",35,"Male","United States","No","Sometimes","No","No","Don't know","Don't know","No","31-40"
+"652",37,"Male","Italy","No","Sometimes","No","No","Don't know","Don't know","No","31-40"
+"653",34,"Male","United States","No","Sometimes","Yes","No","Don't know","Don't know","No","31-40"
+"654",36,"Male","Netherlands","No","Sometimes","Yes","No","No","No","No","31-40"
+"655",40,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No","41-50"
+"656",40,"Male","United States","No","Rarely","No","No","Yes","Yes","No","41-50"
+"657",42,"Male","United States","No","Sometimes","Yes","Yes","No","No","No","41-50"
+"658",21,"Male","United Kingdom","Yes","Never","No","No","No","No","No","18-30"
+"659",26,"Male","Canada","No","Sometimes","No","Yes","No","No","No","18-30"
+"660",51,"Male","United States","No","Never","No","Yes","Yes","Yes","No","51-60"
+"661",32,"Male","United Kingdom","Yes","Rarely","Yes","No","No","No","No","31-40"
+"662",32,"Male","United Kingdom","Yes","Rarely","Yes","No","No","No","No","31-40"
+"663",26,"Male","United Kingdom","No","Rarely","Yes","Yes","No","Don't know","No","18-30"
+"664",23,"Male","United States","No","Never","No","No","Don't know","Don't know","No","18-30"
+"665",33,"Male","United States","Yes","Often","Yes","Yes","No","No","No","31-40"
+"666",46,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No","41-50"
+"667",35,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","31-40"
+"668",32,"Male","Germany","No","Sometimes","No","Yes","No","No","No","31-40"
+"669",56,"Male","United States","No","Rarely","Yes","Yes","Yes","Yes","No","51-60"
+"670",32,"Female","United Kingdom","Yes","Sometimes","Yes","No","Don't know","No","Yes","31-40"
+"671",30,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","31-40"
+"672",23,"Female","United Kingdom","Yes","Never","No","No","No","Yes","No","18-30"
+"673",31,"Male","United States","No","Never","Yes","No","Yes","Don't know","No","31-40"
+"674",29,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"675",30,"Male","United States","No","Never","No","Yes","Yes","Don't know","No","31-40"
+"676",37,"Male","United States","No","Never","No","Yes","Yes","Don't know","Yes","31-40"
+"677",36,"Male","United States","No","Never","No","No","Yes","Don't know","No","31-40"
+"678",35,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Don't know","No","31-40"
+"679",41,"Male","United States","Yes","Never","No","Yes","Don't know","No","No","41-50"
+"680",31,"Male","United Kingdom","No","Rarely","Yes","No","Don't know","No","No","31-40"
+"681",39,"Male","United States","Yes","Sometimes","No","No","Yes","Yes","Yes","31-40"
+"682",42,"Male","United States","Yes","Sometimes","No","Yes","Yes","Yes","No","41-50"
+"683",32,"Male","United States","Yes","Rarely","Yes","Yes","No","No","No","31-40"
+"684",30,"Male","United States","Yes","Never","No","No","Yes","Yes","No","31-40"
+"685",40,"Male","United States","Yes","Often","Yes","Yes","Don't know","Don't know","No","41-50"
+"686",33,"Male","United States","No","Never","No","No","Yes","Yes","No","31-40"
+"687",34,"Male","Germany","No","Sometimes","Yes","Yes","No","No","No","31-40"
+"688",50,"Male","United States","No","Never","No","Yes","No","No","No","51-60"
+"689",24,"Male","United States","No","Sometimes","No","Yes","Don't know","Don't know","No","18-30"
+"690",25,"Male","United States","Yes","Rarely","Yes","No","No","No","No","18-30"
+"691",43,"Male","United Kingdom","Yes","Rarely","Yes","No","No","No","Yes","41-50"
+"692",25,"Female","United States","No","Often","Yes","No","Yes","Yes","Yes","18-30"
+"693",51,"Male","United States","No","Never","No","No","No","No","No","51-60"
+"694",49,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes","41-50"
+"695",25,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"696",36,"Male","United States","No","Rarely","Yes","Yes","Yes","Don't know","No","31-40"
+"697",48,"Male","United States","No","Never","Yes","No","Yes","Yes","Yes","41-50"
+"698",48,"Male","Australia","No","Sometimes","Yes","No","No","No","Yes","41-50"
+"699",53,"Male","United States","No","Rarely","Yes","Yes","Yes","Yes","No","51-60"
+"700",24,"Female","United Kingdom","Yes","Often","Yes","Yes","No","No","No","18-30"
+"701",33,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Yes","No","31-40"
+"702",25,"Female","Canada","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"703",30,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No","31-40"
+"704",30,"Male","United States","No","Never","No","Yes","No","No","No","31-40"
+"705",34,"Male","United Kingdom","No","Sometimes","Yes","Yes","No","No","No","31-40"
+"706",22,"Female","United States","Yes","Often","Yes","No","Don't know","Don't know","No","18-30"
+"707",28,"Male","United States","Yes","Sometimes","No","No","Don't know","Don't know","No","18-30"
+"708",35,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No","31-40"
+"709",28,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"710",42,"Male","New Zealand","No","Sometimes","Yes","No","No","No","Yes","41-50"
+"711",29,"Male","United States","No","Sometimes","No","No","Yes","No","No","18-30"
+"712",43,"Male","United States","Yes","Sometimes","No","No","Yes","Don't know","No","41-50"
+"713",31,"Male","United States","Yes","Never","No","No","Don't know","Don't know","No","31-40"
+"714",35,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"715",34,"Male","United States","No","Often","No","No","Don't know","Yes","No","31-40"
+"716",43,"Other","United States","No","Sometimes","Yes","Yes","Yes","Yes","Yes","41-50"
+"717",38,"Male","United States","Yes","Sometimes","Yes","No","No","No","No","31-40"
+"718",26,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Yes","Yes","18-30"
+"719",38,"Male","United Kingdom","Yes","Rarely","Yes","Yes","No","No","No","31-40"
+"720",42,"Male","United States","No","Often","Yes","No","Don't know","Don't know","No","41-50"
+"721",32,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No","31-40"
+"722",44,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","No","41-50"
+"723",28,"Male","United States","Yes","Rarely","Yes","No","Yes","Don't know","No","18-30"
+"724",40,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","Yes","41-50"
+"725",31,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"726",32,"Male","United States","Yes","Sometimes","No","No","Yes","Yes","No","31-40"
+"727",28,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"728",39,"Male","United States","Yes","Often","Yes","No","Yes","No","No","31-40"
+"729",43,"Male","United States","No","Rarely","Yes","No","Yes","Yes","No","41-50"
+"730",35,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"731",40,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","41-50"
+"732",34,"Male","Netherlands","No","Rarely","Yes","No","No","No","No","31-40"
+"733",24,"Male","United Kingdom","Yes","Often","Yes","No","Don't know","No","Yes","18-30"
+"734",61,"Male","South Africa","No","Sometimes","Yes","Yes","No","No","Yes","61-70"
+"735",36,"Other","United States","Yes","Rarely","Yes","No","Don't know","Don't know","No","31-40"
+"736",33,"Male","Germany","Yes","Often","Yes","No","Don't know","No","No","31-40"
+"737",30,"Male","United States","Yes","Never","No","No","Don't know","Don't know","No","31-40"
+"738",34,"Male","Netherlands","Yes","Rarely","Yes","Yes","Yes","Yes","No","31-40"
+"739",26,"Male","United States","No","Rarely","Yes","No","Yes","Don't know","No","18-30"
+"740",25,"Male","Germany","No","Sometimes","No","Yes","No","No","No","18-30"
+"741",35,"Male","Germany","No","Sometimes","Yes","Yes","Don't know","No","No","31-40"
+"742",24,"Male","United Kingdom","Yes","Often","No","Yes","Don't know","No","No","18-30"
+"743",55,"Male","United Kingdom","No","Often","Yes","No","Yes","Yes","Yes","51-60"
+"744",33,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","No","No","Yes","31-40"
+"745",26,"Female","United Kingdom","Yes","Sometimes","Yes","Yes","No","No","No","18-30"
+"746",25,"Male","United Kingdom","No","Never","No","Yes","Don't know","Don't know","No","18-30"
+"747",45,"Male","United Kingdom","Yes","Rarely","No","No","Don't know","No","No","41-50"
+"748",33,"Female","United Kingdom","No","Sometimes","Yes","Yes","No","Yes","No","31-40"
+"749",43,"Male","United States","No","Sometimes","No","Yes","No","No","Yes","41-50"
+"750",30,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","Yes","31-40"
+"751",40,"Male","United States","Yes","Rarely","Yes","No","Don't know","Don't know","No","41-50"
+"752",49,"Male","United States","Yes","Never","No","No","Yes","Yes","No","41-50"
+"753",38,"Other","United States","No","Never","No","No","Yes","Yes","Yes","31-40"
+"754",26,"Male","Belgium","No","Never","No","No","Yes","No","No","18-30"
+"755",28,"Male","United Kingdom","Yes","Often","Yes","No","No","No","No","18-30"
+"756",40,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No","41-50"
+"757",37,"Female","Canada","Yes","Rarely","Yes","Yes","No","No","Yes","31-40"
+"758",34,"Female","United Kingdom","Yes","Often","Yes","Yes","Yes","Yes","No","31-40"
+"759",28,"Male","United States","Yes","Often","Yes","No","Don't know","Don't know","No","18-30"
+"760",27,"Male","Canada","No","Never","No","No","Yes","No","No","18-30"
+"761",29,"Male","United Kingdom","No","Sometimes","Yes","Yes","No","No","No","18-30"
+"762",39,"Female","United Kingdom","Yes","Rarely","No","Yes","Don't know","No","Yes","31-40"
+"763",28,"Male","United Kingdom","No","Often","No","No","No","No","No","18-30"
+"764",23,"Male","United States","Yes","Sometimes","No","No","Yes","Yes","No","18-30"
+"765",30,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"766",20,"Male","India","No","Sometimes","Yes","No","Don't know","No","No","18-30"
+"767",35,"Male","United Kingdom","No","Sometimes","No","No","Don't know","Don't know","No","31-40"
+"768",39,"Male","United States","No","Rarely","Yes","Yes","Yes","No","No","31-40"
+"769",31,"Female","United States","Yes","Never","No","No","Yes","Don't know","No","31-40"
+"770",32,"Male","United Kingdom","No","Rarely","No","No","No","No","No","31-40"
+"771",25,"Male","United States","Yes","Often","Yes","Yes","Yes","Don't know","No","18-30"
+"772",42,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","41-50"
+"773",34,"Male","United States","Yes","Often","Yes","No","Yes","No","No","31-40"
+"774",26,"Female","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","Yes","18-30"
+"775",35,"Male","United Kingdom","Yes","Sometimes","Yes","No","No","No","Yes","31-40"
+"776",34,"Male","United Kingdom","No","Never","No","No","Don't know","Don't know","No","31-40"
+"777",38,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","No","31-40"
+"778",34,"Male","United States","No","Sometimes","No","No","Don't know","No","No","31-40"
+"779",39,"Male","United States","Yes","Sometimes","Yes","Yes","No","No","No","31-40"
+"780",33,"Female","United States","No","Never","No","Yes","No","Don't know","No","31-40"
+"781",24,"Female","United States","Yes","Sometimes","No","No","Yes","Don't know","Yes","18-30"
+"782",38,"Female","United States","Yes","Sometimes","No","Yes","Don't know","Don't know","No","31-40"
+"783",31,"Male","United States","No","Sometimes","No","No","Yes","Yes","No","31-40"
+"784",46,"Other","United States","No","Often","Yes","No","Yes","Yes","Yes","41-50"
+"785",30,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","No","No","31-40"
+"786",25,"Male","United States","No","Rarely","No","Yes","Don't know","No","Yes","18-30"
+"787",19,"Male","Canada","No","Never","No","Yes","Don't know","No","No","18-30"
+"788",30,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes","31-40"
+"789",32,"Male","United States","No","Never","No","No","Yes","Yes","No","31-40"
+"790",37,"Male","United States","Yes","Sometimes","No","Yes","Don't know","No","No","31-40"
+"791",42,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","41-50"
+"792",25,"Female","United States","No","Never","No","No","Yes","Yes","No","18-30"
+"793",19,"Male","United States","No","Sometimes","No","No","Don't know","No","No","18-30"
+"794",40,"Female","United States","Yes","Never","No","Yes","Yes","No","No","41-50"
+"795",31,"Male","United States","Yes","Rarely","Yes","No","Don't know","Don't know","No","31-40"
+"796",40,"Male","United States","Yes","Sometimes","No","Yes","Yes","Don't know","No","41-50"
+"797",31,"Female","United States","Yes","Often","Yes","No","No","No","Yes","31-40"
+"798",36,"Male","United States","No","Never","No","No","Don't know","Don't know","Yes","31-40"
+"799",35,"Male","Canada","Yes","Sometimes","No","Yes","No","No","No","31-40"
+"800",26,"Male","Australia","Yes","Sometimes","Yes","Yes","No","No","No","18-30"
+"801",34,"Female","United States","No","Sometimes","No","No","No","No","No","31-40"
+"802",28,"Female","United States","Yes","Sometimes","Yes","Yes","Don't know","No","No","18-30"
+"803",40,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Yes","No","41-50"
+"804",26,"Male","United States","No","Sometimes","Yes","No","Yes","No","No","18-30"
+"805",29,"Female","United Kingdom","No","Often","Yes","No","Yes","No","Yes","18-30"
+"806",26,"Female","Canada","Yes","Sometimes","Yes","No","Yes","No","No","18-30"
+"807",33,"Other","Italy","Yes","Sometimes","Yes","No","No","No","No","31-40"
+"808",28,"Male","Brazil","Yes","Sometimes","No","No","No","No","Yes","18-30"
+"809",41,"Male","United States","No","Often","Yes","Yes","No","Yes","Yes","41-50"
+"810",39,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","No","Yes","Yes","31-40"
+"811",26,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","Yes","18-30"
+"812",23,"Female","United States","Yes","Sometimes","No","No","No","No","No","18-30"
+"813",35,"Male","Switzerland","Yes","Often","Yes","No","Don't know","No","No","31-40"
+"814",36,"Male","United States","No","Never","No","Yes","Don't know","Don't know","No","31-40"
+"815",42,"Male","United States","No","Rarely","No","No","Don't know","Don't know","No","41-50"
+"816",39,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"817",27,"Male","United States","No","Never","No","No","Don't know","Don't know","No","18-30"
+"818",33,"Male","United States","No","Never","No","Yes","Don't know","No","No","31-40"
+"819",31,"Other","Canada","Yes","Often","Yes","No","Yes","Don't know","No","31-40"
+"820",28,"Female","United States","No","Rarely","Yes","No","Yes","Yes","No","18-30"
+"821",29,"Female","United States","No","Often","Yes","Yes","Yes","No","No","18-30"
+"822",27,"Male","United States","No","Sometimes","Yes","No","Don't know","No","No","18-30"
+"823",44,"Male","United States","No","Never","No","Yes","Don't know","No","No","41-50"
+"824",25,"Male","United States","No","Often","Yes","Yes","Don't know","No","No","18-30"
+"825",24,"Male","Germany","Yes","Sometimes","Yes","No","No","No","No","18-30"
+"826",25,"Male","South Africa","Yes","Often","Yes","No","Don't know","No","Yes","18-30"
+"827",34,"Male","United States","No","Never","No","Yes","Yes","Don't know","No","31-40"
+"828",26,"Male","United States","No","Never","No","No","Yes","Don't know","No","18-30"
+"829",48,"Male","United States","No","Never","No","No","Yes","Yes","No","41-50"
+"830",39,"Female","United States","No","Sometimes","Yes","Yes","No","No","No","31-40"
+"831",43,"Male","United States","No","Sometimes","No","Yes","Yes","Yes","No","41-50"
+"832",41,"Male","United States","No","Rarely","No","No","Yes","Yes","Yes","41-50"
+"833",25,"Male","United States","No","Never","No","No","Don't know","No","No","18-30"
+"834",31,"Male","United States","No","Sometimes","Yes","No","Yes","No","No","31-40"
+"835",40,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes","41-50"
+"836",43,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","Don't know","No","41-50"
+"837",27,"Female","United States","Yes","Often","Yes","No","Yes","Yes","Yes","18-30"
+"838",37,"Female","United States","Yes","Sometimes","Yes","Yes","Yes","Don't know","No","31-40"
+"839",32,"Male","Netherlands","No","Sometimes","Yes","No","No","No","No","31-40"
+"840",25,"Male","United States","Yes","Often","Yes","No","No","No","No","18-30"
+"841",29,"Male","Netherlands","Yes","Often","Yes","No","Don't know","Yes","No","18-30"
+"842",30,"Female","United States","Yes","Often","Yes","No","Yes","No","No","31-40"
+"843",34,"Female","Canada","Yes","Often","Yes","No","Don't know","Don't know","No","31-40"
+"844",32,"Male","United Kingdom","Yes","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"845",41,"Male","Germany","No","Sometimes","Yes","No","Don't know","No","No","41-50"
+"846",38,"Male","United States","Yes","Never","No","No","Yes","Yes","No","31-40"
+"847",32,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"848",28,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"849",43,"Male","United States","Yes","Never","No","No","Yes","Don't know","No","41-50"
+"850",32,"Male","United States","Yes","Often","Yes","No","No","No","No","31-40"
+"851",25,"Male","United States","No","Sometimes","Yes","No","Yes","Don't know","No","18-30"
+"852",37,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","No","31-40"
+"853",36,"Male","United States","No","Sometimes","Yes","No","No","No","Yes","31-40"
+"854",24,"Male","United States","Yes","Rarely","Yes","Yes","Don't know","No","No","18-30"
+"855",40,"Male","United States","Yes","Sometimes","Yes","No","Yes","Don't know","Yes","41-50"
+"856",43,"Male","United States","No","Never","No","No","Don't know","Don't know","No","41-50"
+"857",26,"Male","United States","Yes","Sometimes","No","No","Don't know","No","No","18-30"
+"858",33,"Female","Canada","Yes","Often","Yes","Yes","No","No","Yes","31-40"
+"859",35,"Female","United States","Yes","Sometimes","No","Yes","Don't know","No","No","31-40"
+"860",45,"Male","United States","No","Never","No","Yes","Yes","No","No","41-50"
+"861",25,"Male","United States","No","Rarely","Yes","Yes","No","Don't know","No","18-30"
+"862",50,"Male","France","No","Sometimes","Yes","Yes","No","No","No","51-60"
+"863",26,"Male","Australia","Yes","Rarely","Yes","No","No","Don't know","No","18-30"
+"864",33,"Female","United States","No","Often","Yes","No","Yes","Don't know","No","31-40"
+"865",30,"Male","India","No","Often","No","No","No","No","No","31-40"
+"866",33,"Male","Croatia","Yes","Sometimes","Yes","Yes","Yes","Don't know","No","31-40"
+"867",29,"Male","France","No","Often","Yes","No","Yes","No","No","18-30"
+"868",25,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"869",24,"Male","Canada","No","Sometimes","No","No","Yes","No","Yes","18-30"
+"870",40,"Male","United Kingdom","No","Never","Yes","No","Don't know","Don't know","No","41-50"
+"871",46,"Male","United States","Yes","Sometimes","Yes","No","Don't know","Don't know","No","41-50"
+"872",38,"Male","United States","Yes","Rarely","Yes","No","Yes","Yes","No","31-40"
+"873",34,"Male","United States","No","Never","No","Yes","No","No","No","31-40"
+"874",32,"Male","United Kingdom","No","Rarely","Yes","No","No","Yes","Yes","31-40"
+"875",44,"Male","United Kingdom","No","Sometimes","Yes","No","No","Yes","No","41-50"
+"876",33,"Female","United Kingdom","No","Never","Yes","No","Don't know","Don't know","No","31-40"
+"877",45,"Female","United States","No","Rarely","Yes","No","Don't know","Don't know","No","41-50"
+"878",26,"Male","Germany","Yes","Often","Yes","No","No","No","Yes","18-30"
+"879",20,"Female","United States","No","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"880",37,"Male","Netherlands","Yes","Sometimes","No","No","No","No","No","31-40"
+"881",42,"Female","United States","Yes","Sometimes","Yes","No","Yes","No","No","41-50"
+"882",36,"Female","United States","Yes","Rarely","Yes","Yes","Yes","No","No","31-40"
+"883",27,"Male","New Zealand","No","Rarely","No","No","No","Yes","Yes","18-30"
+"884",27,"Male","New Zealand","No","Rarely","No","No","No","Yes","Yes","18-30"
+"885",27,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","No","18-30"
+"886",25,"Male","United Kingdom","Yes","Sometimes","Yes","Yes","No","No","No","18-30"
+"887",23,"Male","Germany","Yes","Sometimes","Yes","No","Don't know","No","No","18-30"
+"888",21,"Male","United Kingdom","No","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"889",26,"Male","Moldova","No","Often","Yes","No","No","No","No","18-30"
+"890",29,"Male","Sweden","No","Rarely","No","No","Don't know","Don't know","Yes","18-30"
+"891",28,"Male","Belgium","No","Sometimes","No","No","No","No","Yes","18-30"
+"892",23,"Male","Israel","No","Never","No","No","No","Yes","No","18-30"
+"893",26,"Female","United States","Yes","Sometimes","No","Yes","Don't know","No","No","18-30"
+"894",38,"Male","United Kingdom","Yes","Sometimes","Yes","No","No","Don't know","No","31-40"
+"895",39,"Male","United Kingdom","Yes","Sometimes","Yes","No","No","No","No","31-40"
+"896",35,"Male","United States","Yes","Often","Yes","No","Yes","Yes","No","31-40"
+"897",32,"Male","United States","No","Rarely","No","No","Yes","Don't know","No","31-40"
+"898",32,"Male","United States","No","Sometimes","Yes","No","Yes","Yes","Yes","31-40"
+"899",26,"Male","United Kingdom","No","Never","No","No","No","No","No","18-30"
+"900",38,"Male","Canada","Yes","Rarely","Yes","No","Don't know","Don't know","No","31-40"
+"901",34,"Female","United Kingdom","Yes","Rarely","No","No","Yes","Yes","No","31-40"
+"902",39,"Male","United States","Yes","Often","Yes","No","Don't know","No","No","31-40"
+"903",32,"Male","Canada","No","Never","No","Yes","Don't know","No","No","31-40"
+"904",37,"Male","Netherlands","No","Never","No","Yes","Don't know","Don't know","No","31-40"
+"905",31,"Male","United Kingdom","Yes","Never","Yes","No","Don't know","Don't know","No","31-40"
+"906",30,"Male","United States","Yes","Rarely","Yes","No","No","No","No","31-40"
+"907",51,"Male","Singapore","No","Never","No","Yes","Don't know","Don't know","No","51-60"
+"908",29,"Male","United States","No","Sometimes","Yes","No","Yes","No","No","18-30"
+"909",31,"Male","United Kingdom","No","Never","No","No","Yes","Yes","No","31-40"
+"910",26,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","18-30"
+"911",46,"Female","United States","No","Often","Yes","Yes","Yes","No","No","41-50"
+"912",32,"Male","United States","Yes","Sometimes","No","No","Yes","Don't know","No","31-40"
+"913",29,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","18-30"
+"914",34,"Male","Poland","No","Never","No","Yes","Don't know","No","No","31-40"
+"915",26,"Male","Colombia","No","Often","No","No","No","No","No","18-30"
+"916",32,"Female","United States","No","Sometimes","Yes","No","Yes","Don't know","No","31-40"
+"917",40,"Female","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes","41-50"
+"918",23,"Male","United Kingdom","No","Sometimes","Yes","No","No","No","Yes","18-30"
+"919",20,"Male","Georgia","No","Rarely","No","No","No","No","No","18-30"
+"920",26,"Female","United States","Yes","Rarely","Yes","No","Yes","No","No","18-30"
+"921",29,"Male","United States","No","Never","No","No","No","Don't know","Yes","18-30"
+"922",40,"Male","China","No","Sometimes","No","Yes","No","No","No","41-50"
+"923",25,"Female","Bulgaria","No","Sometimes","Yes","Yes","No","No","No","18-30"
+"924",32,"Other","United States","No","Sometimes","Yes","No","Yes","No","No","31-40"
+"925",38,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","Yes","31-40"
+"926",72,"Female","United States","Yes","Never","Yes","Yes","Yes","Yes","Yes","71-80"
+"927",35,"Female","United States","Yes","Sometimes","Yes","Yes","No","No","No","31-40"
+"928",28,"Female","United States","No","Often","Yes","No","No","No","No","18-30"
+"929",27,"Other","United States","No","Never","No","No","Don't know","Don't know","No","18-30"
+"930",56,"Female","United States","No","Rarely","No","Yes","Don't know","Don't know","No","51-60"
+"931",38,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","No","No","31-40"
+"932",40,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","41-50"
+"933",44,"Male","United States","Yes","Sometimes","Yes","No","Yes","Yes","No","41-50"
+"934",34,"Male","Canada","Yes","Sometimes","No","No","Yes","Yes","No","31-40"
+"935",37,"Male","United Kingdom","No","Never","No","Yes","Don't know","No","No","31-40"
+"936",38,"Male","Italy","No","Never","No","No","Don't know","Don't know","No","31-40"
+"937",34,"Female","Ireland","No","Sometimes","Yes","No","Yes","No","No","31-40"
+"938",35,"Female","Ireland","No","Rarely","No","No","Don't know","No","No","31-40"
+"939",34,"Male","Ireland","No","Often","Yes","No","No","No","No","31-40"
+"940",32,"Male","United States","No","Often","Yes","Yes","Yes","Don't know","No","31-40"
+"941",28,"Male","Australia","No","Often","Yes","Yes","No","No","No","18-30"
+"942",28,"Female","United States","No","Rarely","Yes","No","Yes","No","Yes","18-30"
+"943",34,"Male","Ireland","Yes","Never","Yes","Yes","No","No","No","31-40"
+"944",32,"Male","Ireland","No","Sometimes","Yes","No","No","No","No","31-40"
+"945",34,"Male","United Kingdom","Yes","Often","No","Yes","Don't know","No","No","31-40"
+"946",23,"Male","United States","No","Sometimes","Yes","No","No","No","No","18-30"
+"947",33,"Male","Czech Republic","Yes","Often","No","No","No","No","Yes","31-40"
+"948",29,"Male","Singapore","Yes","Sometimes","Yes","No","Don't know","No","No","18-30"
+"949",45,"Male","Ireland","No","Never","No","Yes","Don't know","No","Yes","41-50"
+"950",34,"Female","United Kingdom","No","Sometimes","Yes","No","No","Yes","Yes","31-40"
+"951",31,"Male","Philippines","No","Sometimes","No","No","Don't know","No","Yes","31-40"
+"952",33,"Male","United States","No","Often","Yes","Yes","Yes","No","No","31-40"
+"953",27,"Male","United Kingdom","No","Rarely","No","Yes","Don't know","Yes","No","18-30"
+"954",42,"Male","Ireland","No","Never","No","No","No","No","No","41-50"
+"955",38,"Male","United States","No","Sometimes","Yes","Yes","Yes","Yes","No","31-40"
+"956",46,"Male","United States","Yes","Often","Yes","No","Don't know","No","No","41-50"
+"957",46,"Male","United States","Yes","Sometimes","Yes","Yes","Don't know","Don't know","No","41-50"
+"958",41,"Female","Netherlands","No","Rarely","Yes","Yes","Don't know","Yes","No","41-50"
+"959",23,"Other","United Kingdom","No","Never","No","No","Don't know","No","Yes","18-30"
+"960",24,"Male","Ireland","Yes","Sometimes","Yes","No","Yes","Yes","Yes","18-30"
+"961",23,"Female","Ireland","No","Rarely","Yes","No","No","No","No","18-30"
+"962",32,"Female","Ireland","Yes","Never","No","No","Yes","Yes","No","31-40"
+"963",25,"Male","United States","Yes","Sometimes","Yes","No","Don't know","No","No","18-30"
+"964",23,"Female","United Kingdom","Yes","Sometimes","Yes","No","No","Yes","No","18-30"
+"965",24,"Other","United Kingdom","No","Sometimes","Yes","Yes","No","No","Yes","18-30"
+"966",25,"Male","United Kingdom","Yes","Sometimes","Yes","No","Yes","Yes","No","18-30"
+"967",23,"Male","United Kingdom","No","Rarely","Yes","No","No","No","No","18-30"
+"968",24,"Other","United Kingdom","No","Sometimes","Yes","No","Don't know","Don't know","No","18-30"
+"969",23,"Male","Canada","No","Often","Yes","No","Yes","Don't know","No","18-30"
+"970",60,"Male","United States","No","Often","Yes","Yes","Don't know","Don't know","No","61-70"
+"971",28,"Male","Ireland","No","Sometimes","No","No","No","No","Yes","18-30"
+"972",28,"Male","United States","Yes","Often","Yes","No","Yes","Yes","Yes","18-30"
+"973",30,"Male","Netherlands","No","Sometimes","No","No","Don't know","No","No","31-40"
+"974",31,"Male","Germany","Yes","Sometimes","Yes","No","Don't know","No","No","31-40"
+"975",31,"Male","Poland","No","Often","Yes","Yes","No","No","No","31-40"
+"976",28,"Male","Ireland","No","Rarely","Yes","No","Don't know","Don't know","No","18-30"
+"977",43,"Female","United States","Yes","Rarely","Yes","Yes","Yes","Yes","No","41-50"
+"978",22,"Male","Australia","Yes","Often","Yes","No","Yes","Yes","Yes","18-30"
+"979",32,"Male","United States","No","Never","No","No","Yes","Yes","No","31-40"
+"980",36,"Male","Finland","No","Often","Yes","No","No","No","Yes","31-40"
+"981",41,"Female","United States","Yes","Sometimes","Yes","No","Yes","Don't know","No","41-50"
+"982",30,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","31-40"
+"983",30,"Male","United States","Yes","Often","Yes","No","Yes","Yes","No","31-40"
+"984",36,"Male","South Africa","Yes","Often","Yes","No","No","No","No","31-40"
+"985",29,"Male","United States","Yes","Sometimes","Yes","Yes","Yes","No","No","18-30"
+"986",36,"Male","United States","Yes","Rarely","No","No","Don't know","Yes","No","31-40"
+"987",32,"Male","United States","Yes","Often","Yes","Yes","Yes","No","No","31-40"
+"988",34,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","31-40"
+"989",25,"Male","United States","Yes","Sometimes","Yes","No","Yes","No","No","18-30"

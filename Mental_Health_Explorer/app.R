@@ -34,48 +34,22 @@ ui <- fluidPage(
         width = 2
       ),
       
-      # Show a plot of the generated distribution
-      mainPanel(
-        tabsetPanel(
-          tabPanel("Map", h3("Worldwide Mental Treatment Ratio", align="center"), 
-                   #p("# of People who saught treatment / # of Respondents", align="center"),
-                   plotOutput("worldmap", height = "600px", width="auto")),
-          
-          tabPanel("Socio-demographic Plots", 
-                   plotlyOutput("Age"), 
-                   br(),
-                   br(),
-                   plotlyOutput("Gender"),
-                   br(),
-                   br(),
-                   plotlyOutput("family_history")),
-          
-          tabPanel("Workplace related Plots",
-                   plotlyOutput("work_interfere"),
-                   br(),
-                   br(),
-                   plotlyOutput("remote_work"), 
-                   br(),
-                   br(),
-                   plotlyOutput("benefit"), 
-                   br(),
-                   br(),
-                   plotlyOutput("seek_help"), 
-                   br(),
-                   br(),
-                   plotlyOutput("obs_consequence")),
+    # Show a plot of the generated distribution
+    mainPanel(
+      tabsetPanel(
+        tabPanel("Socio-Demographic Plots",
+          fluidRow(column(6, plotlyOutput("Age"), plotlyOutput("Gender")),
+                   column(6,plotlyOutput("family_history")))),
+          tabPanel("Workplace Related Plots",
+                   fluidRow(column(6, plotlyOutput("work_interfere"),plotlyOutput("remote_work")),
+                            column(6, plotlyOutput("benefit"),plotlyOutput("seek_help")),
+                            column(6, plotlyOutput("obs_consequence")))),
           tabPanel("Data", tableOutput("table"))
+          )
         )
       )
-   )
-)
-
+    )
 server <- function(input, output) {
-  
-  output$worldmap <- renderPlot({
-    map <- joinCountryData2Map(treat_data, joinCode="NAME", nameJoinColumn="Country")
-    mapCountryData(map, nameColumnToPlot="treatment_ratio", colourPalette = "heat")
-  })
   
   output$countryOutput <- renderUI({
     selectInput('countryInput', 'Country', sort(unique(data$Country)), 
@@ -107,7 +81,7 @@ server <- function(input, output) {
       theme_bw()+
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
       scale_fill_manual(values = alpha(c("honeydew3","grey52")))
-    #ggplotly(age)
+
   })
    
    output$Gender <- renderPlotly({
@@ -123,7 +97,7 @@ server <- function(input, output) {
        theme_bw()+
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
-     #ggplotly(gender)
+
    })
    
     output$family_history <- renderPlotly({
@@ -140,7 +114,6 @@ server <- function(input, output) {
        theme_bw()+
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
-    # ggplotly(fam_hist)
      
    })
    
@@ -158,8 +131,6 @@ server <- function(input, output) {
        theme_bw()+
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
-       
-     #ggplotly(work_int)
      
    })
    

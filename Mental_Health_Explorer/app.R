@@ -5,6 +5,7 @@ library(plotly)
 #library(leaflet)
 
 # Read data
+
 data <- read_csv("../data/clean/data_clean.csv")
 data$X1 <- NULL
 treat_data <- read_csv("../data/clean/treatment_data.csv")
@@ -29,6 +30,7 @@ ui <- fluidPage(
         h3("Filters", align="center"),
         br(),
         uiOutput("countryOutput"),
+        uiOutput("ageOutput"),
         width = 2
       ),
       
@@ -36,12 +38,32 @@ ui <- fluidPage(
       mainPanel(
         tabsetPanel(
           tabPanel("Map", h3("Worldwide Mental Treatment Ratio", align="center"), 
-                   p("# of People who saught treatment / # of Respondents", align="center"),
+                   #p("# of People who saught treatment / # of Respondents", align="center"),
                    plotOutput("worldmap", height = "600px", width="auto")),
-          tabPanel("Plots", plotlyOutput("Age"), plotlyOutput("Gender"),
-                   plotlyOutput("family_history"), plotlyOutput("work_interfere"),
-                   plotlyOutput("remote_work"), plotlyOutput("benefit"), 
-                   plotlyOutput("seek_help"), plotlyOutput("obs_consequence")),
+          
+          tabPanel("Socio-demographic Plots", 
+                   plotlyOutput("Age"), 
+                   br(),
+                   br(),
+                   plotlyOutput("Gender"),
+                   br(),
+                   br(),
+                   plotlyOutput("family_history")),
+          
+          tabPanel("Workplace related Plots",
+                   plotlyOutput("work_interfere"),
+                   br(),
+                   br(),
+                   plotlyOutput("remote_work"), 
+                   br(),
+                   br(),
+                   plotlyOutput("benefit"), 
+                   br(),
+                   br(),
+                   plotlyOutput("seek_help"), 
+                   br(),
+                   br(),
+                   plotlyOutput("obs_consequence")),
           tabPanel("Data", tableOutput("table"))
         )
       )
@@ -60,9 +82,15 @@ server <- function(input, output) {
                 selected = "Canada", multiple = TRUE, selectize=TRUE)
   })  
   
+  output$ageOutput <- renderUI({
+    selectInput('ageInput', 'Age groups', sort(unique(data$age_group)), 
+                selected = "31-40", multiple = TRUE, selectize=TRUE)
+  }) 
+  
   filtered_data <- reactive(
     data %>%
-      filter(Country %in% input$countryInput)
+      filter(Country %in% input$countryInput) %>% 
+      filter(age_group %in%input$ageInput)
   )
   
   output$Age <- renderPlotly({
@@ -75,9 +103,11 @@ server <- function(input, output) {
       geom_bar(position="dodge", stat="identity")+
       ylab("Count")+
       xlab("Age groups")+
-      ggtitle("Mental heath treatment sought per age groups") +
-      theme_bw()
-    ggplotly(age)
+      ggtitle("Mental health treatment sought per age groups") +
+      theme_bw()+
+      theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+      scale_fill_manual(values = alpha(c("honeydew3","grey52")))
+    #ggplotly(age)
   })
    
    output$Gender <- renderPlotly({
@@ -89,9 +119,11 @@ server <- function(input, output) {
        ggplot(aes(Gender,Response, fill=treatment))+ 
        geom_bar(position="dodge", stat="identity")+
        ylab("Count")+
-       ggtitle("Mental heath treatment sought per gender")+
-       theme_bw()
-     ggplotly(gender)
+       ggtitle("Mental health treatment sought per gender")+
+       theme_bw()+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       scale_fill_manual(values = alpha(c("honeydew3","grey52")))
+     #ggplotly(gender)
    })
    
     output$family_history <- renderPlotly({
@@ -105,8 +137,10 @@ server <- function(input, output) {
        ylab("Count")+
        xlab("Family History")+
        ggtitle("Family history of mental illness and treatment sought")+
-       theme_bw()
-     ggplotly(fam_hist)
+       theme_bw()+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       scale_fill_manual(values = alpha(c("honeydew3","grey52")))
+    # ggplotly(fam_hist)
      
    })
    
@@ -121,8 +155,11 @@ server <- function(input, output) {
        ylab("Count")+
        xlab("Work interference")+
        ggtitle("Work inteference and treatment sought")+
-       theme_bw()
-     ggplotly(work_int)
+       theme_bw()+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       scale_fill_manual(values = alpha(c("honeydew3","grey52")))
+       
+     #ggplotly(work_int)
      
    })
    
@@ -137,7 +174,9 @@ server <- function(input, output) {
        ylab("Count")+
        xlab("Remote location")+
        ggtitle("Work location and treatment sought")+
-       theme_bw()
+       theme_bw()+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       scale_fill_manual(values = alpha(c("honeydew3","grey52")))
    })
    
    output$benefit <- renderPlotly({
@@ -151,7 +190,9 @@ server <- function(input, output) {
        ylab("Count")+
        xlab("Mental Health benefits")+
       ggtitle("Mental health benefits provided at work and treatment sought")+
-       theme_bw()
+       theme_bw()+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       scale_fill_manual(values = alpha(c("honeydew3","grey52")))
    })
    
    output$seek_help <- renderPlotly({
@@ -166,7 +207,9 @@ server <- function(input, output) {
        ylab("Count")+
        xlab("Resources availability")+
        ggtitle("Resources availability and treatment sought")+
-       theme_bw()
+       theme_bw()+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       scale_fill_manual(values = alpha(c("honeydew3","grey52")))
      
    })
    output$obs_consequence<- renderPlotly({
@@ -179,9 +222,11 @@ server <- function(input, output) {
        ggplot(aes(obs_consequence,Response, fill=treatment))+ 
        geom_bar(position="dodge", stat="identity")+
        ylab("Count")+
-       xlab("Observed negaive consequences")+
-       ggtitle(" Negative consequences due to mental illness and treatment sought")+
-       theme_bw()
+       xlab("Observed negative consequences")+
+       ggtitle(" Consequences of mental illness and treatment sought")+
+       theme_bw()+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       scale_fill_manual(values = alpha(c("honeydew3","grey52")))
    })
    
    output$table <- renderTable(

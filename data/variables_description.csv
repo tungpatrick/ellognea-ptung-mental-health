@@ -1,0 +1,11 @@
+﻿Variable,Description
+treatment,Have you sought treatment for a mental health condition?
+Age,Respondent age
+Gender,Respondent gender
+Country,Respondent country
+family_history,Do you have a family history of mental illness?
+work_interference,"If you have a mental health condition, do you feel that it interferes with your work?"
+remote_work,Do you work remotely (outside of an office) at least 50% of the time?
+benefits,Does your employer provide mental health benefits?
+seek_help,Does your employer provide resources to learn more about mental health issues and how to seek help?
+obs_consequence,Have you heard of or observed negative consequences for coworkers with mental health conditions in your workplace?

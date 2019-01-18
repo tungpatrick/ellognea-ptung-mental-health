@@ -11,6 +11,10 @@ data$X1 <- NULL
 treat_data <- read_csv("../data/clean/treatment_data.csv")
 treat_data$X1 <- NULL
 
+# Read variables description
+
+desc <- read_csv("../data/variables_description.csv")
+
 # Define UI for application that draws a histogram
 ui <- fluidPage(
    
@@ -64,7 +68,8 @@ ui <- fluidPage(
                    br(),
                    br(),
                    plotlyOutput("obs_consequence")),
-          tabPanel("Data", tableOutput("table"))
+          tabPanel("Data", tableOutput("table")),
+          tabPanel("Variables description", tableOutput("table2"))
         )
       )
    )
@@ -231,6 +236,9 @@ server <- function(input, output) {
    
    output$table <- renderTable(
      filtered_data()
+   )
+   output$table2 <- renderTable(
+     desc
    )
 }
 

@@ -1,4 +1,5 @@
 library(shiny)
+library(shinythemes)
 library(tidyverse)
 library(rworldmap)
 library(plotly)
@@ -12,7 +13,7 @@ data$X1 <- NULL
 desc <- read_csv("data/variables_description.csv")
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(
+ui <- fluidPage(theme=shinytheme("lumen"),
 
    # Application title
    titlePanel("Mental Health Explorer in the Workplace"),
@@ -205,7 +206,7 @@ server <- function(input, output) {
        ggplot(aes(obs_consequence,Response, fill=treatment))+
        geom_bar(position="dodge", stat="identity")+
        ylab("Count")+
-       xlab("Negative Observed Consequences")+
+       xlab("Negative Consequences Observed")+
        ggtitle("Observed Consequences vs Treatment")+
        theme_bw()+
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+

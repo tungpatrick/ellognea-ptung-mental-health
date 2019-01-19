@@ -43,18 +43,10 @@ Our App has three main filters: Country, Age, Personal/Professional. They allow 
 
 #### Interactive plots
 
+Our interactive plots allow the users to answer their own questions by playing with them. Additionaly, the hovering facility allows to display more information such as number of responses.
 
 ![](img/Personal.png)
 ![](img/Professional.png)
-
- It carries more information using the hovering facility. It allows the reader to go deeper in its
-
-understanding of the data, since he can play with it and try to answer its own question
-
-encoded in color, size and grouping
-
-
-### Data Extraction
 
 
 ### Prior Visions and Future Goals

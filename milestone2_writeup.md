@@ -26,7 +26,7 @@ The ```Data View``` tab shows the data in a table format. The table content chan
 
 ![](img/DataView.png)
 
-Lastly, the ```Variable Descriptions``` tab shows what each variable means. We've explicitly defined the variables in order to avoid any confusion that might hinder the interpretability of the plots.
+Lastly, the ```Variable Descriptions``` tab shows the meaning of each variable. We've explicitly defined the variables in order to avoid any confusion that might hinder the interpretability of the plots.
 
 ![](img/VariableDescriptions.png)
 
@@ -41,7 +41,9 @@ Our App has three main filters: Country, Age, Personal/Professional. They allow 
 ![](img/FilterSidebarBefore.png)
 ![](img/FilterSidebarAfter.png)
 
-#### Graphics
+#### Interactive plots
+
+
 ![](img/Personal.png)
 ![](img/Professional.png)
 
@@ -57,7 +59,7 @@ encoded in color, size and grouping
 
 ### Prior Visions and Future Goals
 
-From the eyes of us creators, the application is fairly straight forward to use. 
-As the creators of the application, we both found that we have create a very pleasant application that is easy to use and solves the problem we set out to solve. Overall, our final draft was created with the sketches we drew in milestone 1 in mind. However, with that being said, we definitely have made some changes. We made two very big changes. The first one is that we decided to not implement a map for our visualization application. While we were developing the app, we found that a map that simply showed response rates adds very little value and meaning. Furthermore, to create an effective map would take a lot of time, which we unfortunately do not have this week. The second change we made was that we implemented the use of tabs. Tabs allow users to effectively switch between different views such as graphics or data tables. 
+We believe our application is pleasant, fairly easy to use and solves the problem set out to solve.
+Overall, our final draft was created with the sketches we drew in milestone 1 in mind. However, we made two big changes. The first one is that we decided to not implement a map for our visualization application. While we were developing the app, we found that a map that simply showed response rates adds very little value and meaning. Furthermore, to create an effective map would take a lot of time, which we unfortunately do not have this week. The second change we made was that we implemented the use of tabs. Tabs allow users to effectively switch between different views such as graphics or data tables. 
 
-In the future, we hope that we could implement better aesthetics as well as better functionalities to our graphics. For now, the filters seem fairly simple and although they work well, there definitely could be some aesthetic changes.
+In the future, we hope that we could implement better aesthetics as well as better functionalities to our graphics. We are looking forward to next week's feedback session.

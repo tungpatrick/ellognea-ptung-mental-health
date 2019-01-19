@@ -36,14 +36,22 @@ Our App has three main filters: Country, Age, Personal/Professional. They allow 
 
 - Personal/Professsional : The app has 8 graphs that can be grouped into two categories; personal and professional. The personal plots are related to socio-demographic variables such as Age. The professional plots pertain to workplace related variables such as benefits provided.  This filter not only enables the users to focus on related plots but also allows to display all graphs without scrolling.
 
-- Country and Age:  When unchecked, this filter allows to explore the data for all countries and age groups. The users can also narrow their analysis focus by selecting their countries and age groups. We added this functionality because mental health issues may be perceived differently across cultures and age groups.
+- Country and Age:  When unchecked, these filters allow to explore the data for all countries and age groups. The users can also narrow their analysis focus by selecting their countries and age groups. We added this functionality because mental health issues may be perceived differently across cultures and age groups.
  
 ![](img/FilterSidebarBefore.png)
 ![](img/FilterSidebarAfter.png)
 
 #### Interactive plots
 
-Our interactive plots allow the users to answer their own questions by playing with them. Additionaly, the hovering facility allows to display more information such as number of responses.
+We opted for grouped  barcharts because they are easy to interpret and enable to compare information about different sub-groups of the same category (our variables are categorical). We encoded our charts in color, size and grouping. 
+
+- Color : The categories of the treatment variables (No/Yes) are encoded in dark grey (Yes) and light grey (No)
+
+- Size: The height of the bars represent the number of responses
+
+- Grouping: Every category of the variables on the X-axis (age, gender, benefits) has a cluster of columns
+
+Our interactive plots allow the users to answer their own questions by playing with them. Additionaly, the hovering facility allows to display more information such as number of responses. 
 
 ![](img/Personal.png)
 ![](img/Professional.png)

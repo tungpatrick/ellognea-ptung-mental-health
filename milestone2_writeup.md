@@ -57,7 +57,7 @@ We opted for grouped barcharts because they are easy to interpret and can enable
 
 - Grouping: Every category of the variables on the X-axis (age, gender, benefits) has a cluster of columns
 
-Our interactive plots allow the users to answer their own questions by playing with them. Additiontally, the hovering effect enables the app to display more information such as the number of responses.
+Our interactive plots allow the users to answer their own questions by playing with them. Additionally, the hovering effect enables the app to display more information such as the number of responses.
 
 ![](img/Personal.png)
 ![](img/Professional.png)

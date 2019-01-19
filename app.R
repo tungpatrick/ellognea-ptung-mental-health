@@ -1,9 +1,9 @@
 library(shiny)
 library(shinythemes)
 library(tidyverse)
-library(rworldmap)
 library(plotly)
 library(DT)
+library(rsconnect)
 
 # Read data
 data <- read_csv("data/clean/data_clean.csv")

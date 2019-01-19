@@ -34,7 +34,7 @@ Lastly, the ```Variable Descriptions``` tab shows the meaning of each variable. 
 
 Our app has three main filters: Country, Age, Personal/Professional. These filters allow users to dive deeper into their understanding of the data by exploring it in different ways.  
 
-- Personal/Professsional : The app has 8 graphs that can be grouped into two categories; personal and professional. The personal plots are related to socio-demographic variables such as Age. The professional plots pertain to workplace related variables such as benefits provided.  This filter not only enables the users to focus on related plots but also allows to display all graphs without scrolling.
+- Personal/Professional : The app has 8 graphs that can be grouped into two categories; personal and professional. The personal plots are related to socio-demographic variables such as Age. The professional plots pertain to workplace related variables such as benefits provided.  This filter not only enables the users to focus on related plots but also allows to display all graphs without scrolling.
 
 - Country and Age:  When unchecked, these filters allow users to explore the data for all countries and age groups. The users can also narrow their analysis focus by selecting their countries and age groups. We added this functionality because mental health issues may be perceived differently across cultures and age groups.
 
@@ -53,7 +53,7 @@ We opted for grouped barcharts because they are easy to interpret and can enable
 
 - Color : The categories of the treatment variable (No/Yes) are encoded in dark grey (Yes) and light grey (No)
 
-- Size: The height of the bars represent the number of responses
+- Size: The height of the bars represents the number of responses
 
 - Grouping: Every category of the variables on the X-axis (age, gender, benefits) has a cluster of columns
 
@@ -67,6 +67,6 @@ Our interactive plots allow the users to answer their own questions by playing w
 
 We believe our application is pleasant, fairly easy to use and solves the problem set out to solve. Our app was development with a mindset that visualizations should be simple and meaningful. We did not want to implement too many features because there is a risk of overshadowing important information. 
 
-Overall, our final draft was created with the sketches we drew in milestone 1 in mind. However, we made two big changes. The first one is that we decided to not implement a map for our visualization application. While we were developing the app, we found that a map that simply showed response rates adds very little value and meaning. Furthermore, to create an effective map would take a lot of time, which we unfortunately do not have this week. The second change we made was that we implemented the use of tabs. Tabs allow users to effectively switch between different views such as graphics or data tables.
+Overall, our final draft was created with the sketches we drew in milestone 1 in mind. However, we made two major changes. The first one is that we decided to not implement a map for our visualization application. While we were developing the app, we found that a map that simply showed response rates adds very little value and meaning. Furthermore, to create an effective map would take a lot of time, which we unfortunately do not have this week. The second change we made was that we implemented the use of tabs. Tabs allow users to effectively switch between different views such as graphics or data tables.
 
 In the future, we hope that we could implement better aesthetics as well as better functionalities to our graphics. We are looking forward to next week's feedback session.

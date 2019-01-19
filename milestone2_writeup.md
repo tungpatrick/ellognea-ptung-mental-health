@@ -45,7 +45,7 @@ Our App has three main filters: Country, Age, Personal/Professional. They allow 
 
 We opted for grouped  barcharts because they are easy to interpret and enable to compare information about different sub-groups of the same category (our variables are categorical). We encoded our charts in color, size and grouping.
 
-- Color : The categories of the treatment variables (No/Yes) are encoded in dark grey (Yes) and light grey (No)
+- Color : The categories of the treatment variable (No/Yes) are encoded in dark grey (Yes) and light grey (No)
 
 - Size: The height of the bars represent the number of responses
 

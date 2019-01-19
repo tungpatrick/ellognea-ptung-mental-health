@@ -43,7 +43,7 @@ Our app has three main filters: Country, Age, Personal/Professional. These filte
 
 Furthermore, in regards to our Age and Country filters, users are able to select multiple values. For example, a user can choose to view graphs concerning "Canada, USA, and France". 
 
-![](img/FilterSidebarMultiple.png)
+![](img/FilterSidebarMult.png)
 
 
 

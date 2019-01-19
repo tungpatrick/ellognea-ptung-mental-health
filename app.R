@@ -2,76 +2,83 @@ library(shiny)
 library(tidyverse)
 library(rworldmap)
 library(plotly)
-#library(leaflet)
+library(DT)
 
 # Read data
-
-data <- read_csv("../data/clean/data_clean.csv")
+data <- read_csv("data/clean/data_clean.csv")
 data$X1 <- NULL
-treat_data <- read_csv("../data/clean/treatment_data.csv")
-treat_data$X1 <- NULL
 
-# Read variables description
-
-desc <- read_csv("../data/variables_description.csv")
+# Read variable descriptions
+desc <- read_csv("data/variables_description.csv")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
 
    # Application title
    titlePanel("Mental Health Explorer in the Workplace"),
-   tags$head(
-     tags$style(HTML("
-                     body {
-                      font-family: 'Helvetica';
-                     }
-                     "))
-     ),
+   tags$hr(),
 
    # Sidebar with a slider input for number of bins
    sidebarLayout(
-      sidebarPanel(
-        h3("Filters", align="center"),
-        br(),
-        uiOutput("countryOutput"),
-        uiOutput("ageOutput"),
-        width = 2
-      ),
+     sidebarPanel(
+       h4("Filter by:", align="left"),
+       br(),
+       wellPanel(checkboxInput("countryCheck", "Country", FALSE),
+                 checkboxInput("ageCheck", "Age", FALSE),
+                 radioButtons("perproInput", label="Subgroup",
+                              choices = c("Personal", "Professional"),
+                              selected = "Personal"
+                 )),
+       uiOutput("countryOutput"),
+       uiOutput("ageOutput"),
+       width = 2),
 
     # Show a plot of the generated distribution
     mainPanel(
       tabsetPanel(
-        tabPanel("Socio-Demographic Plots",
-          fluidRow(column(6, plotlyOutput("Age"), br(), plotlyOutput("Gender")),
-                   column(6,plotlyOutput("family_history")))),
-          tabPanel("Workplace Related Plots",
-                   fluidRow(column(6, plotlyOutput("work_interfere"),br(),plotlyOutput("remote_work"), br(),  plotlyOutput("obs_consequence")),
-                            column(6, plotlyOutput("benefit"),br(), plotlyOutput("seek_help"))
-                   )),
-          tabPanel("Data", tableOutput("table")),
-          tabPanel("Variables description", tableOutput("table2"))
-          )
-        )
-      )
-)
+        tabPanel("Graphics", 
+           conditionalPanel("input.perproInput == 'Personal'",
+                            fluidRow(column(6, plotlyOutput("Age"), br(), plotlyOutput("Gender")),
+                                     column(6,plotlyOutput("family_history"),br(), plotlyOutput("obs_consequence")))),
+           conditionalPanel("input.perproInput == 'Professional'",
+                            fluidRow(column(6, plotlyOutput("work_interfere"),br(),plotlyOutput("remote_work")),
+                                     column(6, plotlyOutput("benefit"),br(), plotlyOutput("seek_help"))
+                            )
+                 )
+           ),
+        tabPanel("Data View", DT::dataTableOutput("table")),
+        tabPanel("Variable Descriptions", tableOutput("table2"))
+          ),
+      width=10)
+    )
+   )
 server <- function(input, output) {
 
   output$countryOutput <- renderUI({
-    selectInput('countryInput', 'Country', sort(unique(data$Country)),
-                selected = "Canada", multiple = TRUE, selectize=TRUE)
-  })
+    if(input$countryCheck) {
+      selectInput('countryInput', 'Country', sort(unique(data$Country)),
+                  selected = "Canada", multiple = TRUE, selectize=TRUE)
+      }
+    })
 
   output$ageOutput <- renderUI({
-    selectInput('ageInput', 'Age groups', sort(unique(data$age_group)),
-                selected = "31-40", multiple = TRUE, selectize=TRUE)
+    if(input$ageCheck) {
+      selectInput('ageInput', 'Age groups', sort(unique(data$age_group)),
+                  selected = "31-40", multiple = TRUE, selectize=TRUE)
+    }
   })
 
-  filtered_data <- reactive(
-    data %>%
-      filter(Country %in% input$countryInput) %>%
-      filter(age_group %in%input$ageInput)
-  )
-
+  filtered_data <- reactive({
+    if (input$countryCheck) {
+      data <- data %>% filter(Country %in% input$countryInput)
+    }
+    if (input$ageCheck) {
+      data <- data %>% filter(age_group %in%input$ageInput)
+    }
+    
+    return(data)
+    })
+    
   output$Age <- renderPlotly({
     age <- filtered_data() %>%
       select(age_group, treatment) %>%
@@ -131,7 +138,7 @@ server <- function(input, output) {
        ggplot(aes(work_interfere,Response, fill=treatment))+
        geom_bar(position="dodge", stat="identity")+
        ylab("Count")+
-       xlab("Work interference")+
+       xlab("Work Interference")+
        ggtitle("Work Interference vs Treatment")+
        theme_bw()+
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
@@ -148,7 +155,7 @@ server <- function(input, output) {
        ggplot(aes(remote_work,Response, fill=treatment))+
        geom_bar(position="dodge", stat="identity")+
        ylab("Count")+
-       xlab("Remote location")+
+       xlab("Remote Location")+
        ggtitle("Work Location vs Treatment")+
        theme_bw()+
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
@@ -164,8 +171,8 @@ server <- function(input, output) {
        ggplot(aes(benefits,Response, fill=treatment))+
        geom_bar(position="dodge", stat="identity")+
        ylab("Count")+
-       xlab("Benefits vs Treatment")+
-      ggtitle("Benefits Provided vs Treatment")+
+       xlab("Benefits")+
+       ggtitle("Benefits Provided vs Treatment")+
        theme_bw()+
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
@@ -181,7 +188,7 @@ server <- function(input, output) {
        ggplot(aes(seek_help,Response, fill=treatment))+
        geom_bar(position="dodge", stat="identity")+
        ylab("Count")+
-       xlab("Resources availability")+
+       xlab("Resources Availability")+
        ggtitle("Resources Availability vs Treatment")+
        theme_bw()+
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
@@ -198,21 +205,22 @@ server <- function(input, output) {
        ggplot(aes(obs_consequence,Response, fill=treatment))+
        geom_bar(position="dodge", stat="identity")+
        ylab("Count")+
-       xlab("Observed negative consequences")+
+       xlab("Negative Observed Consequences")+
        ggtitle("Observed Consequences vs Treatment")+
        theme_bw()+
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
    })
 
-   output$table <- renderTable(
-     filtered_data()
+   output$table <- DT::renderDataTable({
+     DT::datatable(filtered_data(), options=list(lengthMenu=c(10,30,50), 
+                                                 scrollX= TRUE))
+   }
    )
    output$table2 <- renderTable(
      desc
    )
 }
-
 
 # Run the application
 shinyApp(ui = ui, server = server)

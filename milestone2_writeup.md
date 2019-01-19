@@ -34,7 +34,7 @@ Lastly, the ```Variable Descriptions``` tab shows the meaning of each variable. 
 
 Our App has three main filters: Country, Age, Personal/Professional. They allow the users to  go deeper in their understanding of the data by exploring it in different ways.  
 
-- Personal/Professsional : The app has 8 graphs that can be grouped into two categories; personal and professional. The personal plots show the relationship between mental health treatment sought and socio-demographic variables such as Age. The professional plots pertain to workplace related variables such as benefits provided.  This filter not only enables the users to focus on related plots but also allows to display all graphs without scrolling.
+- Personal/Professsional : The app has 8 graphs that can be grouped into two categories; personal and professional. The personal plots are related to socio-demographic variables such as Age. The professional plots pertain to workplace related variables such as benefits provided.  This filter not only enables the users to focus on related plots but also allows to display all graphs without scrolling.
 
 - Country and Age:  When unchecked, this filter allows to explore the data for all countries and age groups. The users can also narrow their analysis focus by selecting their countries and age groups. We added this functionality because mental health issues may be perceived differently across cultures and age groups.
  

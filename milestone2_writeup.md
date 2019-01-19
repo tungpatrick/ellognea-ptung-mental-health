@@ -9,31 +9,40 @@
 2. Filters (Country, Age, Professional/Personal)
 3. Interactive plots
 
-This is the landing page of our app.
+This is the landing page of our app:
+
 ![](img/LandingPageApp.png)
 
 We will now go into further details.
 
-#### Tabs
-We have three tabs in our app: Graphics, Data, and Variable Descriptions
+### Functionalities and  Design choices rationale
 
-The Graphics tab can be seen from the landing page, so a screenshot is not provided. On this tab, users are able to view the plots that we have created based on our filtered data. The filters will be discussed later. We chose to use.... 
+## Tabs
+We have three tabs in our app: Graphics, Data, and Variable Descriptions.
 
-The Data View tab, as you can imagine, shows the data in a table format. Users can sort the data by whichever variable they choose. Of course, the data that is shown is also filtered.
+The ```Graphics``` tab can be seen from the landing page, so a screenshot is not provided. On this tab, users are able to interact with 8 dynamic plots created from the filtered data. The filters and the graphs will be discussed later.
+
+The ```Data View``` tab shows the data in a table format. The table content changes with the filter selections and the variables can be sorted alphabetically and numerically. We chose to make the data dynamic so that users can esily access the relevant information that went into making the plots they choose to display.
+
 ![](img/DataView.png)
 
-Finally, the Variable Descriptions tab simply shows what each variable means. This is provided just in case users are unaware of what each variables mean.
+Lastly, the ```Variable Descriptions``` tab shows what each variable means. We chose to explicitly define the variables in order to avoid any confusion that might hinder the interpretability of the plots.
+
 ![](img/VariableDescriptions.png)
 
-#### Filters
+## Filters
 ![](img/FilterSidebarBefore.png)
 ![](img/FilterSidebarAfter.png)
 
-#### Graphics
+## Graphics
 ![](img/Personal.png)
 ![](img/Professional.png)
 
-### Rationale
+ It carries more information using the hovering facility. It allows the reader to go deeper in its
+
+understanding of the data, since he can play with it and try to answer its own question
+
+encoded in color, size and grouping
 
 From the eyes of us creators, the application is fairly straight forward to use. 
 ### Data Extraction

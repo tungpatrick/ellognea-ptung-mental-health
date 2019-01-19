@@ -1,17 +1,18 @@
 # Milestone 2 Writeup
 
 
-### Descriptions of the Application
+### Presentation of the Application
 
+<a href="https://ptung.shinyapps.io/ellognea-ptung-mental-health/">The Mental Health Explorer in the Workplace</a>  application explores factors that may lead to employees seeking help for a mental health condition with the <a href="https://www.kaggle.com/osmi/mental-health-in-tech-survey"> Mental Health in Tech Survey </a> dataset. It has three main components:
 
-### Functionalities and Rationale
+1. Tabs (Graphics, Data View and Data description)
+2. Filters (Country, Age, Professional/Personal)
+3. Interactive plots
 
-From the eyes of us creators, the application is fairly straight forward to use. There are 3 main components of our app:
-1. Tabs
-2. Filters
-3. Graphics
-We will now go into further detail. This is the landing page of our app.
+This is the landing page of our app.
 ![](img/LandingPageApp.png)
+
+We will now go into further details.
 
 #### Tabs
 We have three tabs in our app: Graphics, Data, and Variable Descriptions
@@ -32,6 +33,9 @@ Finally, the Variable Descriptions tab simply shows what each variable means. Th
 ![](img/Personal.png)
 ![](img/Professional.png)
 
+### Rationale
+
+From the eyes of us creators, the application is fairly straight forward to use. 
 ### Data Extraction
 
 

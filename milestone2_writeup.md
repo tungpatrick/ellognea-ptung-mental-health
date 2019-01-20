@@ -65,7 +65,7 @@ Our interactive plots allow the users to answer their own questions by playing w
 
 ### Prior Visions and Future Goals
 
-We believe our application is pleasant, fairly easy to use and solves the problem set out to solve. Our app was development with a mindset that visualizations should be simple and meaningful. We did not want to implement too many features because there is a risk of overshadowing important information. 
+We believe our application is pleasant, fairly easy to use and solves the problem set out to solve. Our app was developed with a mindset that visualizations should be simple and meaningful. We did not want to implement too many features because there is a risk of overshadowing important information. 
 
 Overall, our final draft was created with the sketches we drew in milestone 1 in mind. However, we made two major changes. The first one is that we decided to not implement a map for our visualization application. While we were developing the app, we found that a map that simply showed response rates adds very little value and meaning. Furthermore, to create an effective map would take a lot of time, which we unfortunately do not have this week. The second change we made was that we implemented the use of tabs. Tabs allow users to effectively switch between different views such as graphics or data tables.
 

@@ -1,4 +1,5 @@
 library(shiny)
+library(tidyverse)
 library(shinythemes)
 library(tidyverse)
 library(plotly)
@@ -87,12 +88,11 @@ server <- function(input, output) {
       group_by(age_group,treatment) %>%
       summarize(Response=n()) %>%
       ggplot(aes(age_group,Response, fill=treatment))+
-      geom_bar(position="dodge", stat="identity")+
-      ylab("Count")+
-      xlab("Age groups")+
-      ggtitle("Age Group vs Treatment") +
+      geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
+      labs(fill="Treatment", y="Count", x="Age groups")+
+      ggtitle("Age Group") +
       theme_bw()+
-      theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+      theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),legend.position = "bottom")+
       scale_fill_manual(values = alpha(c("honeydew3","grey52")))
 
   })
@@ -104,11 +104,11 @@ server <- function(input, output) {
        group_by(Gender,treatment) %>%
        summarize(Response=n()) %>%
        ggplot(aes(Gender,Response, fill=treatment))+
-       geom_bar(position="dodge", stat="identity")+
+       geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
        ylab("Count")+
-       ggtitle("Gender vs Treatment")+
+       ggtitle("Gender")+
        theme_bw()+
-       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),legend.position = "none")+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
 
    })
@@ -120,12 +120,12 @@ server <- function(input, output) {
        group_by(family_history,treatment) %>%
        summarize(Response=n()) %>%
        ggplot(aes(family_history,Response, fill=treatment))+
-       geom_bar(position="dodge", stat="identity")+
+       geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
        ylab("Count")+
        xlab("Family History")+
-       ggtitle("Family History vs Treatment")+
+       ggtitle("Family History")+
        theme_bw()+
-       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),legend.position = "none")+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
 
    })
@@ -137,10 +137,9 @@ server <- function(input, output) {
        group_by(work_interfere,treatment) %>%
        summarize(Response=n()) %>%
        ggplot(aes(work_interfere,Response, fill=treatment))+
-       geom_bar(position="dodge", stat="identity")+
-       ylab("Count")+
-       xlab("Work Interference")+
-       ggtitle("Work Interference vs Treatment")+
+       geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
+       labs(y="Count",x="Work Interference",fill="Treatment")+
+       ggtitle("Work Interference")+
        theme_bw()+
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
@@ -154,12 +153,12 @@ server <- function(input, output) {
        group_by(remote_work,treatment) %>%
        summarize(Response=n()) %>%
        ggplot(aes(remote_work,Response, fill=treatment))+
-       geom_bar(position="dodge", stat="identity")+
+       geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
        ylab("Count")+
        xlab("Remote Location")+
-       ggtitle("Work Location vs Treatment")+
+       ggtitle("Work Location")+
        theme_bw()+
-       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),legend.position = "none")+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
    })
 
@@ -170,12 +169,12 @@ server <- function(input, output) {
        group_by(benefits,treatment) %>%
        summarize(Response=n()) %>%
        ggplot(aes(benefits,Response, fill=treatment))+
-       geom_bar(position="dodge", stat="identity")+
+       geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
        ylab("Count")+
        xlab("Benefits")+
-       ggtitle("Benefits Provided vs Treatment")+
+       ggtitle("Benefits Provided")+
        theme_bw()+
-       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),legend.position = "none")+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
    })
 
@@ -187,12 +186,12 @@ server <- function(input, output) {
        group_by(seek_help,treatment) %>%
        summarize(Response=n()) %>%
        ggplot(aes(seek_help,Response, fill=treatment))+
-       geom_bar(position="dodge", stat="identity")+
+       geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
        ylab("Count")+
        xlab("Resources Availability")+
-       ggtitle("Resources Availability vs Treatment")+
+       ggtitle("Resources Availability")+
        theme_bw()+
-       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),legend.position = "none")+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
 
    })
@@ -204,12 +203,12 @@ server <- function(input, output) {
        group_by(obs_consequence,treatment) %>%
        summarize(Response=n()) %>%
        ggplot(aes(obs_consequence,Response, fill=treatment))+
-       geom_bar(position="dodge", stat="identity")+
+       geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
        ylab("Count")+
-       xlab("Negative Consequences Observed")+
-       ggtitle("Observed Consequences vs Treatment")+
+       xlab("Negative Consequences Observedin")+
+       ggtitle("Observed Consequences")+
        theme_bw()+
-       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),legend.position = "none")+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
    })
 

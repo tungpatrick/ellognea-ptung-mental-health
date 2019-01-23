@@ -22,4 +22,5 @@ Group 1: Juno and Kera's Crime Data Visualizer
 [Feedback to Group 1](https://github.com/UBC-MDS/Crime_population/issues/17)
 
 Group 2: Chao and Mengda's Mental Health Analysis Visualization App
+
 [Feedback to Group 2](https://github.com/UBC-MDS/Mental-Health-Analysis_Vis-App/issues/28)

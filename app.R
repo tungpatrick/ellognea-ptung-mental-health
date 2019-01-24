@@ -52,8 +52,8 @@ ui <- fluidPage(
                             )
                  )
            ),
-        tabPanel("Data View", DT::dataTableOutput("table")),
-        tabPanel("Variable Descriptions", DT::dataTableOutput("table2"))
+        tabPanel("Data View", DT::dataTableOutput("table"))
+        #tabPanel("Variable Descriptions", DT::dataTableOutput("table2"))
           ),
       width=10)
     )
@@ -230,16 +230,16 @@ server <- function(input, output) {
                      thead(
                        tr(
                          th('', title="Row Names"),
-                         th('Age', title='Age'),
-                         th('Gender', title='Gender'),
-                         th('Country', title="Country"), 
-                         th("Family History", title="Family History"),
-                         th("Work Interfere", title="Work Interfere"),
-                         th("Treatment", title="Treatment"),
-                         th("Remote Work", title="Remote Work"),
-                         th("Benefits", title="Benefits"),
-                         th('Seek Help', title="Seek Help"),
-                         th("Observed Negative Consequences", title="Observed Negative Consequences"),
+                         th('Age', title='Respondent age'),
+                         th('Gender', title='Respondent gender'),
+                         th('Country', title="Respondent country"), 
+                         th("Family History", title="Do you have a family history of mental illness?"),
+                         th("Work Interfere", title="If you have a mental health condition, do you feel that it interferes with your work?"),
+                         th("Treatment", title="Have you sought treatment for a mental health condition?"),
+                         th("Remote Work", title="Do you work remotely (outside of an office) at least 50% of the time?"),
+                         th("Benefits", title="Does your employer provide mental health benefits?"),
+                         th('Seek Help', title="Does your employer provide resources to learn more about mental health issues and how to seek help?"),
+                         th("Observed Negative Consequences", title="Have you heard of or observed negative consequences for coworkers with mental health conditions in your workplace?"),
                          th("Age Group", title="Age Group")
                        )
                      )

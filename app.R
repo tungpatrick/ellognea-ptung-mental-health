@@ -14,8 +14,11 @@ data$X1 <- NULL
 desc <- read_csv("data/variables_description.csv")
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(theme=shinytheme("lumen"),
-
+ui <- fluidPage(
+  tags$style(HTML('table.dataTable.hover tbody tr:hover,
+                  table.dataTable.display tbody tr:hover
+                  {background-color: pink !important;}')),
+  theme=shinytheme("lumen"),
    # Application title
    titlePanel("Mental Health Explorer in the Workplace"),
    tags$hr(),
@@ -24,15 +27,16 @@ ui <- fluidPage(theme=shinytheme("lumen"),
    sidebarLayout(
      sidebarPanel(
        h4("Filter by:", align="left"),
-       br(),
        wellPanel(checkboxInput("countryCheck", "Country", FALSE),
+                 uiOutput("countryOutput"),
                  checkboxInput("ageCheck", "Age", FALSE),
-                 radioButtons("perproInput", label="Subgroup",
+                 uiOutput("ageOutput")
+                 ),
+       br(),
+       h4("Type:", align="left"),
+       wellPanel(radioButtons("perproInput", label=NULL,
                               choices = c("Personal", "Professional"),
-                              selected = "Personal"
-                 )),
-       uiOutput("countryOutput"),
-       uiOutput("ageOutput"),
+                              selected = "Personal")),
        width = 2),
 
     # Show a plot of the generated distribution
@@ -49,13 +53,14 @@ ui <- fluidPage(theme=shinytheme("lumen"),
                  )
            ),
         tabPanel("Data View", DT::dataTableOutput("table")),
-        tabPanel("Variable Descriptions", tableOutput("table2"))
+        tabPanel("Variable Descriptions", DT::dataTableOutput("table2"))
           ),
       width=10)
     )
    )
 server <- function(input, output) {
-
+  
+  # Render the selectInput for countries
   output$countryOutput <- renderUI({
     if(input$countryCheck) {
       selectInput('countryInput', 'Country', sort(unique(data$Country)),
@@ -63,6 +68,7 @@ server <- function(input, output) {
       }
     })
 
+  # Render the selectInput for ages
   output$ageOutput <- renderUI({
     if(input$ageCheck) {
       selectInput('ageInput', 'Age groups', sort(unique(data$age_group)),
@@ -70,6 +76,7 @@ server <- function(input, output) {
     }
   })
 
+  # Filter data based on above filters
   filtered_data <- reactive({
     if (input$countryCheck) {
       data <- data %>% filter(Country %in% input$countryInput)
@@ -81,6 +88,7 @@ server <- function(input, output) {
     return(data)
     })
     
+  # Create plotly plots
   output$Age <- renderPlotly({
     age <- filtered_data() %>%
       select(age_group, treatment) %>%
@@ -92,9 +100,10 @@ server <- function(input, output) {
       labs(fill="Treatment", y="Count", x="Age groups")+
       ggtitle("Age Group") +
       theme_bw()+
-      theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),legend.position = "bottom")+
+      theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
       scale_fill_manual(values = alpha(c("honeydew3","grey52")))
-
+    ggplotly(age) %>%
+      layout(legend=list(orientation="h", x=0.6, y=0.95))
   })
 
    output$Gender <- renderPlotly({
@@ -143,7 +152,8 @@ server <- function(input, output) {
        theme_bw()+
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
        scale_fill_manual(values = alpha(c("honeydew3","grey52")))
-
+     ggplotly(work_int) %>%
+       layout(legend=list(orientation="h", x=0.1, y=0.7))
    })
 
    output$remote_work <- renderPlotly({
@@ -213,12 +223,43 @@ server <- function(input, output) {
    })
 
    output$table <- DT::renderDataTable({
-     DT::datatable(filtered_data(), options=list(lengthMenu=c(10,30,50), 
-                                                 scrollX= TRUE))
+     DT::datatable(filtered_data(), 
+                   options=list(lengthMenu=c(10,30,50), scrollX= TRUE),
+                   container = htmltools::withTags(table(
+                     class = 'display',
+                     thead(
+                       tr(
+                         th('', title="Row Names"),
+                         th('Age', title='Age'),
+                         th('Gender', title='Gender'),
+                         th('Country', title="Country"), 
+                         th("Family History", title="Family History"),
+                         th("Work Interfere", title="Work Interfere"),
+                         th("Treatment", title="Treatment"),
+                         th("Remote Work", title="Remote Work"),
+                         th("Benefits", title="Benefits"),
+                         th('Seek Help', title="Seek Help"),
+                         th("Observed Negative Consequences", title="Observed Negative Consequences"),
+                         th("Age Group", title="Age Group")
+                       )
+                     )
+                   ))
+                   )
    }
    )
-   output$table2 <- renderTable(
-     desc
+   output$table2 <- DT::renderDataTable(
+     DT::datatable(desc,
+     container = htmltools::withTags(table(
+       class = 'display',
+       thead(
+         tr(
+           th('', title="Row Names"),
+           th('Variables', title='Variables'),
+           th('Descriptions', title='Descriptions')
+         )
+       )
+     ))
+    )
    )
 }
 

@@ -131,7 +131,7 @@ server <- function(input, output) {
     `work_interfere` = "Experienced worked interference",
     `remote_work` = "Worked remotely",
     `benefits` = "Received work benefits",
-    `seek_help` = "Seek help (FIND BETTER TITLE)"
+    `seek_help` = "Help provided by employer "
   )
 
   output$professional <- renderPlotly({

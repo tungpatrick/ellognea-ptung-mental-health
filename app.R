@@ -19,36 +19,45 @@ ui <- fluidPage(
                   table.dataTable.display tbody tr:hover
                   {background-color: pink !important;}')),
   theme=shinytheme("lumen"),
-  # Application title
-  titlePanel("Mental Health Explorer in the Workplace"),
-  tags$hr(),
-  
-  # Sidebar with a slider input for number of bins
-  sidebarLayout(
-    sidebarPanel(
-      h4("Filter by:", align="left"),
-      wellPanel(checkboxInput("countryCheck", "Country", FALSE),
-                uiOutput("countryOutput"),
-                checkboxInput("ageCheck", "Age", FALSE),
-                uiOutput("ageOutput")
-      ),
-      br(),
-      h4("Type:", align="left"),
-      wellPanel(radioButtons("perproInput", label=NULL,
-                             choices = c("Personal", "Professional"),
-                             selected = "Personal")),
-      width = 2),
-    
+   # Application title
+   titlePanel("Mental Health Explorer in the Workplace"),
+   tags$hr(),
+  tags$head(tags$style(
+    HTML('
+         #sidebar {
+         background-color: whitesmoke;
+         }
+
+
+         body, label, input, button, select {
+         font-family: "Arial";
+         }')
+  )),
+
+   # Sidebar with a slider input for number of bins
+   sidebarLayout(
+     sidebarPanel(id="sidebar",
+       h4("Filter by:", align="left"),
+       wellPanel(class="well", checkboxInput("countryCheck", "Country", FALSE),
+                 uiOutput("countryOutput"),
+                 checkboxInput("ageCheck", "Age", FALSE),
+                 uiOutput("ageOutput")
+                 ),
+       br(),
+       h4("Type:", align="left"),
+       wellPanel(class="well",radioButtons("perproInput", label=NULL,
+                              choices = c("Personal", "Professional"),
+                              selected = "Personal")),
+       width = 2),
+
     # Show a plot of the generated distribution
     mainPanel(
       tabsetPanel(
         tabPanel("Graphics", align="center",
                  conditionalPanel("input.perproInput == 'Personal'",
-                                  fluidRow(plotlyOutput("personal", width="75%",height="850px"))),
+                                  plotlyOutput("personal", width="100%", heigh='55vw')),
                  conditionalPanel("input.perproInput == 'Professional'",
-                                  fluidRow(plotlyOutput("professional",, width="75%",height="850px")))
-                 
-                 
+                                  plotlyOutput("professional",width="98%",height="55vw"))
         ),
         tabPanel("Data View", DT::dataTableOutput("table"))
       ),
@@ -56,7 +65,7 @@ ui <- fluidPage(
   )
   )
 server <- function(input, output) {
-  
+
   # Render the selectInput for countries
   output$countryOutput <- renderUI({
     if(input$countryCheck) {
@@ -64,7 +73,7 @@ server <- function(input, output) {
                   selected = "Canada", multiple = TRUE, selectize=TRUE)
     }
   })
-  
+
   # Render the selectInput for ages
   output$ageOutput <- renderUI({
     if(input$ageCheck) {
@@ -72,7 +81,7 @@ server <- function(input, output) {
                   selected = "31-40", multiple = TRUE, selectize=TRUE)
     }
   })
-  
+
   # Filter data based on above filters
   filtered_data <- reactive({
     if (input$countryCheck) {
@@ -81,53 +90,56 @@ server <- function(input, output) {
     if (input$ageCheck) {
       data <- data %>% filter(age_group %in%input$ageInput)
     }
-    
+
     return(data)
   })
-  
+
   # Creating personal plots
-  
+
   label1<- c(
     `age_group` = "Age group",
     `family_history` = "Family history",
     `Gender` = "Gender",
     `obs_consequence` = "Observed negative consequences"
   )
-  
+
   output$personal<- renderPlotly({
     personal <- filtered_data() %>%
       select(age_group,Gender,family_history,obs_consequence, treatment) %>%
-      gather(variable,value,-treatment) %>% 
-      group_by(variable, value,treatment) %>% 
-      summarize(Response=n()) %>% 
+      gather(variable,value,-treatment) %>%
+      group_by(variable, value,treatment) %>%
+      summarize(Response=n()) %>%
       ggplot(aes(value,Response, fill=treatment))+
       geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
       facet_wrap(~variable, scales="free_x", labeller=as_labeller(label1))+
       theme_bw()+
-      theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+      theme(panel.grid.major = element_blank(), 
+            panel.grid.minor = element_blank(),
+            legend.position="top")+
       scale_fill_manual(values = alpha(c("honeydew3","grey52")))+
       ylab("Count")+
       xlab("")+
-      labs(fill="Treatment") 
-    ggplotly(personal)
-    #layout(legend=list(orientation="h", x=0.6, y=0.95))
+      labs(fill="Treatment")
+     ggplotly(personal) %>%
+       layout(legend = list(orientation = "h",
+                                          y = 1, x = 1.01))
   })
-  
+
   # Creating professional plots
-  
+
   label2<- c(
     `work_interfere` = "Experienced worked interference",
     `remote_work` = "Worked remotely",
     `benefits` = "Received work benefits",
     `seek_help` = "Seek help (FIND BETTER TITLE)"
   )
-  
+
   output$professional <- renderPlotly({
     professional <- filtered_data() %>%
       select(work_interfere,remote_work ,benefits,seek_help, treatment) %>%
-      gather(variable,value,-treatment) %>% 
-      group_by(variable, value,treatment) %>% 
-      summarize(Response=n()) %>% 
+      gather(variable,value,-treatment) %>%
+      group_by(variable, value,treatment) %>%
+      summarize(Response=n()) %>%
       ggplot(aes(value,Response, fill=treatment))+
       geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
       facet_wrap(~variable, scales="free_x", labeller=as_labeller(label2))+
@@ -136,15 +148,16 @@ server <- function(input, output) {
       scale_fill_manual(values = alpha(c("honeydew3","grey52")))+
       ylab("Count")+
       xlab("")+
-      labs(fill="Treatment") 
-    ggplotly(professional)
-    #layout(legend=list(orientation="h", x=0.6, y=0.95))
+      labs(fill="Treatment")
+    ggplotly(professional) %>%
+      layout(legend = list(orientation = "h",
+                           y = 1, x = 1.01))
   })
-  
-  
-  
+
+
+
   output$table <- DT::renderDataTable({
-    DT::datatable(filtered_data(), 
+    DT::datatable(filtered_data(),
                   options=list(lengthMenu=c(10,30,50), scrollX= TRUE),
                   container = htmltools::withTags(table(
                     class = 'display',
@@ -153,7 +166,7 @@ server <- function(input, output) {
                         th('', title="Row Names"),
                         th('Age', title='Respondent age'),
                         th('Gender', title='Respondent gender'),
-                        th('Country', title="Respondent country"), 
+                        th('Country', title="Respondent country"),
                         th("Family History", title="Do you have a family history of mental illness?"),
                         th("Work Interfere", title="If you have a mental health condition, do you feel that it interferes with your work?"),
                         th("Treatment", title="Have you sought treatment for a mental health condition?"),
@@ -167,20 +180,6 @@ server <- function(input, output) {
                   ))
     )
   }
-  )
-  output$table2 <- DT::renderDataTable(
-    DT::datatable(desc,
-                  container = htmltools::withTags(table(
-                    class = 'display',
-                    thead(
-                      tr(
-                        th('', title="Row Names"),
-                        th('Variables', title='Variables'),
-                        th('Descriptions', title='Descriptions')
-                      )
-                    )
-                  ))
-    )
   )
 }
 

@@ -55,11 +55,9 @@ ui <- fluidPage(
       tabsetPanel(
         tabPanel("Graphics", align="center",
                  conditionalPanel("input.perproInput == 'Personal'",
-                                  fluidRow(plotlyOutput("personal", width="75%",height="850px"))),
+                                  plotlyOutput("personal", width="100%", heigh='55vw')),
                  conditionalPanel("input.perproInput == 'Professional'",
-                                  fluidRow(plotlyOutput("professional",, width="75%",height="850px")))
-
-
+                                  plotlyOutput("professional",width="98%",height="55vw"))
         ),
         tabPanel("Data View", DT::dataTableOutput("table"))
       ),
@@ -115,13 +113,16 @@ server <- function(input, output) {
       geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
       facet_wrap(~variable, scales="free_x", labeller=as_labeller(label1))+
       theme_bw()+
-      theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+      theme(panel.grid.major = element_blank(), 
+            panel.grid.minor = element_blank(),
+            legend.position="top")+
       scale_fill_manual(values = alpha(c("honeydew3","grey52")))+
       ylab("Count")+
       xlab("")+
       labs(fill="Treatment")
-    ggplotly(personal)
-    #layout(legend=list(orientation="h", x=0.6, y=0.95))
+     ggplotly(personal) %>%
+       layout(legend = list(orientation = "h",
+                                          y = 1, x = 1.01))
   })
 
   # Creating professional plots
@@ -148,8 +149,9 @@ server <- function(input, output) {
       ylab("Count")+
       xlab("")+
       labs(fill="Treatment")
-    ggplotly(professional)
-    #layout(legend=list(orientation="h", x=0.6, y=0.95))
+    ggplotly(professional) %>%
+      layout(legend = list(orientation = "h",
+                           y = 1, x = 1.01))
   })
 
 
@@ -178,20 +180,6 @@ server <- function(input, output) {
                   ))
     )
   }
-  )
-  output$table2 <- DT::renderDataTable(
-    DT::datatable(desc,
-                  container = htmltools::withTags(table(
-                    class = 'display',
-                    thead(
-                      tr(
-                        th('', title="Row Names"),
-                        th('Variables', title='Variables'),
-                        th('Descriptions', title='Descriptions')
-                      )
-                    )
-                  ))
-    )
   )
 }
 

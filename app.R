@@ -22,21 +22,33 @@ ui <- fluidPage(
    # Application title
    titlePanel("Mental Health Explorer in the Workplace"),
    tags$hr(),
+  tags$head(tags$style(
+    HTML('
+         #sidebar {
+         background-color: whitesmoke;
+         }
+         
+         
+         body, label, input, button, select { 
+         font-family: "Arial";
+         }')
+  )),
 
    # Sidebar with a slider input for number of bins
    sidebarLayout(
-     sidebarPanel(
+     sidebarPanel(id="sidebar", style="height: 70vh;",
        h4("Filter by:", align="left"),
-       wellPanel(checkboxInput("countryCheck", "Country", FALSE),
+       wellPanel(class="well", checkboxInput("countryCheck", "Country", FALSE),
                  uiOutput("countryOutput"),
                  checkboxInput("ageCheck", "Age", FALSE),
                  uiOutput("ageOutput")
                  ),
        br(),
        h4("Type:", align="left"),
-       wellPanel(radioButtons("perproInput", label=NULL,
+       wellPanel(class="well",radioButtons("perproInput", label=NULL,
                               choices = c("Personal", "Professional"),
                               selected = "Personal")),
+       uiOutput(outputId = "legend"),
        width = 2),
 
     # Show a plot of the generated distribution
@@ -53,7 +65,6 @@ ui <- fluidPage(
                  )
            ),
         tabPanel("Data View", DT::dataTableOutput("table"))
-        #tabPanel("Variable Descriptions", DT::dataTableOutput("table2"))
           ),
       width=10)
     )
@@ -102,8 +113,6 @@ server <- function(input, output) {
       theme_bw()+
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
       scale_fill_manual(values = alpha(c("honeydew3","grey52")))
-    ggplotly(age) %>%
-      layout(legend=list(orientation="h", x=0.6, y=0.95))
   })
 
    output$Gender <- renderPlotly({
@@ -243,24 +252,14 @@ server <- function(input, output) {
                          th("Age Group", title="Age Group")
                        )
                      )
-                   ))
-                   )
+                  )
+                )
+              )
    }
    )
-   output$table2 <- DT::renderDataTable(
-     DT::datatable(desc,
-     container = htmltools::withTags(table(
-       class = 'display',
-       thead(
-         tr(
-           th('', title="Row Names"),
-           th('Variables', title='Variables'),
-           th('Descriptions', title='Descriptions')
-         )
-       )
-     ))
-    )
-   )
+   output$legend <- renderUI({
+     img(src="/img/legend.PNG", width='100%')
+   })
 }
 
 # Run the application

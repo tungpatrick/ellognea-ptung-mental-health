@@ -47,7 +47,7 @@ ui <- fluidPage(
                                   fluidRow(plotlyOutput("personal", width="75%",height="850px"))),
                  conditionalPanel("input.perproInput == 'Professional'",
                                   fluidRow(plotlyOutput("professional",, width="75%",height="850px")))
-                                  
+                 
                  
         ),
         tabPanel("Data View", DT::dataTableOutput("table"))
@@ -110,10 +110,10 @@ server <- function(input, output) {
       xlab("")+
       labs(fill="Treatment") 
     ggplotly(personal)
-      #layout(legend=list(orientation="h", x=0.6, y=0.95))
+    #layout(legend=list(orientation="h", x=0.6, y=0.95))
   })
   
-# Creating professional plots
+  # Creating professional plots
   
   label2<- c(
     `work_interfere` = "Experienced worked interference",
@@ -141,8 +141,8 @@ server <- function(input, output) {
     #layout(legend=list(orientation="h", x=0.6, y=0.95))
   })
   
-
-
+  
+  
   output$table <- DT::renderDataTable({
     DT::datatable(filtered_data(), 
                   options=list(lengthMenu=c(10,30,50), scrollX= TRUE),

@@ -36,7 +36,7 @@ ui <- fluidPage(
 
    # Sidebar with a slider input for number of bins
    sidebarLayout(
-     sidebarPanel(id="sidebar", style="height: 70vh;",
+     sidebarPanel(id="sidebar",
        h4("Filter by:", align="left"),
        wellPanel(class="well", checkboxInput("countryCheck", "Country", FALSE),
                  uiOutput("countryOutput"),
@@ -48,7 +48,6 @@ ui <- fluidPage(
        wellPanel(class="well",radioButtons("perproInput", label=NULL,
                               choices = c("Personal", "Professional"),
                               selected = "Personal")),
-       uiOutput(outputId = "legend"),
        width = 2),
 
     # Show a plot of the generated distribution
@@ -257,9 +256,6 @@ server <- function(input, output) {
               )
    }
    )
-   output$legend <- renderUI({
-     img(src="/img/legend.PNG", width='100%')
-   })
 }
 
 # Run the application

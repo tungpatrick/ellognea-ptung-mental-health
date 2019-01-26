@@ -102,7 +102,6 @@ server <- function(input, output) {
     `Gender` = "Gender",
     `obs_consequence` = "Observed negative consequences"
   )
-
   output$personal<- renderPlotly({
     personal <- filtered_data() %>%
       select(age_group,Gender,family_history,obs_consequence, treatment) %>%
@@ -154,8 +153,7 @@ server <- function(input, output) {
                            y = 1, x = 1.01))
   })
 
-
-
+  # Rendering data view table
   output$table <- DT::renderDataTable({
     DT::datatable(filtered_data(),
                   options=list(lengthMenu=c(10,30,50), scrollX= TRUE),

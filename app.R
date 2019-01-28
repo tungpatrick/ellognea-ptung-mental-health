@@ -19,6 +19,7 @@ ui <- fluidPage(
                   table.dataTable.display tbody tr:hover
                   {background-color: pink !important;}')),
   theme=shinytheme("lumen"),
+  
    # Application title
    titlePanel("Mental Health Explorer in the Workplace"),
    tags$hr(),
@@ -37,14 +38,14 @@ ui <- fluidPage(
    # Sidebar with a slider input for number of bins
    sidebarLayout(
      sidebarPanel(id="sidebar",
-       h4("Filter by:", align="left"),
+       h4("Data & Graph Filters:", align="left"),
        wellPanel(class="well", checkboxInput("countryCheck", "Country", FALSE),
                  uiOutput("countryOutput"),
                  checkboxInput("ageCheck", "Age", FALSE),
                  uiOutput("ageOutput")
                  ),
        br(),
-       h4("Type:", align="left"),
+       h4("Graph Filters:", align="left"),
        wellPanel(class="well",radioButtons("perproInput", label=NULL,
                               choices = c("Personal", "Professional"),
                               selected = "Personal")),
@@ -85,9 +86,15 @@ server <- function(input, output) {
   # Filter data based on above filters
   filtered_data <- reactive({
     if (input$countryCheck) {
+      validate(
+        need(input$countryInput,"Country or Age group must be provided.")
+      )
       data <- data %>% filter(Country %in% input$countryInput)
     }
     if (input$ageCheck) {
+      validate(
+        need(input$ageInput, "Country or Age group must be provided.")
+      )
       data <- data %>% filter(age_group %in%input$ageInput)
     }
 
@@ -95,7 +102,6 @@ server <- function(input, output) {
   })
 
   # Creating personal plots
-
   label1<- c(
     `age_group` = "Age group",
     `family_history` = "Family history",
@@ -114,7 +120,9 @@ server <- function(input, output) {
       theme_bw()+
       theme(panel.grid.major = element_blank(), 
             panel.grid.minor = element_blank(),
-            legend.position="top")+
+            strip.background = element_blank(), 
+            strip.text.x = element_text(size = 11))+
+      scale_y_continuous(expand = c(0,0,0,25)) + 
       scale_fill_manual(values = alpha(c("honeydew3","grey52")))+
       ylab("Count")+
       xlab("")+
@@ -125,7 +133,6 @@ server <- function(input, output) {
   })
 
   # Creating professional plots
-
   label2<- c(
     `work_interfere` = "Experienced worked interference",
     `remote_work` = "Worked remotely",
@@ -143,7 +150,11 @@ server <- function(input, output) {
       geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
       facet_wrap(~variable, scales="free_x", labeller=as_labeller(label2))+
       theme_bw()+
-      theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+      theme(panel.grid.major = element_blank(), 
+            panel.grid.minor = element_blank(),
+            strip.background = element_blank(), 
+            strip.text.x = element_text(size = 11))+
+      scale_y_continuous(expand = c(0,0,0,25)) + 
       scale_fill_manual(values = alpha(c("honeydew3","grey52")))+
       ylab("Count")+
       xlab("")+

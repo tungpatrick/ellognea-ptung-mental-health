@@ -1,4 +1,4 @@
-# Milestone 3 Writeup
+# Milestone 4 Writeup
 
 Authors: Patrick Tung, Orphelia Ellogne
 
@@ -30,12 +30,11 @@ Furthermore, we clarified the usage of the filters by making the labels more des
 
 ![Filters After](img/Filters-after.PNG)
 
-Lastly, we’ve realized that we have the following bug when no data is selected: "An error has occurred. Check your logs or contact the app author for clarification". We were not able to fix it given the time constraint, but we changed the error message to "Please select a country or age group". However, we still have an error that shows up when transition between tabs upon starting the app.
+Lastly, we’ve realized that we have the following bug when no data is selected: "An error has occurred. Check your logs or contact the app author for clarification". We were not able to fix it given the time constraint, but we changed the error message to "Please select a country or age group". However, we still have an error that shows up when transitioning between tabs upon starting the app.
 
 ## What would we do differently?
 
-After thinking about it for a while and discussing it with each other, we thought, overall, the process of creating this application needed some change. First of all, when we were first assigned this project, we immediately started brainstorming fancy ideas. Since this was our first visualization app ever, we wanted to develop an application that was fancy and “cool-looking”. We envisioned maps and other features that were “cool” to have. However, as the project progressed, we realized that many of these features were simply for show and provides little to no meaning to the application. This ended up wasting some of our time that could have been spent on other essential functions. Another thing that we might change builds off of this idea. Since we ended up spending quite some time on unnecessary features, we thought that it was more important to gets some feedback with our brainstormed ideas before we start developing anything. By getting feedback from peers or TAs on brainstormed ideas, we could get a better idea on what functionalities we should really be focusing on.
-
+If we were to make the app again we would change the creation process. First, when we were assigned this project, we put a heavy emphasis on fancy designs instead of focusing on meaningful features that are aligned with our app's objective . Since this was our first visualization app, we wanted to develop an application that was fancy and “cool-looking”. For example, we envisioned maps and other features that were “cool” to have. However, as the project progressed, we realized that many of these features were simply for show and provided little to no meaning to the application. This ended up wasting some of our time that could have been spent on other essential functions. The second thing that we would change builds off of this idea. We would get feedback from our peers and/or TAs on our app sketch before implementing our ideas. Talking through our plan with a third party would help us identify the disconnect between the end goal and the product features. This was one of the main insights of the fly-on-the-wall and informed-run cycles of the feedback session.
 
 ## What challenges did we face?
 

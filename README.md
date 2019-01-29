@@ -15,6 +15,7 @@ You may find more information about the functionalities and design choices of th
 | [Milestone 2 Writeup](https://github.com/UBC-MDS/ellognea-ptung-mental-health/blob/master/milestone2_writeup.md)|
 | [Shiny App Source Code](https://github.com/UBC-MDS/ellognea-ptung-mental-health/blob/master/app.R)|
 | [Milestone 3 Writeup](https://github.com/UBC-MDS/ellognea-ptung-mental-health/blob/master/milestone3_writeup.md)|
+| [Milestone 4 Writeup](https://github.com/UBC-MDS/ellognea-ptung-mental-health/blob/master/milestone4_writeup.md)|
 
 <br> 
 

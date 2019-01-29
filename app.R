@@ -13,6 +13,10 @@ data$X1 <- NULL
 # Read variable descriptions
 desc <- read_csv("data/variables_description.csv")
 
+#===========================
+# User Input Formatting
+#===========================
+
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   tags$style(HTML('table.dataTable.hover tbody tr:hover,
@@ -66,9 +70,13 @@ ui <- fluidPage(
       width=10)
   )
   )
+
+#===========================
+# Server Rendering
+#===========================
 server <- function(input, output) {
 
-  # Render the selectInput for countries
+  # Render the UI for selectInput for countries
   output$countryOutput <- renderUI({
     if(input$countryCheck) {
       selectInput('countryInput', 'Country', sort(unique(data$Country)),
@@ -76,7 +84,7 @@ server <- function(input, output) {
     }
   })
 
-  # Render the selectInput for ages
+  # Render the UI for selectInput for age groups
   output$ageOutput <- renderUI({
     if(input$ageCheck) {
       selectInput('ageInput', 'Age groups', sort(unique(data$age_group)),

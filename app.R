@@ -21,7 +21,8 @@ ui <- fluidPage(
   theme=shinytheme("lumen"),
   
    # Application title
-   titlePanel("Mental Health Explorer in the Workplace"),
+     h2("Mental Health Explorer in the Workplace"),
+     h5("Need to encourage mental health check-ups? Consider these factors."),
    tags$hr(),
   tags$head(tags$style(
     HTML('

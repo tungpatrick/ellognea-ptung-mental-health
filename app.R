@@ -7,8 +7,7 @@ library(DT)
 library(rsconnect)
 
 # Read data
-data <- read_csv("data/clean/data_clean.csv")
-data$X1 <- NULL
+data <- read_csv("data/clean/data_clean.csv") %>% select(-X1)
 
 # Read variable descriptions
 desc <- read_csv("data/variables_description.csv")
@@ -52,18 +51,18 @@ ui <- fluidPage(
        br(),
        h4("Graph Filters:", align="left"),
        wellPanel(class="well",radioButtons("perproInput", label=NULL,
-                              choices = c("Personal", "Professional"),
-                              selected = "Personal")),
-       width = 2),
+                              choices=c("Personal", "Professional"),
+                              selected="Personal")),
+       width=2),
 
     # Show a plot of the generated distribution
     mainPanel(
       tabsetPanel(
         tabPanel("Graphics", align="center",
-                 conditionalPanel("input.perproInput == 'Personal'",
-                                  plotlyOutput("personal", width="100%", heigh='55vw')),
-                 conditionalPanel("input.perproInput == 'Professional'",
-                                  plotlyOutput("professional",width="98%",height="55vw"))
+                 conditionalPanel("input.perproInput=='Personal'",
+                                  plotlyOutput("personal", width="100%", heigh='40vw')),
+                 conditionalPanel("input.perproInput=='Professional'",
+                                  plotlyOutput("professional",width="98%",height="40vw"))
         ),
         tabPanel("Data View", DT::dataTableOutput("table"))
       ),
@@ -80,7 +79,7 @@ server <- function(input, output) {
   output$countryOutput <- renderUI({
     if(input$countryCheck) {
       selectInput('countryInput', 'Country', sort(unique(data$Country)),
-                  selected = "Canada", multiple = TRUE, selectize=TRUE)
+                  selected="Canada", multiple=TRUE, selectize=TRUE)
     }
   })
 
@@ -88,7 +87,7 @@ server <- function(input, output) {
   output$ageOutput <- renderUI({
     if(input$ageCheck) {
       selectInput('ageInput', 'Age groups', sort(unique(data$age_group)),
-                  selected = "31-40", multiple = TRUE, selectize=TRUE)
+                  selected="31-40", multiple=TRUE, selectize=TRUE)
     }
   })
 
@@ -112,10 +111,10 @@ server <- function(input, output) {
 
   # Creating personal plots
   label1<- c(
-    `age_group` = "Age group",
-    `family_history` = "Family history",
-    `Gender` = "Gender",
-    `obs_consequence` = "Observed negative consequences"
+    `age_group`="Age group",
+    `family_history`="Family history",
+    `Gender`="Gender",
+    `obs_consequence`="Observed negative consequences"
   )
   output$personal<- renderPlotly({
     personal <- filtered_data() %>%
@@ -124,29 +123,29 @@ server <- function(input, output) {
       group_by(variable, value,treatment) %>%
       summarize(Response=n()) %>%
       ggplot(aes(value,Response, fill=treatment))+
-      geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
+      geom_bar(position=position_dodge(preserve="single"), stat="identity")+
       facet_wrap(~variable, scales="free_x", labeller=as_labeller(label1))+
       theme_bw()+
-      theme(panel.grid.major = element_blank(), 
-            panel.grid.minor = element_blank(),
-            strip.background = element_blank(), 
-            strip.text.x = element_text(size = 11))+
-      scale_y_continuous(expand = c(0,0,0,25)) + 
-      scale_fill_manual(values = alpha(c("honeydew3","grey52")))+
+      theme(panel.grid.major=element_blank(), 
+            panel.grid.minor=element_blank(),
+            strip.background=element_blank(), 
+            strip.text.x=element_text(size=11))+
+      scale_y_continuous(expand=c(0,0,0,25)) + 
+      scale_fill_manual(values=alpha(c("honeydew3","grey52")))+
       ylab("Count")+
       xlab("")+
       labs(fill="Treatment")
      ggplotly(personal) %>%
-       layout(legend = list(orientation = "h",
-                                          y = 1, x = 1.01))
+       layout(legend=list(orientation="h",
+                                          y=1, x=1.01))
   })
 
   # Creating professional plots
   label2<- c(
-    `work_interfere` = "Experienced worked interference",
-    `remote_work` = "Worked remotely",
-    `benefits` = "Received work benefits",
-    `seek_help` = "Help provided by employer "
+    `work_interfere`="Experienced worked interference",
+    `remote_work`="Worked remotely",
+    `benefits`="Received work benefits",
+    `seek_help`="Help provided by employer "
   )
 
   output$professional <- renderPlotly({
@@ -156,29 +155,29 @@ server <- function(input, output) {
       group_by(variable, value,treatment) %>%
       summarize(Response=n()) %>%
       ggplot(aes(value,Response, fill=treatment))+
-      geom_bar(position=position_dodge(preserve = "single"), stat="identity")+
+      geom_bar(position=position_dodge(preserve="single"), stat="identity")+
       facet_wrap(~variable, scales="free_x", labeller=as_labeller(label2))+
       theme_bw()+
-      theme(panel.grid.major = element_blank(), 
-            panel.grid.minor = element_blank(),
-            strip.background = element_blank(), 
-            strip.text.x = element_text(size = 11))+
-      scale_y_continuous(expand = c(0,0,0,25)) + 
-      scale_fill_manual(values = alpha(c("honeydew3","grey52")))+
+      theme(panel.grid.major=element_blank(), 
+            panel.grid.minor=element_blank(),
+            strip.background=element_blank(), 
+            strip.text.x=element_text(size=11))+
+      scale_y_continuous(expand=c(0,0,0,25)) + 
+      scale_fill_manual(values=alpha(c("honeydew3","grey52")))+
       ylab("Count")+
       xlab("")+
       labs(fill="Treatment")
     ggplotly(professional) %>%
-      layout(legend = list(orientation = "h",
-                           y = 1, x = 1.01))
+      layout(legend=list(orientation="h",
+                           y=1, x=1.01))
   })
 
   # Rendering data view table
   output$table <- DT::renderDataTable({
     DT::datatable(filtered_data(),
-                  options=list(lengthMenu=c(10,30,50), scrollX= TRUE),
-                  container = htmltools::withTags(table(
-                    class = 'display',
+                  options=list(lengthMenu=c(10,30,50), scrollX=TRUE),
+                  container=htmltools::withTags(table(
+                    class='display',
                     thead(
                       tr(
                         th('', title="Row Names"),
@@ -202,4 +201,4 @@ server <- function(input, output) {
 }
 
 # Run the application
-shinyApp(ui = ui, server = server)
+shinyApp(ui=ui, server=server)

@@ -4,13 +4,21 @@ First, we specified the objective of the app by adding a use case below the titl
 
 Secondly, we improved the aesthetics of the graphs. We enhanced the readability of the plots titles by removing the borders and the colored background. We also removed the unnecessary extra space between the X-axis and the graphs as we do not have any negative values. 
 
+**Before**
+
 ![Graphs Before](img/Plots-before.PNG)
+
+**After**
 
 ![Graphs After](img/Plots-after.PNG)
 
 Furthermore, we clarified the usage of the filters by making the labels more descriptive. Previously, it was not clear that the `Type` filter only applies to the graphs while the `Country` and `Age` filters apply to both the data and the graphs.  We changed the labels to `Graph` filters and ` Data & Graphs` filters, respectively. 
 
+**Before**
+
 ![Filters Before](img/Filters-before.PNG)
+
+**After**
 
 ![Filters After](img/Filters-after.PNG)
 

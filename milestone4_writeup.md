@@ -4,9 +4,9 @@ Authors: Patrick Tung, Orphelia Ellogne
 
 ## What changes did we make?
 
-For milestone 4, we have made the following implementation:
+For milestone 4, we have made the following implementations:
 
-First, we specified the objective of the app by adding a use case below the title: "Need to encourage mental health check-ups? Consider these factors". Our goal in doing so was to manage users' expectations before they start exploring the app. Therefore, allowing users to immediately see what 
+First, we specified the objective of the app by adding a use case below the title: "Need to encourage mental health check-ups? Consider these factors". Our goal in doing so was to manage users' expectations before they start exploring the app. Therefore, allowing users to immediately see what the app offers. ???
 
 ![](img/use_case.PNG)
 
@@ -23,7 +23,7 @@ Second, we improved the overall aesthetics of our graphs:
 
 ![Graphs After](img/Plots-after.PNG)
 
-Furthermore, we clarified the functionalities of the filters by making the label of our filters more descriptive. Previously, it was not clear that the `Type` filter only applied to the graphs while the `Country` and `Age` filters applied to both the data and the graphs. We ended up changing the labels to `Graph` filters and ` Data & Graphs` filters, respectively. 
+Furthermore, we clarified the functionalities of the filters by making the label of our filters more descriptive. Previously, it was not clear that the `Type` filter only applies to the graphs while the `Country` and `Age` filters apply to both the data and the graphs. We changed the labels to `Graph` filters and ` Data & Graphs` filters, respectively. 
 
 **Before**
 
@@ -33,9 +33,9 @@ Furthermore, we clarified the functionalities of the filters by making the label
 
 ![Filters After](img/Filters-after.PNG)
 
-Lastly, we worked on two bugs. We've realized that we have the following error when no data is selected: "An error has occurred. Check your logs or contact the app author for clarification". We were unable to provide a solution to the error given the time constraint, but to compensate, we changed the error message to "Please select a country or age group". However, upon starting the app, when transitioning between tabs, the error still exists 
+Lastly, we worked on two bugs. We've realized that we have the following error when no data is selected: "An error has occurred. Check your logs or contact the app author for clarification". We were unable to provide a solution to the error given the time constraint, but to compensate, we changed the error message to "Please select a country or age group". However, upon starting the app, when transitioning between tabs, the error still exists.
 
-In addition, when the last two age groups (61-70 and 71-80) were selected, the x-scale of all graphs were losing their labels to a continuous scale (0.4 to 1.6 for example). From our understanding, this was because these age groups have few observations (3 and 1, respectively). We fixed the bug by combining them into a single age group 61-80.
+In addition, when the last two age groups (61-70 and 71-80) were selected, the x-scale of all graphs were losing their labels to a continuous scale (0.4 to 1.6 for example). We understand that this was because these age groups have few observations (3 and 1, respectively). We fixed the bug by combining them into a single age group 61-80.
 
 **Before**
 

@@ -4,13 +4,16 @@ Authors: Patrick Tung, Orphelia Ellogne
 
 ## What changes did we make?
 
-We've implemented four changes for this milestone.
+We've implemented the following changes for this milestone.
 
 First, we specified the objective of the app by adding a use case below the title : "Need to encourage mental health check-ups ? Consider these factors". Our goal in doing so was to manage users' expectations before they start exploring the app.
 
 ![](img/use_case.PNG)
 
-Secondly, we improved the aesthetics of the graphs. We enhanced the readability of the plots titles by removing the borders and the colored background. We also removed the unnecessary extra space between the X-axis and the graphs as we do not have any negative values. 
+Secondly, we improved the aesthetics of the graphs:
+- We made them smaller so they can all fit into a full screen window without scrolling.
+- We enhanced the readability of the plots titles by removing the borders and the colored background. 
+- We removed the unnecessary extra space between the X-axis and the graphs as we do not have any negative values. 
 
 **Before**
 
@@ -30,7 +33,17 @@ Furthermore, we clarified the usage of the filters by making the labels more des
 
 ![Filters After](img/Filters-after.PNG)
 
-Lastly, we’ve realized that we have the following bug when no data is selected: "An error has occurred. Check your logs or contact the app author for clarification". We were not able to fix it given the time constraint, but we changed the error message to "Please select a country or age group". However, we still have an error that shows up when transitioning between tabs upon starting the app.
+Lastly, we worked on two bugs. We've realized that we have the following error when no data is selected: "An error has occurred. Check your logs or contact the app author for clarification". We were not able to fix it given the time constraint, but we changed the error message to "Please select a country or age group". However, we still have an error that comes up upon starting the app, when transitioning between tabs.
+
+In addition, when the last two age groups (61-70 and 71-80) were selected, the x-scale of all graphs were losing their labels to a continuous scale (0.4 to 1.6 for example). From our understanding, this was because these age groups have few observations (3 and 1, respectively). We fixed the bug by combining them into a single age group 61-80.
+
+**Before**
+
+![Filters Before](img/age-group_issue_before.PNG)
+
+**After**
+
+![Filters Before](img/age-group_issue_after.PNG)
 
 ## What would we do differently?
 

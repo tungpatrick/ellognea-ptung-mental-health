@@ -5,8 +5,8 @@ account: ptung
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 655198
-bundleId: 1844692
+bundleId: 1845127
 url: https://ptung.shinyapps.io/ellognea-ptung-mental-health/
-when: 1548804256.25837
+when: 1548824648.07886
 asMultiple: FALSE
 asStatic: FALSE

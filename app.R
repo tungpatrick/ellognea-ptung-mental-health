@@ -9,8 +9,6 @@ library(rsconnect)
 # Read data
 data <- read_csv("data/clean/data_clean.csv") %>% select(-X1)
 
-# Read variable descriptions
-desc <- read_csv("data/variables_description.csv")
 
 #===========================
 # User Input Formatting
@@ -95,7 +93,7 @@ server <- function(input, output) {
   filtered_data <- reactive({
     if (input$countryCheck) {
       validate(
-        need(input$countryInput,"Country or Age group must be provided.")
+        need(input$countryInput,"Please select a country or age group")
       )
       data <- data %>% filter(Country %in% input$countryInput)
     }
@@ -136,8 +134,8 @@ server <- function(input, output) {
       xlab("")+
       labs(fill="Treatment")
      ggplotly(personal) %>%
-       layout(legend=list(orientation="h",
-                                          y=1, x=1.01))
+      layout(legend=list(orientation="h",
+                                        y=1, x=1.01))
   })
 
   # Creating professional plots

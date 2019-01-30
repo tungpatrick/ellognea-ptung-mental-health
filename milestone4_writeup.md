@@ -10,7 +10,7 @@ First, we specified the objective of the app by adding a use case below the titl
 
 ![](img/use_case.PNG)
 
-Secondly, we improved the aesthetics of the graph:
+Secondly, we improved the aesthetics of the graphs:
 - We made them smaller so they can all fit into a full screen window without scrolling.
 - We enhanced the readability of the plots titles by removing the borders and the colored background. 
 - We removed the unnecessary extra space between the X-axis and the graphs as we do not have any negative values. 

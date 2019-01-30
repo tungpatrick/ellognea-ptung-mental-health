@@ -6,7 +6,7 @@ Authors: Patrick Tung, Orphelia Ellogne
 
 For milestone 4, we have made the following implementations:
 
-First, we specified the objective of the app by adding a use case below the title: "Need to encourage mental health check-ups? Consider these factors". Our goal in doing so was to manage users' expectations before they start exploring the app. Therefore, allowing users to immediately see what the app offers. ???
+First, we specified the objective of the app by adding a use case below the title: "Need to encourage mental health check-ups? Consider these factors". Our goal in doing so was to manage users' expectations before they start exploring the app. Therefore, prompting our users to easily see how to use our visualization app.
 
 ![](img/use_case.PNG)
 
